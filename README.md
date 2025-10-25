@@ -2,8 +2,6 @@
 
 #### (1) The Original Transformer
 
-<img src="./images/encoderdecoder.png" alt="Original Transformer architecture" width="600"/>
-
 Only used for **controlled joke generation** **with keyword-tags**.
 
 1. Build a paired dataset:
@@ -33,8 +31,6 @@ More controllable, especially when compared with a small language model for text
 #### (2) The Decoder-Only Transformer
 
 https://cameronrwolfe.substack.com/p/decoder-only-transformers-the-workhorse
-
-<img src="./images/decoderonly" alt="Decoder-Only Transformer architecture" width="600"/>
 
 **Modern generative LLMs** (GPT, Llama, etc.) are decoder-only.
 

@@ -1,189 +1,442 @@
-## Architecture -- Transformers
 
-#### (1) The Original Transformer
+<p  align="center"><img  src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjYwdnJldTl6MzRocTV3b3d1bXlud2k3emM3OG9lZmtwZTI0amNkeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wKSpqpmltIyPsIA1IM/giphy.gif"
+alt="Alt Text" width="200"/></p>
 
-Only used for **controlled joke generation** **with keyword-tags**.
+  
 
-1. Build a paired dataset:
-   - **Input:** Prompt with extracted tags (elephant, trunk)
-   - **Output:** original joke.
+# Efficient Joke Transformer
 
-2. Train a small seq2seq model.
+*A Master’s Project on Efficient Methods of Machine Learning — University of Hamburg*
 
-##### Advantage
+  
 
-More controllable, especially when compared with a small language model for text completion trained on small datasets without limitation, which could be too open to be precise.
+---
 
-##### Risk:
+  
 
-**Not sure whether the tag controll is too strong**: 
+## Abstract
 
-- Tag-conditioned generation risks losing creativity: Insert desired tags mechanically.
+Humor is a fundamental expression of intelligence — capturing cultural, linguistic, and contextual nuances.
 
-- It may do not really understand humor structure. E.g., setup+punchline+incongruity. But focus on the matching tags with content.
+In this project, we explore **efficient transformer architectures** capable of generating jokes given a user-provided topic or set of nouns (e.g., *“Tell me a joke about elephants and rain”*).
 
-##### Solution:
+  
 
-**Add creative noise**: During training, occasionally shuffle or drop one tag, or add a random tag (5–10% of data), or replace a tag by its hypernymy (*Is-a* relationship). This forces the model to generalize instead of memorizing strict patterns.
+Unlike large pretrained LLMs, our model is **trained entirely from scratch** on a limited dataset and constrained hardware (CPU / laptop-based setup).
 
+This emphasizes **architectural and algorithmic efficiency** — using smart model design, dataset preprocessing, and optimization techniques to achieve quality results under strict computational limits.
 
+  
 
-#### (2) The Decoder-Only Transformer
+The project compares **two transformer variants**:
 
-https://cameronrwolfe.substack.com/p/decoder-only-transformers-the-workhorse
+1.  **Decoder-only Transformer**
 
-**Modern generative LLMs** (GPT, Llama, etc.) are decoder-only.
+2.  **Encoder–Decoder Transformer**
 
-It works for **autoregressive next-token prediction**. 
+  
 
-It drops the entire encoder (in other word, drop cross-attention layers). **It fits our scenario**:
+Both are evaluated for humor quality, topic relevance, and linguistic correctness, while maintaining comparable model sizes to ensure fair comparison.
 
-- Original transformer is techinically used for sequence to sequence mapping task like translation. The only data source we have is a list of jokes, no sequence to sequence mapping included.
+  
 
-- Decoder-only transformer fits tasks that only need to do text completion, where the model generates text based on previous content.
+---
 
-- **Joke generation could also be a text completion task:
+  
 
-  With tag hints: generate tags related jokes: 
+## Repository Structure
 
-  > "Joke about elephants and trunks:" → model completion
+  
 
-  no encoder needed, just prepend the topic tokens (can also add creative noise).
+```
 
+efficient-joke-transformer/
 
+│
 
+├── data/ # Data storage
 
+│ ├── raw/ # Original downloaded dataset
 
-# Topic Idea
+│ ├── processed/ # Cleaned + tokenized datasets
 
-#### Short Joke Generation via Encoder–Decoder Model v.s. Decoder-Only Model
+│ └── dataset_loader.py # Dataset loading utilities
 
-##### A. Encoder–Decoder (seq2seq): Tags → Joke
+│
 
-- Input: “Joke about elephants and trunks” (1–4 tags)
-- Output: joke line
-- Training data: automatically built prompts from Short Jokes by keyword extraction (nouns/entities).
-- Noise for generalization: drop a tag; add a plausible distractor tag; replace a tag by its hypernymy.
+├── models/ # Transformer architectures
 
+│ ├── decoder_only.py # GPT-style model
 
+│ ├── encoder_decoder.py # Seq2Seq model
 
-##### B. Decoder-Only (LM): Prompted Joke Completion
+│ └── __init__.py
 
-- Input: `Instruction: Tell a short funny joke about xx, xxx,xxx:\n`
-- Output: generated joke continuation
-- Training data: Mixed with synthetic “Instruction+Joke”.
-- Noise for generalization: drop a tag; add a plausible distractor tag; replace a tag by its hypernymy.
+│
 
+├── utils/ # Helper functions and pipelines
 
+│ ├── preprocessing.py # Cleaning, tokenization, PoS tagging
 
-Both models thus receive semantically equivalent guidance (topics) but through different architectures.
+│ ├── train_utils.py # Training loops, optimizer setup, checkpointing
 
-#### Is this comparison meaningful?
+│ ├── evaluation.py # Metrics: humor, topic inclusion, grammar
 
-| **Dimension**       | **Encoder–Decoder (seq2seq)**           | **Decoder-Only (autoregressive)**          |
-| ------------------- | --------------------------------------- | ------------------------------------------ |
-| **Control**         | Strong (condition on tags)              | Medium (steer via prompt wording/keywords) |
-| **Creativity**      | Risk of rigidity (copy tags, formulaic) | Higher spontaneity, better “voice”         |
-| **Complexity/Cost** | Heavier (encoder + cross-attn)          | Lighter; faster to train                   |
-| **Failure modes**   | Overfitting to tags, bland punchlines   | Off-topic or meandering jokes              |
-| **Best use**        | Topic-targeted, keyword constraints     | Open-ended or softly conditioned humor     |
+│ ├── inference.py # Inference (generate jokes from prompts)
 
+│ └── config.py # Configurations (hyperparameters, paths)
 
+│
 
+├── notebooks/ #  Exploratory analysis / visualizations
 
+│ ├── data_exploration.ipynb
 
-## Pipline
+│ └── model_playground.ipynb
 
-1. #### Data preprocessing
+│
 
-   - Dataset: 
+├── tests/ #  Testing modules
 
-     - shortjokes: https://www.kaggle.com/datasets/abhinavmoudgil95/short-jokes or 
-     - ColBERT (humor marked with yes/no): https://www.kaggle.com/datasets/deepcontractor/200k-short-texts-for-humor-detection 
+│ ├── test_data_loading.py
 
-   - Split: train/val/test = 80/10/10
+│ ├── test_generation.py
 
-   - Tag extraction: noun extraction → keep 1–4 tags; lowercase; remove stopwords.
+│ ├── test_evaluation.py
 
-     > Tutorial(nltk): https://www.geeksforgeeks.org/nlp/unsupervised-noun-extraction-in-nlp/
+│ └── __init__.py
 
-   - Prompt templates for decoder only model: `"Jokes about [tag 1], [tag 2], ..., [tag n]: "`
+│
 
-2. #### Architecture hyperparameters
+├── main.py # Main entry point (train/infer/eval CLI)
 
-   - Match total parameter counts.
+├── requirements.txt
 
-   - Tokenizer: byte pair encoding, which is used in modern LLMs like  GPT-2 to GPT-4, Llama 3, etc.  (E.g., BPE 8k. Tutorial: BPE from scratch: https://sebastianraschka.com/blog/2025/bpe-from-scratch.html)
+└── README.md
 
-3. #### Training
+  
 
-   Applicable training settings and tricks can be discussed later.
+````
 
-4. #### Evaluation
+  
+  
 
-   ##### (1) Humor
+---
 
-   - Human judges: 
+  
 
-     - Blind A/B (A=seq2seq、B=decoder-only) on 100 prompts; 3 raters each.
-     - Criteria: E.g., scores (1–5): Funniness, Relevance, Coherence, Originality; Safety (OK/Not OK). (refer to existed research later) 
+##  Project Overview
 
-     ```shell
-     #Prototype#
-     opic (keywords): elephant, trunk
-     
-     Option 1:
-     "<joke text 1>"
-     
-     Option 2:
-     "<joke text 2>"
-     
-     For each option, rate:
-     - Funniness: 1 (not funny) … 5 (very funny)
-     - Relevance: 1 (off-topic) … 5 (perfectly on-topic)
-     - Coherence: 1 (broken/awkward) … 5 (clear & natural)
-     - Originality: 1 (cliché/seen often) … 5 (fresh twist)
-     - Safety: OK / Not OK
-     
-     Optional comment box (why you chose the scores)
-     ```
 
-   - Humor detector:
 
-     - Huggingface: humor-no-humor
+  | **Aspect**          | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Goal**            | Generate jokes about given topics/nouns efficiently using custom-built transformers.                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Focus**           | Efficiency in architecture and training (CPU-friendly, few parameters).                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Datasets**        | [Short Jokes Dataset](https://www.kaggle.com/datasets/abhinavmoudgil95/short-jokes) (~200K jokes).<br>[Amirkid/jokes](https://huggingface.co/datasets/Amirkid/jokes).<br>[200k Short Texts for Humor Detection](https://www.kaggle.com/datasets/deepcontractor/200k-short-texts-for-humor-detection?resource=download).<br>[rJokesData train.tsv.gz](https://github.com/orionw/rJokesData/blob/master/data/train.tsv.gz).<br>[shuttie/dadjokes](https://huggingface.co/datasets/shuttie/dadjokes). |
+| **Models**          | (1) Decoder-only Transformer, (2) Encoder–Decoder Transformer.                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Evaluation**      | Humor, syntax/semantics, topic inclusion, human judgment.                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Frameworks**      | PyTorch, HuggingFace Tokenizers, spaCy (for PoS tagging).                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Hardware Target** | Laptop / CPU-only training.                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 
-     - Alternative：Open-source humor detectors with impressive accuracy: https://www.kaggle.com/datasets/deepcontractor/200k-short-texts-for-humor-detection/code. 
-       I'm afraid it is only able to evaluate jokes that generated based on ColBERT datasets, because both our joke generators and their detectors are small, Accordance of data source helps to enhance credibility.
 
-   - Heuristic metrics about creativity / originality
+##  Dataset & Preprocessing
 
-     - n-Novelty: 1 − memorization rate by 4-gram Jaccard ≥ 0.6 against *training* jokes.
+  
 
-       > Merrill et al., 2024, *Evaluating n-Gram Novelty of Language Models Using RUSTY-DAWG*
-       >
-       > It measures the fraction of generated n-grams unseen in the training set.
+###  Source
 
-     - Distinct-1/2: diversity on a 1k-sample set. Compared between training and generated joke sets.
+- Dataset: Short Jokes Dataset (~200K entries)
 
-       > Following Li et al. (2016), Distinct-n has become a standard metric for assessing lexical diversity and avoiding repetitive language in neural text generation.
-       >
-       > Li et al., 2016, A Diversity-Promoting Objective Function for Neural Conversation Models (NAACL)
-       >
-       > It computes the ratio of unique unigrams and bigrams to all tokens in 1 k generated samples (and optionally compared to the training set) — higher values indicate more varied word use.
+- Dataset: Amirkid/jokes (Hugging Face)
 
-     - Self-BLEU-2/3: lower is better (less mode collapse).
+- Dataset: 200k Short Texts for Humor Detection (Kaggle)
 
-       > Proposed by Zhu et al. (2018) as a measure of mode collapse, Self-BLEU quantifies how similar generated samples are to each other, complementing Distinct-n.
-       >
-       > Zhu et al., 2018, Texygen: A Benchmarking Platform for Text Generation Models (SIGIR)
-       >
-       > It calculates BLEU-n scores between each generated joke and the rest of the generated set — lower scores mean higher diversity and less pattern repetition.
+- Dataset: rJokesData (train.tsv.gz on GitHub)
 
-   ##### (2) Text quality
+- Dataset: shuttie/dadjokes (Hugging Face)
 
-   - Relevance / Control: Percent of maintained tags
-   - Fluency / Grammar: Perplexity
+- TOTAL COMBINED DATASET: 726,787 rows
 
-   ##### (3) System Efficiency
+  
 
-   - Throughput (token/sec) ....
+###  Cleaning
+
+1. **Remove** incomplete or offensive jokes (regex + profanity filtering).
+
+2. **Normalize** text (lowercase, remove redundant punctuation).
+
+3. **Remove duplicates** and extremely short jokes (< 5 words).
+
+  
+
+
+###  POS Tagging & Topic Conditioning
+
+To improve topic relevance and semantic clarity:
+
+- Use `spaCy` POS tagger to extract **nouns** and **verbs**.  
+- These serve as potential *conditioning keywords* (topics).  
+- Example transformation:
+
+| **Original Joke** | **Condition** | **Model Input** |
+|--------------------|----------------|------------------|
+| “Why did the chicken cross the road? To get to the other side!” | `chicken`, `road` | `<prompt> Tell me a joke about chicken and road <prompt> <joke> Why did the chicken cross the road? To get to the other side! <joke>` |
+
+
+---
+
+##  Model Architectures
+
+  
+
+### 1️ Decoder-Only Transformer (GPT-style)
+
+This version treats the entire joke generation as a **language modeling** task.
+
+  
+
+**Input Format:**
+
+  ```
+  <prompt> Tell me a joke about elephants and rain <prompt> <joke> Why did the elephant bring an umbrella? Because he didn't want a wet trunk. <joke>
+  ```
+
+
+**Training Objective:**
+
+Predict the next token given previous context.
+
+  
+
+**Advantages:**
+
+- Simpler, smaller model (efficient for CPU training).
+
+- Easier autoregressive generation.
+
+  
+
+**Challenges:**
+
+- Prompt and joke share same space → may conflate prompt/joke boundaries.
+
+
+
+### Encoder–Decoder Transformer (Seq2Seq)
+
+The encoder reads the **prompt**, while the decoder generates the **joke**.
+
+  
+
+**Input / Output Example:**
+
+- Encoder Input: `"Tell me a joke about elephants and rain"`
+
+- Decoder Output: `"Why did the elephant bring an umbrella? Because he didn't want a wet trunk."`
+
+  
+
+**Advantages:**
+
+- Clear separation between conditioning (prompt) and generation (joke).
+
+- Can focus decoder on creative response.
+
+  
+
+**Challenges:**
+
+- Slightly more parameters.
+
+- More complex training loop.
+
+  
+
+---
+
+
+### Fair Comparison
+
+To ensure a **scientifically valid comparison**, both models will be:
+
+- Matched by **parameter count** (≈ same embedding and hidden dimensions).  
+- Trained on the **same dataset split** and **epochs**.  
+- Evaluated on **identical metrics**.  
+
+**Example:**
+
+| **Attribute** | **Decoder-only** | **Encoder–Decoder** |
+|----------------|------------------|---------------------|
+| **Params** | ~5M | ~5M |
+| **Training Time (CPU)** | Faster | Slightly slower |
+| **Output Diversity** | High | Moderate |
+| **Conditioning Strength** | Weaker | Stronger |
+
+
+---
+
+
+##  Training & Efficiency
+
+  
+
+- **Batch size:** small (e.g., 16)
+
+- **Sequence length:** truncated to 64–128 tokens
+
+- **Optimizer:** TBD
+
+- **Early stopping** and **checkpointing** to save compute
+
+---
+
+
+
+##  **Evaluation**
+
+A comprehensive evaluation protocol is used to assess both **model quality** and **efficiency**.  
+We combine **quantitative metrics** (automatic, reproducible) and **qualitative evaluations** (human judgment) to ensure a fair comparison between the **Decoder-only** and **Encoder–Decoder** architectures.
+
+
+### **Evaluation Overview**
+
+| **Category** | **Metric / Method** | **Description** | **Type** | **Reference / Tool** |
+|---------------|--------------------|-----------------|-----------|-----------------------|
+| **Humor Quality** | **Human Evaluation (Blind A/B)** | Human judges rate two systems (decoder-only vs encoder–decoder) on 5-point scales: Funniness, Relevance, Coherence, Originality, and Safety. | Qualitative | Merrill et al. (2024), Li et al. (2016) |
+|  | **Humor Classifier Score** | Probability of being humorous from pretrained humor detector. | Quantitative | [mohameddhiab/humor-no-humor](https://huggingface.co/mohameddhiab/humor-no-humor), Kaggle Humor Dataset |
+| 🎭 **Creativity & Diversity** | **n-Novelty** | Fraction of generated n-grams unseen in the training set (1 − memorization rate). Measures originality. | Quantitative | Merrill et al. (2024) |
+|  | **Distinct-1 / Distinct-2** | Ratio of unique unigrams/bigrams to all tokens — measures lexical diversity. Higher = more diverse. | Quantitative | Li et al. (2016) |
+|  | **Self-BLEU-2 / 3** | Average BLEU similarity among generated jokes — lower = less mode collapse, more creative variety. | Quantitative | Zhu et al. (2018) |
+|  **Linguistic Quality** | **Perplexity** | Measures fluency and syntactic quality of generated jokes using a reference LM. | Quantitative | GPT-2 small or KenLM |
+|  | **Grammar / Syntax Checker** | Grammar correctness measured using LanguageTool or spaCy grammar checks. | Quantitative | LanguageTool |
+|  **Topic Relevance** | **Keyword Inclusion** | Ensures that prompt nouns/topics appear in the generated joke text. | Quantitative | Keyword matching or semantic similarity |
+
+
+###  **Humor Quality**
+
+####  Human Evaluation (Blind A/B)
+We conduct a **blind test** where human annotators compare outputs from:
+- **Model A** → Decoder-only  
+- **Model B** → Encoder–Decoder  
+
+For 100 random prompts (e.g., “elephant”, “rain”, “school”), each rater scores both outputs on:
+
+| **Criterion** | **Scale** | **Meaning** |
+|----------------|------------|--------------|
+| **Funniness** | 1–5 | 1 = not funny, 5 = hilarious |
+| **Relevance** | 1–5 | How well the joke matches the given topics |
+| **Coherence** | 1–5 | Logical sentence flow and readability |
+| **Originality** | 1–5 | How novel the joke feels |
+| **Safety** | OK / Not OK | Ensures no offensive or harmful content |
+
+Each prompt gets **3 independent ratings**, and the **final score** is the averaged result per metric per model.
+
+#### Humor Classifier
+We automatically evaluate “funniness” using pretrained detectors:
+- Primary: [**mohameddhiab/humor-no-humor**](https://huggingface.co/mohameddhiab/humor-no-humor)
+- Backup: Kaggle Humor Classifier trained on 200k+ short jokes  
+
+Output → *humor probability score (0–1)* for each generated joke.
+
+---
+
+### **Creativity & Diversity**
+
+| **Metric** | **Purpose** | **Interpretation** |
+|-------------|-------------|--------------------|
+| **n-Novelty** | Checks originality of generated n-grams vs training set | High = creative |
+| **Distinct-1 / 2** | Measures lexical variety | High = diverse vocabulary |
+| **Self-BLEU-2 / 3** | Penalizes repetitive joke generation | Low = less mode collapse |
+
+These metrics together evaluate whether the model merely memorizes the training jokes or truly generates new, varied, and interesting content.
+
+---
+
+### **Linguistic Quality**
+
+We evaluate **fluency**, **grammar**, and **syntactic correctness**:
+- **Perplexity** — Calculated using a small pretrained LM (e.g., GPT-2-small or KenLM).  
+  → Lower perplexity = smoother and more natural sentences.
+- **Grammar Checker** — Uses [**LanguageTool**](https://languagetool.org/) to detect grammatical/syntactic issues.  
+  → Grammar accuracy = 1 − (#errors / #tokens).
+
+---
+
+### **Topic Relevance**
+
+Ensures the generated jokes are relevant to the prompt:
+- **Exact Keyword Match:** Verifies presence of all topic words.
+- **Semantic Similarity:** Uses cosine similarity between topic embeddings (e.g., Sentence-BERT or spaCy) and the joke text to capture synonyms or related expressions (e.g., *rainy* for *rain*).
+
+Final score = weighted combination of both.
+
+---
+
+### **System Efficiency**
+
+Since the project emphasizes **efficient training and inference**, we report:
+
+| **Metric** | **Description** |
+|-------------|-----------------|
+| **Training Time / Epoch** | Time required to complete one epoch on CPU |
+| **Throughput (tokens/sec)** | Tokens generated per second |
+| **Parameter Count** | Ensures model size parity between architectures |
+| **Memory Usage** | Peak memory allocation measured via `torch.profiler` |
+
+This allows a fair comparison between the **two architectures** under equal computational constraints.
+
+
+
+##  Testing
+
+  
+
+To ensure reproducibility:
+
+  
+
+-  **Unit tests** for each module (e.g., tokenizer, model, dataloader).
+
+-  **Integration tests** to verify full pipeline (prompt → generation → evaluation).
+
+-  **Automatic CI** on GitHub Actions (optional).
+
+Example:
+```
+def test_joke_generation():
+	joke = model.generate("Tell me a joke about bananas")
+	assert "banana" in joke.lower()
+	assert len(joke.split()) > 3
+```
+
+##  Inference Example
+
+```
+from models.decoder_only import DecoderOnlyTransformer
+
+model = DecoderOnlyTransformer()
+prompt = "Tell me a joke about cats and programming" 
+print(model.generate(prompt))
+```
+**Output:**  
+> "Why did the cat sit on the keyboard? It wanted to keep an eye on the mouse!"
+
+
+
+## Current Progress — Running Example
+
+To test the current implementation, please use the following input format:  
+**"Tell me a joke about \<noun>"**
+
+Example command:
+```bash
+python main.py --mode infer --arch encdec --prompt "Tell me a joke about elephants" --eval
+```
+Expected output:
+```
+ Joke: This is a joke about an elephants      
+ Topic Inclusion Score: 1.00
+ Humour or No Humour  : NO_HUMOR
+ NO_HUMOR Score         : 0.99
+```

@@ -1,7 +1,6 @@
-# data/split_dataset.py
-
 import os
 import pandas as pd
+from sklearn.model_selection import train_test_split
 
 # 1. Project root directory (parent of this file's directory)
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -33,30 +32,21 @@ df = df[df["joke"].str.strip().astype(bool)]
 if "topics" not in df.columns:
     df["topics"] = ""
 
-# 8. Shuffle the dataset and select the first 100 rows
+# 8. Shuffle the dataset
 df = df.sample(frac=1.0, random_state=42).reset_index(drop=True)
+print(f"✅ Total usable rows after cleaning: {len(df)}")
 
-N_TOTAL = 100
-if len(df) < N_TOTAL:
-    raise ValueError(f"Not enough data rows ({len(df)} found, expected {N_TOTAL}).")
+# 9. Split the dataset: 90% train, 5% val, 5% test
+train_df, temp_df = train_test_split(df, test_size=0.10, random_state=42, shuffle=True)
+val_df, test_df = train_test_split(temp_df, test_size=0.50, random_state=42, shuffle=True)
 
-tiny = df.iloc[:N_TOTAL].copy().reset_index(drop=True)
+print(f"Train: {len(train_df)}, Val: {len(val_df)}, Test: {len(test_df)}")
 
-# 9. Split into 80 / 10 / 10 for train / validation / test
-train_df = tiny.iloc[:80].copy()
-val_df = tiny.iloc[80:90].copy()
-test_df = tiny.iloc[90:100].copy()
-
-print("✅ Tiny split completed:")
-print(f"  Train: {len(train_df)}")
-print(f"  Val:   {len(val_df)}")
-print(f"  Test:  {len(test_df)}")
-
-# 10. Save the splits (overwrite current train/val/test for debugging)
+# 10. Save the splits
 os.makedirs(DATA_DIR, exist_ok=True)
 train_df.to_csv(os.path.join(DATA_DIR, "train.csv"), index=False)
 val_df.to_csv(os.path.join(DATA_DIR, "val.csv"), index=False)
 test_df.to_csv(os.path.join(DATA_DIR, "test.csv"), index=False)
 
-print(f"✅ Saved tiny train/val/test to {DATA_DIR}")
-print("   (train=80, val=10, test=10)")
+print(f"✅ Saved full shuffled dataset split to {DATA_DIR}")
+print("   (train=90%, val=5%, test=5%)")

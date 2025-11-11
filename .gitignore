@@ -206,7 +206,6 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 data/complete/
-data/processed/*
-!data/processed/tokenizer.json
+data/processed/*.csv
 
 *.pt

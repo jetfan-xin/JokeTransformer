@@ -2,6 +2,8 @@ import os
 import torch
 from torch.utils.data import DataLoader
 from torch import nn, optim
+from tqdm.auto import tqdm
+import wandb
 
 from utils.config import Config
 from utils.dataset import JokeDataset, collate_fn
@@ -43,12 +45,22 @@ def compute_loss(logits, input_ids, loss_mask, pad_token_id):
     return loss
 
 
-def train_one_epoch(model, dataloader, optimizer, cfg):
+def train_one_epoch(model, dataloader, optimizer, cfg, epoch, run=None):
+    """
+    One training epoch with tqdm progress bar.
+    Optionally logs batch & epoch loss to wandb.
+    """
     model.train()
     total_loss = 0.0
     num_batches = 0
 
-    for batch in dataloader:
+    progress_bar = tqdm(
+        dataloader,
+        desc=f"Epoch {epoch} [train]",
+        leave=False
+    )
+
+    for batch in progress_bar:
         input_ids = batch["input_ids"].to(cfg.device)
         loss_mask = batch["loss_mask"].to(cfg.device)
         attn_mask = batch["attn_mask"].to(cfg.device)
@@ -66,19 +78,43 @@ def train_one_epoch(model, dataloader, optimizer, cfg):
         torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
         optimizer.step()
 
-        total_loss += loss.item()
+        loss_val = loss.item()
+        total_loss += loss_val
         num_batches += 1
 
-    return total_loss / max(num_batches, 1)
+        # Update tqdm postfix
+        progress_bar.set_postfix(loss=f"{loss_val:.4f}")
+
+        # Optional: log per-batch loss to wandb (not committing a new step every time)
+        if run is not None:
+            run.log({"train/batch_loss": loss_val}, commit=False)
+
+    avg_loss = total_loss / max(num_batches, 1)
+
+    # Log epoch-level train loss
+    if run is not None:
+        run.log({"train/epoch_loss": avg_loss}, step=epoch)
+
+    return avg_loss
 
 
 @torch.no_grad()
-def eval_perplexity(model, dataloader, cfg):
+def eval_perplexity(model, dataloader, cfg, epoch, run=None):
+    """
+    Evaluate validation loss & perplexity with tqdm bar.
+    Optionally logs to wandb.
+    """
     model.eval()
     total_loss = 0.0
     num_batches = 0
 
-    for batch in dataloader:
+    progress_bar = tqdm(
+        dataloader,
+        desc=f"Epoch {epoch} [val]",
+        leave=False
+    )
+
+    for batch in progress_bar:
         input_ids = batch["input_ids"].to(cfg.device)
         loss_mask = batch["loss_mask"].to(cfg.device)
         attn_mask = batch["attn_mask"].to(cfg.device)
@@ -91,12 +127,26 @@ def eval_perplexity(model, dataloader, cfg):
             cfg.pad_token_id,
         )
 
-        total_loss += loss.item()
+        loss_val = loss.item()
+        total_loss += loss_val
         num_batches += 1
 
+        progress_bar.set_postfix(loss=f"{loss_val:.4f}")
+
     mean_loss = total_loss / max(num_batches, 1)
-    ppl = torch.exp(torch.tensor(mean_loss))
-    return mean_loss, ppl.item()
+    ppl = torch.exp(torch.tensor(mean_loss)).item()
+
+    # Log validation metrics
+    if run is not None:
+        run.log(
+            {
+                "val/loss": mean_loss,
+                "val/perplexity": ppl,
+            },
+            step=epoch,
+        )
+
+    return mean_loss, ppl
 
 
 def main():
@@ -133,11 +183,34 @@ def main():
         weight_decay=cfg.weight_decay,
     )
 
+    # ---- wandb init ----
+    # Make sure: `pip install wandb` and `wandb login` before running.
+    run = wandb.init(
+        project="efficient-joke-transformer",
+        config={
+            "architecture": "decoder-only",
+            "d_model": cfg.d_model,
+            "n_heads": cfg.n_heads,
+            "d_ff": cfg.d_ff,
+            "n_layers": cfg.n_layers,
+            "dropout": cfg.dropout,
+            "batch_size": cfg.batch_size,
+            "lr": cfg.lr,
+            "weight_decay": cfg.weight_decay,
+            "num_epochs": cfg.num_epochs,
+            "max_seq_len": cfg.max_seq_len,
+            "device": str(device),
+        },
+    )
+    wandb.watch(model, log="all", log_freq=100)
+
     best_val_loss = float("inf")
+    best_val_ppl = None
+    ckpt_path = os.path.join(project_root, "best_decoder_only.pt")
 
     for epoch in range(1, cfg.num_epochs + 1):
-        train_loss = train_one_epoch(model, train_loader, optimizer, cfg)
-        val_loss, val_ppl = eval_perplexity(model, val_loader, cfg)
+        train_loss = train_one_epoch(model, train_loader, optimizer, cfg, epoch, run=run)
+        val_loss, val_ppl = eval_perplexity(model, val_loader, cfg, epoch, run=run)
 
         print(
             f"Epoch {epoch}: "
@@ -146,11 +219,28 @@ def main():
             f"val_ppl={val_ppl:.2f}"
         )
 
+        # Log summary-style epoch metrics as well
+        run.log(
+            {
+                "epoch": epoch,
+                "train/epoch_loss_logged": train_loss,
+                "val/loss_logged": val_loss,
+                "val/perplexity_logged": val_ppl,
+            },
+            step=epoch,
+        )
+
+        # Save best model
         if val_loss < best_val_loss:
             best_val_loss = val_loss
-            ckpt_path = os.path.join(project_root, "best_decoder_only.pt")
+            best_val_ppl = val_ppl
             torch.save(model.state_dict(), ckpt_path)
             print(f"  -> saved best model to {ckpt_path}")
+
+            run.summary["best_val_loss"] = best_val_loss
+            run.summary["best_val_perplexity"] = best_val_ppl
+
+    run.finish()
 
 
 if __name__ == "__main__":

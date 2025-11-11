@@ -1,0 +1,68 @@
+{
+  "os":  "Linux-6.8.0-83-generic-x86_64-with-glibc2.39",
+  "python":  "CPython 3.10.19",
+  "startedAt":  "2025-11-11T10:48:04.690750Z",
+  "program":  "/ltstorage/home/4xin/uhh-ias-ml/train.py",
+  "codePath":  "train.py",
+  "codePathLocal":  "train.py",
+  "git":  {
+    "remote":  "https://github.com/bassammmm/uhh-ias-ml.git",
+    "commit":  "e32bae14088e7d39050a18159a3dff7dd45e6d58"
+  },
+  "email":  "onetail0114@gmail.com",
+  "root":  "/ltstorage/home/4xin/uhh-ias-ml",
+  "host":  "ltgpu3",
+  "executable":  "/mnt/data1/users/4xin/conda_envs/ML/bin/python",
+  "cpu_count":  64,
+  "cpu_count_logical":  128,
+  "gpu":  "NVIDIA RTX A6000",
+  "gpu_count":  5,
+  "disk":  {
+    "/":  {
+      "total":  "269294317568",
+      "used":  "127642906624"
+    }
+  },
+  "memory":  {
+    "total":  "1082013392896"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-8781349e-a5da-4a8f-d1dd-cae3c5c13860"
+    },
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-2ee728c5-f032-225e-9f43-6ecc728d3cb8"
+    },
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-250fe32c-24cc-81fe-b3d9-71264eafb3e8"
+    },
+    {
+      "name":  "NVIDIA A100 80GB PCIe",
+      "memoryTotal":  "85899345920",
+      "cudaCores":  6912,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-daff8f6e-7edd-56b2-0c8e-daab0ecc81ae"
+    },
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-28bc56a0-9ae8-a401-27d4-150180d85d6d"
+    }
+  ],
+  "cudaVersion":  "13.0",
+  "writerId":  "gx6bk1srtzhz39w0ei2cvj8xplnzqcu6"
+}

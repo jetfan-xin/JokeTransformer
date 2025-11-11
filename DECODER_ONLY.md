@@ -77,13 +77,13 @@ A decoder-only transformer predicts the next token based on all previous tokens 
 
 The implementation uses pure PyTorch — no prebuilt transformer modules.
 
-| Component | File | Description |
-| --- | --- | --- |
-| Embedding layers | tok_emb, pos_emb | Convert token IDs and positions to dense vectors |
-| MultiHeadSelfAttention | MultiHeadSelfAttention class | Each token attends to all previous ones (causal masking) |
-| FeedForward | Two-layer MLP with GELU | Expands and compresses features per token |
-| DecoderBlock | Combines attention + feedforward + layer normalization | |
-| Final LayerNorm + Linear Head | lm_head | Maps hidden states to vocabulary logits for next-token prediction |
+| Component                     | File                                                   | Description                                                       |
+| ----------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------- |
+| Embedding layers              | tok_emb, pos_emb                                       | Convert token IDs and positions to dense vectors                  |
+| MultiHeadSelfAttention        | MultiHeadSelfAttention class                           | Each token attends to all previous ones (causal masking)          |
+| FeedForward                   | Two-layer MLP with GELU                                | Expands and compresses features per token                         |
+| DecoderBlock                  | Combines attention + feedforward + layer normalization |                                                                   |
+| Final LayerNorm + Linear Head | lm_head                                                | Maps hidden states to vocabulary logits for next-token prediction |
 
 Causal masking ensures the model cannot look ahead, preserving autoregressive generation.
 
@@ -159,19 +159,19 @@ which:
 
 - Encodes prompt → [S] prompt [JOKE]
 - Iteratively predicts next tokens (sampling with temperature/top-k)
-- Stops at [EOS] or when max_new_tokens reached
+- Stops at [/S] or when max_new_tokens reached
 
 ⸻
 
 ## 🧮 Dataset Workflow
 
-| Step | Script | Description |
-| --- | --- | --- |
-| 1 | combine_datasets.py | Merge multiple open-source joke datasets |
-| 2 | clean.py | Normalize, deduplicate, filter |
-| 3 | add_topics.py | Extract topic keywords using POS tagging |
-| 4 | split_dataset.py | Split dataset 90:5:5 for training |
-| 5 | split_tiny_dataset.py | Create 100-sample mini dataset for debugging |
+| Step | Script                | Description                                  |
+| ---- | --------------------- | -------------------------------------------- |
+| 1    | combine_datasets.py   | Merge multiple open-source joke datasets     |
+| 2    | clean.py              | Normalize, deduplicate, filter               |
+| 3    | add_topics.py         | Extract topic keywords using POS tagging     |
+| 4    | split_dataset.py      | Split dataset 90:5:5 for training            |
+| 5    | split_tiny_dataset.py | Create 100-sample mini dataset for debugging |
 
 ---
 
@@ -206,10 +206,10 @@ data/processed/train.csv, val.csv, test.csv  # processed datasets
 
 ## 🧠 Summary
 
-| Aspect | Description |
-| --- | --- |
-| Goal | Generate topic-conditioned jokes efficiently |
-| Architecture | Decoder-only Transformer (GPT-style) |
-| Training Data | 700K+ cleaned short jokes |
-| Evaluation | Humor quality, relevance, linguistic fluency |
-| Efficiency | CPU-friendly, small parameter count, low sequence length |
+| Aspect        | Description                                              |
+| ------------- | -------------------------------------------------------- |
+| Goal          | Generate topic-conditioned jokes efficiently             |
+| Architecture  | Decoder-only Transformer (GPT-style)                     |
+| Training Data | 700K+ cleaned short jokes                                |
+| Evaluation    | Humor quality, relevance, linguistic fluency             |
+| Efficiency    | CPU-friendly, small parameter count, low sequence length |

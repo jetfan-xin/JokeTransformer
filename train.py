@@ -149,15 +149,115 @@ def eval_perplexity(model, dataloader, cfg, epoch, run=None):
     return mean_loss, ppl
 
 
+# def main():
+#     cfg = Config()
+#     device = torch.device(cfg.device)
+#     print(f"Using device: {device}")
+
+#     # Build dataset paths (assumes running from project root: python train.py)
+#     project_root = os.path.dirname(os.path.abspath(__file__))
+#     train_csv = os.path.join(project_root, "data", "processed", "train.csv")
+#     val_csv = os.path.join(project_root, "data", "processed", "val.csv")
+
+#     train_dataset = JokeDataset(train_csv)
+#     val_dataset = JokeDataset(val_csv)
+
+#     train_loader = DataLoader(
+#         train_dataset,
+#         batch_size=cfg.batch_size,
+#         shuffle=True,
+#         collate_fn=collate_fn,
+#     )
+#     val_loader = DataLoader(
+#         val_dataset,
+#         batch_size=cfg.batch_size,
+#         shuffle=False,
+#         collate_fn=collate_fn,
+#     )
+
+#     model = DecoderOnlyTransformer(cfg).to(device)
+
+#     optimizer = optim.AdamW(
+#         model.parameters(),
+#         lr=cfg.lr,
+#         weight_decay=cfg.weight_decay,
+#     )
+
+#     # ---- wandb init ----
+#     # Make sure: `pip install wandb` and `wandb login` before running.
+#     try:
+#         run = wandb.init(
+#             project="efficient-joke-transformer",
+#             dir="./wandb_logs",  # ⭐ 日志写在当前项目目录下
+#             mode=os.getenv("WANDB_MODE", "online"),  # 可用环境变量控制
+#             config={
+#                 "architecture": "decoder-only",
+#                 "d_model": cfg.d_model,
+#                 "n_heads": cfg.n_heads,
+#                 "d_ff": cfg.d_ff,
+#                 "n_layers": cfg.n_layers,
+#                 "dropout": cfg.dropout,
+#                 "batch_size": cfg.batch_size,
+#                 "lr": cfg.lr,
+#                 "weight_decay": cfg.weight_decay,
+#                 "num_epochs": cfg.num_epochs,
+#                 "max_seq_len": cfg.max_seq_len,
+#                 "device": str(device),
+#             },
+#         )
+#         wandb.watch(model, log="all", log_freq=100)
+#     except Exception as e:
+#         print(f"[WARN] wandb init failed: {e}")
+#         print("[WARN] Continuing without wandb logging.")
+#         run = None
+
+#     best_val_loss = float("inf")
+#     best_val_ppl = None
+#     ckpt_path = os.path.join(project_root, "best_decoder_only.pt")
+
+#     for epoch in range(1, cfg.num_epochs + 1):
+#         train_loss = train_one_epoch(model, train_loader, optimizer, cfg, epoch, run=run)
+#         val_loss, val_ppl = eval_perplexity(model, val_loader, cfg, epoch, run=run)
+
+#         print(
+#             f"Epoch {epoch}: "
+#             f"train_loss={train_loss:.4f}, "
+#             f"val_loss={val_loss:.4f}, "
+#             f"val_ppl={val_ppl:.2f}"
+#         )
+
+#         # Log summary-style epoch metrics as well
+#         run.log(
+#             {
+#                 "epoch": epoch,
+#                 "train/epoch_loss_logged": train_loss,
+#                 "val/loss_logged": val_loss,
+#                 "val/perplexity_logged": val_ppl,
+#             },
+#             step=epoch,
+#         )
+
+#         # Save best model
+#         if val_loss < best_val_loss:
+#             best_val_loss = val_loss
+#             best_val_ppl = val_ppl
+#             torch.save(model.state_dict(), ckpt_path)
+#             print(f"  -> saved best model to {ckpt_path}")
+
+#             run.summary["best_val_loss"] = best_val_loss
+#             run.summary["best_val_perplexity"] = best_val_ppl
+
+#     run.finish()
+
 def main():
     cfg = Config()
     device = torch.device(cfg.device)
     print(f"Using device: {device}")
 
-    # Build dataset paths (assumes running from project root: python train.py)
     project_root = os.path.dirname(os.path.abspath(__file__))
     train_csv = os.path.join(project_root, "data", "processed", "train.csv")
     val_csv = os.path.join(project_root, "data", "processed", "val.csv")
+    ckpt_path = os.path.join(project_root, "best_decoder_only.pt")
 
     train_dataset = JokeDataset(train_csv)
     val_dataset = JokeDataset(val_csv)
@@ -175,7 +275,21 @@ def main():
         collate_fn=collate_fn,
     )
 
+    # ----- build model -----
     model = DecoderOnlyTransformer(cfg).to(device)
+
+    # ----- NEW: resume from existing checkpoint if present -----
+    start_epoch = 6
+    best_val_loss = float("inf")
+    best_val_ppl = None
+
+    if os.path.exists(ckpt_path):
+        print(f"[INFO] Found existing checkpoint at {ckpt_path}, loading...")
+        state_dict = torch.load(ckpt_path, map_location=device)
+        model.load_state_dict(state_dict)
+        print("[INFO] Loaded weights from best_decoder_only.pt")
+        # 这里我们不知道之前训了多少 epoch，就当从 epoch 1 重新计数，
+        # 但起点已经是之前的最优模型，相当于“warm restart”。
 
     optimizer = optim.AdamW(
         model.parameters(),
@@ -184,31 +298,39 @@ def main():
     )
 
     # ---- wandb init ----
-    # Make sure: `pip install wandb` and `wandb login` before running.
-    run = wandb.init(
-        project="efficient-joke-transformer",
-        config={
-            "architecture": "decoder-only",
-            "d_model": cfg.d_model,
-            "n_heads": cfg.n_heads,
-            "d_ff": cfg.d_ff,
-            "n_layers": cfg.n_layers,
-            "dropout": cfg.dropout,
-            "batch_size": cfg.batch_size,
-            "lr": cfg.lr,
-            "weight_decay": cfg.weight_decay,
-            "num_epochs": cfg.num_epochs,
-            "max_seq_len": cfg.max_seq_len,
-            "device": str(device),
-        },
-    )
-    wandb.watch(model, log="all", log_freq=100)
+    try:
+        run = wandb.init(
+            project="efficient-joke-transformer",
+            dir="./wandb_logs",
+            mode=os.getenv("WANDB_MODE", "online"),
+            config={
+                "architecture": "decoder-only",
+                "d_model": cfg.d_model,
+                "n_heads": cfg.n_heads,
+                "d_ff": cfg.d_ff,
+                "n_layers": cfg.n_layers,
+                "dropout": cfg.dropout,
+                "batch_size": cfg.batch_size,
+                "lr": cfg.lr,
+                "weight_decay": cfg.weight_decay,
+                "num_epochs": cfg.num_epochs,
+                "max_seq_len": cfg.max_seq_len,
+                "device": str(device),
+                "resume_from_ckpt": os.path.exists(ckpt_path),
+            },
+        )
+        wandb.watch(model, log="all", log_freq=100)
+    except Exception as e:
+        print(f"[WARN] wandb init failed: {e}")
+        print("[WARN] Continuing without wandb logging.")
+        run = None
 
-    best_val_loss = float("inf")
-    best_val_ppl = None
-    ckpt_path = os.path.join(project_root, "best_decoder_only.pt")
+    # 如果你想把“继续训练的 epoch 数”单独控制，比如再训 2 个：
+    # extra_epochs = 2
+    # epoch_range = range(start_epoch, start_epoch + extra_epochs)
+    epoch_range = range(start_epoch, cfg.num_epochs + 1)
 
-    for epoch in range(1, cfg.num_epochs + 1):
+    for epoch in epoch_range:
         train_loss = train_one_epoch(model, train_loader, optimizer, cfg, epoch, run=run)
         val_loss, val_ppl = eval_perplexity(model, val_loader, cfg, epoch, run=run)
 
@@ -219,16 +341,16 @@ def main():
             f"val_ppl={val_ppl:.2f}"
         )
 
-        # Log summary-style epoch metrics as well
-        run.log(
-            {
-                "epoch": epoch,
-                "train/epoch_loss_logged": train_loss,
-                "val/loss_logged": val_loss,
-                "val/perplexity_logged": val_ppl,
-            },
-            step=epoch,
-        )
+        if run is not None:
+            run.log(
+                {
+                    "epoch": epoch,
+                    "train/epoch_loss_logged": train_loss,
+                    "val/loss_logged": val_loss,
+                    "val/perplexity_logged": val_ppl,
+                },
+                step=epoch,
+            )
 
         # Save best model
         if val_loss < best_val_loss:
@@ -237,11 +359,12 @@ def main():
             torch.save(model.state_dict(), ckpt_path)
             print(f"  -> saved best model to {ckpt_path}")
 
-            run.summary["best_val_loss"] = best_val_loss
-            run.summary["best_val_perplexity"] = best_val_ppl
+            if run is not None:
+                run.summary["best_val_loss"] = best_val_loss
+                run.summary["best_val_perplexity"] = best_val_ppl
 
-    run.finish()
-
+    if run is not None:
+        run.finish()
 
 if __name__ == "__main__":
     main()

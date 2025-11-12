@@ -40,16 +40,16 @@ if "topics" not in df.columns:
 # 7. Shuffle the dataset and select the first 100 rows
 df = df.sample(frac=1.0, random_state=42).reset_index(drop=True)
 
-N_TOTAL = 100
+N_TOTAL = 10000
 if len(df) < N_TOTAL:
     raise ValueError(f"Not enough data rows ({len(df)} found, expected {N_TOTAL}).")
 
 tiny = df.iloc[:N_TOTAL].copy().reset_index(drop=True)
 
 # 8. Split into 80 / 10 / 10 for train / validation / test
-train_df = tiny.iloc[:80].copy()
-val_df   = tiny.iloc[80:90].copy()
-test_df  = tiny.iloc[90:100].copy()
+train_df = tiny.iloc[:8000].copy()
+val_df   = tiny.iloc[8000:9000].copy()
+test_df  = tiny.iloc[9000:10000].copy()
 
 print(f"✅ Tiny split completed:")
 print(f"  Train: {len(train_df)}")

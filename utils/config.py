@@ -13,7 +13,7 @@ class Config:
     tokenizer = Tokenizer.from_file(TOKENIZER_PATH)
     vocab_size = tokenizer.get_vocab_size()
 
-    # ---- Special token IDs (from tokenizer.json) ----
+    # ---- Special token IDs (from tokenizer.json) ---- 
     pad_token_id = tokenizer.token_to_id("[PAD]")    # 2
     bos_token_id = tokenizer.token_to_id("[S]")      # 0
     eos_token_id = tokenizer.token_to_id("[/S]")     # 1
@@ -37,7 +37,7 @@ class Config:
     batch_size = 32
     lr = 3e-4
     weight_decay = 0.01
-    num_epochs = 5
+    num_epochs = 15
 
     # ---- Device ----
     device = "cuda" if torch.cuda.is_available() else "cpu"

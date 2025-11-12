@@ -24,6 +24,7 @@ def main():
     model = DecoderOnlyTransformer(cfg).to(device)
     state_dict = torch.load(ckpt_path, map_location=device)
     model.load_state_dict(state_dict)
+    model.eval()  # <-- important for inference
 
     # Interactive topic input
     while True:

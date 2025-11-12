@@ -208,5 +208,5 @@ __marimo__/
 data/complete/
 data/processed/*.csv
 
-*.pt
-wandb/
+# *.pt
+wandb_logs/

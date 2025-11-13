@@ -4,7 +4,7 @@ import torch
 from models.decoder_only import DecoderOnlyTransformer
 from utils.config import Config
 from utils.inference import generate_joke
-
+from evaluation.topic_inclusion import topic_exact_match
 
 def main():
     cfg = Config()
@@ -33,7 +33,13 @@ def main():
             break
 
         joke = generate_joke(model, topics)
+
         print("\nGenerated joke:\n", joke if joke else "[No joke generated]")
+
+        print("\n====EVALUATION====")
+        topic_exact_match(joke, topics)
+            
+        
 
 
 if __name__ == "__main__":

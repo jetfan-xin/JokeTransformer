@@ -16,7 +16,7 @@ Classifies all tags into POS categories:
 
 The bar plot displays both absolute counts and the percentage share.
 
-## 2. oke Length Statistics
+## 2. Joke Length Statistics
 
 #### Files
 - joke_length_chars.csv — character lengths of all jokes
@@ -75,3 +75,22 @@ Each bar includes:
 - color based on cumulative (heatmap style)
 
 This reveals the long-tail distribution clearly.
+
+## Directory Structure of related files
+```
+data/
+│
+├── plot_data.ipynb
+└── ouputs/
+    │
+    ├── joke_length_chars.csv / .html / .png
+    ├── tag_count_distribution.csv / .html / .png
+    ├── tag_type_count.csv / .html / .png
+    ├── tag_frequencies_full.csv
+    ├── tag_frequencies_top30.* 
+    ├── tag_frequencies_top100.* 
+    ├── tag_frequencies_top500.*
+    ├── tag_frequencies_top1000.*
+    └── tag_frequency_distribution_log.* 
+
+```

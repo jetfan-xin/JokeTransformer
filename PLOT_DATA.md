@@ -76,6 +76,44 @@ Each bar includes:
 
 This reveals the long-tail distribution clearly.
 
+## 6. Count How Many Unique Tags Each Joke Has
+
+#### Files
+- tag_count_distribution_all_nouns.*
+
+#### Description
+Using the expanded topic extraction (topic_all_nouns), this step computes:
+- the number of unique tags (unique noun lemmas) for each joke
+- distribution of unique tag counts (0, 1, 2, 3, …)
+
+Output includes:
+- total jokes per unique-tag count
+- percentage per category
+- formatted labels for display
+
+This distribution reveals how much lexical variety each joke contains when using the full noun-based tagging approach.
+
+## 7. Visualize the Average Joke Length for Different Numbers of Unique Tags
+
+### Files
+- tag_count_length_stats_clean.csv
+- tag_count_vs_length_with_std_clean.html / .png
+
+### Description
+For each unique-tag count, we compute:
+- number_of_jokes
+- average joke length (in characters)
+- standard deviation of joke length
+
+The visualization includes:
+- bar plot (left y-axis): number of jokes
+- line plot (right y-axis): average joke length
+- std deviation shaded band around the line
+- shared x-axis (unique tag count)
+
+This combined plot reveals how the richness of extracted tags relates to joke length.
+
+
 ## Directory Structure of related files
 ```
 data/
@@ -86,11 +124,15 @@ data/
     ├── joke_length_chars.csv / .html / .png
     ├── tag_count_distribution.csv / .html / .png
     ├── tag_type_count.csv / .html / .png
+    ├── tag_count_distribution_all_nouns.*
+    ├── tag_count_length_stats_clean.csv
+    ├── tag_count_vs_length_with_std_clean.html / .png
+    │
     ├── tag_frequencies_full.csv
-    ├── tag_frequencies_top30.* 
-    ├── tag_frequencies_top100.* 
+    ├── tag_frequencies_top30.*
+    ├── tag_frequencies_top100.*
     ├── tag_frequencies_top500.*
     ├── tag_frequencies_top1000.*
-    └── tag_frequency_distribution_log.* 
+    └── tag_frequency_distribution_log.*
 
 ```

@@ -210,3 +210,6 @@ data/processed/*.csv
 
 # *.pt
 wandb_logs/
+*.pt
+*.npz
+jana/

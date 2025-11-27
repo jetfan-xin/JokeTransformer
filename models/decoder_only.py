@@ -1,127 +1,174 @@
-# models/decoder_only.py
+
+from __future__ import annotations
 
 import torch
 import torch.nn as nn
-import math
-from utils.config import Config
-
-cfg = Config()
+import torch.nn.functional as F
 
 
-class MultiHeadSelfAttention(nn.Module):
-    def __init__(self, d_model, n_heads, dropout=0.0):
+class Head(nn.Module):
+    def __init__(self, emb_dim: int, context_size: int, head_size: int, dropout: float):
         super().__init__()
-        assert d_model % n_heads == 0
-        self.d_model = d_model
-        self.n_heads = n_heads
-        self.d_head = d_model // n_heads
+        self.key = nn.Linear(emb_dim, head_size, bias=False)
+        self.query = nn.Linear(emb_dim, head_size, bias=False)
+        self.value = nn.Linear(emb_dim, head_size, bias=False)
 
-        self.W_q = nn.Linear(d_model, d_model)
-        self.W_k = nn.Linear(d_model, d_model)
-        self.W_v = nn.Linear(d_model, d_model)
-        self.W_o = nn.Linear(d_model, d_model)
+        self.register_buffer("tril", torch.tril(torch.ones(context_size, context_size)))
 
         self.dropout = nn.Dropout(dropout)
 
-    def forward(self, x, attn_mask=None):
-        # x: [B, L, d_model]
-        B, L, _ = x.size()
+    def forward(self, x: torch.Tensor, attn_mask: torch.Tensor | None = None) -> torch.Tensor:
+        
+        B, T, E = x.shape
+        k = self.key(x)      
+        q = self.query(x)    
 
-        q = self.W_q(x).view(B, L, self.n_heads, self.d_head).transpose(1, 2)  # [B,h,L,d]
-        k = self.W_k(x).view(B, L, self.n_heads, self.d_head).transpose(1, 2)
-        v = self.W_v(x).view(B, L, self.n_heads, self.d_head).transpose(1, 2)
+        weights = q @ k.transpose(-2, -1) * (E ** -0.5)  # (B, T, T)
 
-        # scaled dot-product attention
-        scores = torch.matmul(q, k.transpose(-2, -1)) / math.sqrt(self.d_head)  # [B,h,L,L]
+        weights = weights.masked_fill(self.tril[:T, :T] == 0, float("-inf"))
 
-        # causal mask (LxL, upper triangle = -inf)
-        causal_mask = torch.triu(
-            torch.full((L, L), float("-inf"), device=x.device),
-            diagonal=1,
-        )
-        scores = scores + causal_mask  # broadcast over B,h
-
-        # attn_mask: [B,L], 1 for real, 0 for pad
         if attn_mask is not None:
-            # expand to [B,1,1,L]
-            pad_mask = (attn_mask == 0).unsqueeze(1).unsqueeze(2)  # True where pad
-            scores = scores.masked_fill(pad_mask, float("-inf"))
+            pad_mask = attn_mask[:, None, :].to(weights.device) 
+            weights = weights.masked_fill(~pad_mask, float("-inf"))
 
-        attn = torch.softmax(scores, dim=-1)
-        attn = self.dropout(attn)
+        weights = F.softmax(weights, dim=-1)  
+        weights = self.dropout(weights)
 
-        out = torch.matmul(attn, v)  # [B,h,L,d_head]
-        out = out.transpose(1, 2).contiguous().view(B, L, self.d_model)  # [B,L,d_model]
-        out = self.W_o(out)
+        v = self.value(x)  
+        out = weights @ v  
+        return out
+
+
+class MultiHeadAttention(nn.Module):
+    
+
+    def __init__(
+        self,
+        num_heads: int,
+        emb_dim: int,
+        context_size: int,
+        head_size: int,
+        dropout: float,
+    ):
+        super().__init__()
+        self.heads = nn.ModuleList(
+            [Head(emb_dim, context_size, head_size, dropout) for _ in range(num_heads)]
+        )
+        self.proj = nn.Linear(num_heads * head_size, emb_dim)
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, x: torch.Tensor, attn_mask: torch.Tensor | None = None) -> torch.Tensor:
+        # concat heads along embedding dim
+        out = torch.cat([h(x, attn_mask=attn_mask) for h in self.heads], dim=-1)
+        out = self.dropout(self.proj(out))
         return out
 
 
 class FeedForward(nn.Module):
-    def __init__(self, d_model, d_ff, dropout=0.0):
+ 
+    def __init__(self, emb_dim: int, dropout: float):
         super().__init__()
-        self.fc1 = nn.Linear(d_model, d_ff)
-        self.fc2 = nn.Linear(d_ff, d_model)
-        self.act = nn.GELU()
-        self.dropout = nn.Dropout(dropout)
+        self.net = nn.Sequential(
+            nn.Linear(emb_dim, 4 * emb_dim),
+            nn.ReLU(),
+            nn.Linear(4 * emb_dim, emb_dim),
+            nn.Dropout(dropout),
+        )
 
-    def forward(self, x):
-        x = self.fc1(x)
-        x = self.act(x)
-        x = self.dropout(x)
-        x = self.fc2(x)
-        x = self.dropout(x)
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        return self.net(x)
+
+
+class Block(nn.Module):
+    
+
+    def __init__(self, emb_dim: int, context_size: int, num_heads: int, dropout: float):
+        super().__init__()
+        head_size = emb_dim // num_heads
+        self.sa = MultiHeadAttention(num_heads, emb_dim, context_size, head_size, dropout)
+        self.ffwd = FeedForward(emb_dim, dropout)
+        self.ln1 = nn.LayerNorm(emb_dim)
+        self.ln2 = nn.LayerNorm(emb_dim)
+
+    def forward(self, x: torch.Tensor, attn_mask: torch.Tensor | None = None) -> torch.Tensor:
+        x = x + self.sa(self.ln1(x), attn_mask=attn_mask)
+        x = x + self.ffwd(self.ln2(x))
         return x
 
 
-class DecoderBlock(nn.Module):
-    def __init__(self, d_model, n_heads, d_ff, dropout=0.0):
+class TransformerDecoder(nn.Module):
+
+    def __init__(
+        self,
+        vocab_size: int,
+        emb_dim: int,
+        context_size: int,
+        num_att_heads: int,
+        dropout: float,
+        pad_token_id: int = -100,
+    ):
         super().__init__()
-        self.ln1 = nn.LayerNorm(d_model)
-        self.mha = MultiHeadSelfAttention(d_model, n_heads, dropout)
-        self.ln2 = nn.LayerNorm(d_model)
-        self.ffn = FeedForward(d_model, d_ff, dropout)
+        self.vocab_size = vocab_size
+        self.emb_dim = emb_dim
+        self.context_size = context_size
+        self.pad_token_id = pad_token_id
 
-    def forward(self, x, attn_mask=None):
-        # Pre-LN + residual
-        h = self.ln1(x)
-        h = self.mha(h, attn_mask=attn_mask)
-        x = x + h
+        self.token_embedding = nn.Embedding(vocab_size, emb_dim)
+        self.position_embedding = nn.Embedding(context_size, emb_dim)
 
-        h2 = self.ln2(x)
-        h2 = self.ffn(h2)
-        x = x + h2
-        return x
+        self.blocks = nn.ModuleList(
+            [
+                Block(emb_dim, context_size, num_att_heads, dropout)
+                for _ in range(6)
+            ]
+        )
+        self.ln_f = nn.LayerNorm(emb_dim)
+        self.lm_head = nn.Linear(emb_dim, vocab_size)
 
+    def forward(
+        self,
+        idx: torch.Tensor,
+        targets: torch.Tensor | None = None,
+        attn_mask: torch.Tensor | None = None,
+    ):
+        B, T = idx.shape
 
-class DecoderOnlyTransformer(nn.Module):
-    def __init__(self, cfg: Config):
-        super().__init__()
-        self.cfg = cfg
-
-        self.tok_emb = nn.Embedding(cfg.vocab_size, cfg.d_model)
-        self.pos_emb = nn.Embedding(cfg.max_seq_len, cfg.d_model)
-
-        self.blocks = nn.ModuleList([
-            DecoderBlock(cfg.d_model, cfg.n_heads, cfg.d_ff, cfg.dropout)
-            for _ in range(cfg.n_layers)
-        ])
-        self.ln_f = nn.LayerNorm(cfg.d_model)
-        self.lm_head = nn.Linear(cfg.d_model, cfg.vocab_size, bias=False)
-
-        # tie weights
-        self.lm_head.weight = self.tok_emb.weight
-
-    def forward(self, input_ids, attn_mask=None):
-        # input_ids: [B, L]
-        B, L = input_ids.size()
-        device = input_ids.device
-
-        pos = torch.arange(0, L, device=device).unsqueeze(0)  # [1, L]
-        x = self.tok_emb(input_ids) + self.pos_emb(pos)       # [B, L, d_model]
+        token_emb = self.token_embedding(idx)  
+        pos = torch.arange(T, device=idx.device)
+        pos_emb = self.position_embedding(pos)  
+        x = token_emb + pos_emb  
 
         for block in self.blocks:
             x = block(x, attn_mask=attn_mask)
 
         x = self.ln_f(x)
-        logits = self.lm_head(x)  # [B, L, vocab_size]
-        return logits
+        logits = self.lm_head(x)  
+
+        loss = None
+        if targets is not None:
+            logits_flat = logits.view(B * T, self.vocab_size)
+            targets_flat = targets.view(B * T)
+            loss = F.cross_entropy(
+                logits_flat,
+                targets_flat,
+                ignore_index=self.pad_token_id,
+            )
+
+        return logits, loss
+
+    @torch.no_grad()
+    def generate(self, idx: torch.Tensor, max_new_tokens: int = 256) -> torch.Tensor:
+        """
+        Autoregressively generate tokens, starting from idx.
+
+        idx: (B, T_start)
+        returns: (B, T_start + max_new_tokens)
+        """
+        for _ in range(max_new_tokens):
+            idx_cond = idx[:, -self.context_size :]  
+            logits, _ = self(idx_cond)               
+            logits_last = logits[:, -1, :]          
+            probs = F.softmax(logits_last, dim=-1)
+            idx_next = torch.multinomial(probs, num_samples=1)  
+            idx = torch.cat((idx, idx_next), dim=1)
+        return idx

@@ -11,7 +11,7 @@ HF_TOKEN = "xxx"
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 INPUT_CSV = BASE_DIR / "stats/combos_top5000_across_k1_to_k5.csv"
-OUTPUT_CSV = BASE_DIR / "raw_outputs/llama3_1_70b_nf4_jokes.csv"
+OUTPUT_CSV = BASE_DIR / "raw_outputs/llama3_1_70b_jokes.csv"
 
 START_INDEX = 200
 END_INDEX = 300

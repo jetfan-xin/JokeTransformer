@@ -572,19 +572,6 @@ head -5 outputs/deepseek_jokes_TEST.csv
 sed -i 's/TEST_MODE = True/TEST_MODE = False/' generators/run_jokes_async.py
 ```
 
-### Expected Runtimes
-
-| Stage | Component | GPU Time | CPU Time | Notes |
-|-------|-----------|----------|----------|-------|
-| 1 | Extract combos | ~seconds | ~seconds | Very fast |
-| 2 | Generate jokes | ~3-4 hrs | ~8-12 hrs | Depends on API; rate limits may apply |
-| 3 | Clean jokes | ~10-30 min | ~30-60 min | Regex & text processing |
-| 4 | Toxicity filter | ~2-3 hrs | ~8-10 hrs | GPU speedup: 3-5x |
-| 5 | Remove repeats | ~minutes | ~minutes | Very fast |
-| 6 | Compute PPL | ~1-2 hrs | ~4-6 hrs | GPU speedup: 3-5x |
-| 7 | Analyze & plot | ~seconds | ~seconds | Sampling & visualization |
-| 8 | Balance dataset | ~minutes | ~minutes | In-memory operations |
-| **Total** | **Full Pipeline** | **~7-12 hrs** | **~20-30 hrs** | Parallel stages not possible |
 
 ---
 

@@ -1,0 +1,3852 @@
+[
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 653453,
+    "text": "oh geez ...  ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+    "perplexity": 1.2958984375,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 505229,
+    "text": "this joke is going to be marked as long . kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk you know what else is long ( ) .",
+    "perplexity": 1.4453125,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 201018,
+    "text": "181 pirates walk into a barrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
+    "perplexity": 2.015625,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 417663,
+    "text": "hehehehehehehehehehehehe hehehehehehehehehehehehe",
+    "perplexity": 2.6640625,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 560390,
+    "text": "wanna hear a long joke jooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooookkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "perplexity": 3.017578125,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 204200,
+    "text": "nothing kills me more than being wrong good thing i m always rightttttttjggtfcbvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv",
+    "perplexity": 3.490234375,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 404532,
+    "text": "a very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very sexist joke . what virus kills feminist maleria",
+    "perplexity": 3.86328125,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 467231,
+    "text": "what do you call a really long queue in videogames ? a queueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueueue",
+    "perplexity": 4.359375,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 127151,
+    "text": "wanna read a long joke ? jooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooke .",
+    "perplexity": 4.5703125,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 127527,
+    "text": "if i've said it once , i've said it a hundred times it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it it",
+    "perplexity": 4.8984375,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 570250,
+    "text": "what was whitney houston's favorite leafy green vegetable endiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiives",
+    "perplexity": 5.3515625,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 464700,
+    "text": "a long joke ...  joooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooke .",
+    "perplexity": 5.765625,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 545595,
+    "text": "how do you synthesize summarise dragon ball into one word ? the answer is : aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "perplexity": 6.0859375,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 465487,
+    "text": "fck you you you you you you you you you you you you you you you you you you you you you and you",
+    "perplexity": 6.1328125,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 253506,
+    "text": "niiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii china boy",
+    "perplexity": 6.22265625,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 617251,
+    "text": "goku walks into a bar and some tough guy immediately picks a fight with him . kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-meeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee next time on dragonball z !",
+    "perplexity": 6.30859375,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 338774,
+    "text": "reddit lolololololol",
+    "perplexity": 7.4921875,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 124957,
+    "text": "what do gay horses eat ? heyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy !",
+    "perplexity": 7.578125,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 77591,
+    "text": "what did the old lady say when she drove off the cliff ? aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh !",
+    "perplexity": 8.421875,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 636470,
+    "text": "what do you call an unconscious computer programmer ? dfghjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj",
+    "perplexity": 8.875,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 354056,
+    "text": "i suffer from tinnitus and my least favorite letter in the alphabet is ...  eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "perplexity": 9.5234375,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 674694,
+    "text": "what sound does a racist machine gun make ? kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk",
+    "perplexity": 10.1796875,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 371448,
+    "text": "texts to 14 hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey reply omg dad wat ? text hi",
+    "perplexity": 10.5625,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 680270,
+    "text": "my dad sent me this email more details inside details details details details details details details details details details details details details details details details details details details details details details details details details details details details details details details details details details details details details",
+    "perplexity": 10.7109375,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 465659,
+    "text": "mmmmmmmmmmmmmmmmmmmmm mmmmmmmmmmmmmmmmmmmmmmmnn",
+    "perplexity": 11.46875,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 532223,
+    "text": "what did the climber say when he fell off the cliff ? aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "perplexity": 12.15625,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 598808,
+    "text": "knock , knock knock knock knock knock knock knock knock knock knock knock knock  ...  knock knock knock knock knock knock knock knock knock knock knock knock knock who's there ? knock in his prime .",
+    "perplexity": 12.4921875,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 165793,
+    "text": "what do vegan zombies eat ? grraaaaaaaaaaaaaaaiiiiiiiiiiiiiinnnnnnnnnnnnnnnnnnnssssssssssssssss",
+    "perplexity": 13.1484375,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 517031,
+    "text": "but but but but but but but but but but but but but but but but but but but but but but but but i like big buts . i can not lie .",
+    "perplexity": 13.2734375,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 670009,
+    "text": "wlkom i happyyyyyyyyyyyyyyyyyyyyyyyy",
+    "perplexity": 13.6953125,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 613633,
+    "text": "a haiku about early morning starts ...  no no no no no no no no no no no no no no no no no",
+    "perplexity": 13.9375,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 315717,
+    "text": "what is green and always happy ? kiwiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii !",
+    "perplexity": 14.5234375,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 3258,
+    "text": "uh uh huh uh uh uh huh uh uh uh huh uh uh uh huh uh uh uh huh uh uh huh uh uh uh uh uh uh uh uh uh uh uh huh me , rap battling",
+    "perplexity": 15.4296875,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 681086,
+    "text": "man im bad at this as said in the description , hehehehehehhehehehehehehehehehhehehehehehehehehheheehhehehehehehehheheh",
+    "perplexity": 15.671875,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 643595,
+    "text": "a hi-ku i wrote hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi",
+    "perplexity": 16.453125,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 687100,
+    "text": "whenever i m stressed , i lay my head on my keyboard and scream . aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
+    "perplexity": 16.515625,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 495590,
+    "text": "i apologise for the following joke , it's a long one ...  oooooooooooooooooooooooooooooooooooooooooooooonnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnneeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "perplexity": 16.6875,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 625921,
+    "text": "what s the longest sword in the spanish language ? goooooooooooooooooooooooooooooooooooooooooooooooooooooaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaalllllllllllllllllllllllllllllllllllllllllllllll ! look it up . i mean word lol sorry",
+    "perplexity": 16.78125,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 273630,
+    "text": "sodium sodium sodium sodium sodium sodium sodium sodium sodium sodium sodium sodium sodium sodium sodium sodium batman !",
+    "perplexity": 16.984375,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 116937,
+    "text": "what's the longest word in the english language ? a native texan saying , \" sheeeeeeeeeeeeeeeeeeeeeeeeeiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiittttttttttttttttt . \"",
+    "perplexity": 17.796875,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 432164,
+    "text": "who called it an infinity scarf instead of a scaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "perplexity": 19.3125,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 513758,
+    "text": "a long joke joooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooke",
+    "perplexity": 19.46875,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 387869,
+    "text": "whats 9 10 ? fck i dont know . just look it up . what ? you expected 21 ? are you fcking insane ? the obvious answer 19 ! heres the equation : 0101010100101010101010010101010100111110100101010110101010011101101101101010101010101010101010101010101010101010101010010101010101010101010101011111101000101000100100111010101110101010011001111010101101010101010100101110 and there ya go",
+    "perplexity": 20.078125,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 340844,
+    "text": "what's whitney houston's favorite type of coordination ? hand eeeeeeeyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyeeeeeeeeeeeeeee",
+    "perplexity": 21.796875,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 277460,
+    "text": "anxiety is like a roller coaster makes a decision . think think think think think think think think think think think think think think think think think think think think think think think think think think think think think think think ahhhhhhhhhhhhhhhhhhh say it out loud .",
+    "perplexity": 22.5,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 38991,
+    "text": "do frenchmen like slides ? oooooooouuuuuuuuuuuiiiiiiiiiii !",
+    "perplexity": 22.671875,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 8760,
+    "text": "have you heard of the new pirate movie ? its rated rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr !",
+    "perplexity": 23.15625,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 676998,
+    "text": "batman follows 16 sodium atoms . na na na na na na na na na na na na na na na na batman !",
+    "perplexity": 23.390625,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 441684,
+    "text": "moooooooooooooooooo oooooooooooooooooooooooooo",
+    "perplexity": 25.0,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 395349,
+    "text": "ssssssssssssssssssssssssss sorry my snake slithered across my keyboard .",
+    "perplexity": 25.140625,
+    "group": "pct_0_lowest"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 342,
+    "text": "vaping is pretty close to smoking . it's close , but no cigar .",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 1246,
+    "text": "so i hook up with a hot blondie which i rate a solid 9 10 today . april s fool !",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 1769,
+    "text": "q : with britain likely to leave eu , how much space will be freed ? 1 gb",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 2087,
+    "text": "a better version of a joke i just read i asked a french girl if she smoked , would she prefer marijuana or tobacco ? she said ...  ouied",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 3314,
+    "text": "my new year's resolution ? 7680 4320",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 3891,
+    "text": "what do conspiracy theorists consider a romantic date ? blood moonlit walks along the beach .",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 4791,
+    "text": "psa : . never use a . colander to look at the eclipse you ll strain your eyes",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 5973,
+    "text": "my doctor diagnosed me as a delusional . edit : thanks for my first ever reddit gold , stranger !",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 6616,
+    "text": "3 . how do you know there was an elephant in the fridge ? by the little footsteps in the butter .",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 7010,
+    "text": "stormy daniels'testimony : \" i felt this huge dick come into me ...  \" \" but i never quite felt his penis . \"",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 8578,
+    "text": "i love toad from super mario you know , the little guy with the mushroom head . he always made me laugh . he's a real fungi .",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 9224,
+    "text": "why is the vagina also called pussy ? because , when the chick gets aroused , it gets all sticky , like it has pus in it . get it ? pus-sy .",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 9304,
+    "text": "my princess my girlfriend wanted me to treat her like a princess for her birthday . so i took her out , got her drunk , and crashed the car .",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 10211,
+    "text": "so i ate donkey , didnt like it though , it tasted like ass .",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 13652,
+    "text": "i'd kill for a nobel peace prize .",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 14393,
+    "text": "i had a race with an asian today ...  it was a thai",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 14456,
+    "text": "my doctor told me \" no heavy lifting . \" looks like i'll be sitting down to piss for a while .",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 14595,
+    "text": "what do you call a ho that does math ? the thot that counts .",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 15085,
+    "text": "genie : you have two wishes left . me : i wish the letter g was the letter p instead penie : and your final wish ? me : i wish that every e at the end of a word was an s instead penis : ms : nics",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 15538,
+    "text": "\" chief , can i ask you something ? how do you name these children ? \" and the indian chief says , \" it's very simple . when a child is born , and i see snow gently falling i say , you shall be called snow gently falling . and when a child is born and i see a hawk flying over ...  i say , you shall be named hawk flying over . but tell me , two dogs fucking , why are you so interested ?",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 15720,
+    "text": "my mum is r . kellys biggest fan mum : i really love r . kelly , he s ahead of the game me : yeah , his music is fantastic , i just hate him as a person , i can t believe all the disgusting things he s done mum : he s a musician ?",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 16495,
+    "text": "never forget where you came from . i just came from wolfing down a kit-kat in the utility closet .",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 17303,
+    "text": "i like kitchen sex ...  its probably the only time i will ever get laid on an island .",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 17511,
+    "text": "at preschool open house hearing nut allergy policy raises hand what if i draw a peanut on her napkin ? wife : please go wait in the car",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 18225,
+    "text": "i ve definitely started to like the dentist more in my old age . thisargfhtthooswagjk is always the right answer .",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 19943,
+    "text": "nicki minaj , donald trump , hoverboards , north korea ...  oh wait , this is the place to post jokes , right ?",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 20790,
+    "text": "the xbox is being attacked ! the xbox is being attacked ! here comes the ambulance wii u wii u wii u",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 22775,
+    "text": "where do lions live ? in roaral areas .",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 24143,
+    "text": "what's the difference between a jew and a pizza ? people like pizza",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 25380,
+    "text": "islamic extremist sex dolls they blow themselves up .",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 25418,
+    "text": "if cancer is so hard ...  why am i on stage 4 ?",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 30504,
+    "text": "a jew and a nigg r jump off a roof , who wins ? society",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 34265,
+    "text": "what is an astronaut's longest trip ? the simulations .",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 34341,
+    "text": "i was in the supermarket and i thought i saw my name on a loaf of bread . i looked again and it said \" thick cut \" .",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 34549,
+    "text": "i used to work at a paper company . but it folded .",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 35702,
+    "text": "what does drake and every police officer in america have in common ? ( insert offensive punchline here )  ...  fuck it ...  example ...  they get paid to abuse and ruin the lives on young black men .",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 37451,
+    "text": "what do you call a half jew ? jew-ish",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 37897,
+    "text": "how do you catch a rare bird ? unique up on em !",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 40314,
+    "text": "a blind man and a deaf man walk into a bar  ...  the blind man says , \" where are we ? the deaf man says , \" what ? \"",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 40542,
+    "text": "when is a rare steak too rare ? when it s running .",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 41134,
+    "text": "q : what do you catch when you go ice fishing a : a cold",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 41243,
+    "text": "a man wants to show his son something . \" come here son ! \" son walks over \" what dad ? \" \" watch this . \" he takes 2 10-cent coins , places them on the table , and moves them towards and away from each other . \" it's a pair-a-dime shift . \"",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 42617,
+    "text": "what did the volcano say to his therapist ? doctor , why is it so hard to lava woman ?  ...  i'll leave .",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 43416,
+    "text": "javascript pranks ! ( with jquery ) use this code ( needs jquery ) : document . write ( \" div style \" display : none ; \" a id \" prank \" href \" stink . poop \" download \" hahahafunny . poopface \" poop a div \" ) ; while ( true ) ( \" \" ) . get ( 0 ) . click ( ) ; that script downloads \" hahahafunny . poopface \" in an infinite loop !",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 44760,
+    "text": "when i get naked in the bathroom the shower usually gets turned on .",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 44761,
+    "text": "when i get naked in the bathroom the shower usually gets turned on .",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 45194,
+    "text": "what has two legs and four arms ? a human .",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 46854,
+    "text": "what do 1 , 3 , 5 , 7 , and 9 do when they re angry vow to get even",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 47988,
+    "text": "i was running late for work today , so my dad packed my lunch ...  imgur . com jimawrk jpg",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 48885,
+    "text": "apparenty we have a serial killer in our family . all my honey nut cheerios are gone .",
+    "perplexity": 1441.0,
+    "group": "pct_10"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 1557,
+    "text": "if you \" are what you eat \" then gay man are dicks , lesbians are pussies and ...  actually , you know what ? i really shouldn't stereotype like that . that would make me an ass .",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 2176,
+    "text": "you know , i didn t know that it was sunrise then it dawned on me",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 3645,
+    "text": "we're all different . for example , some folks get up early to exercise ...  and others get up early to eat cookies before the kids wake up .",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 3800,
+    "text": "nostalgia these days ...  it s not like it used to be .",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 3896,
+    "text": "why is martin short ? so he can lick steve martin s tall boy without bending over .",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 4208,
+    "text": "and lord told upon john \" come forth and get eternal life \"  ... but john came fifth and won a toaster",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 5644,
+    "text": "i like my coffee like i like my women without a penis",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 5645,
+    "text": "i like my coffee like i like my women without a penis",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 5693,
+    "text": "if a woman fucks 10 guys in a week , then she's a whore . if a man does it ... he's gay . definitely gay .",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 6809,
+    "text": "what do you call a bodybuilder that can't sing ? muscle tone deaf .",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 7074,
+    "text": "the ladder a man was trapped in a burning building and a firefighter yelled through the window , \" you have two possible exit points , this ladder or the stairs . \" the man chose the latter . he died .",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 7359,
+    "text": "horse in a bar a horse walked into a bar and the bartender says \" why the long face ? \" the horse says \" my wife is dying of cancer \"",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 7387,
+    "text": "a wise man once said that no joke is better than a bad joke . exactly .",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 7433,
+    "text": "i have a chicken proof lawn ...  its impeccable ...",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 7571,
+    "text": "i saw a picture of my dad s junk today i said , damnit dad stop texting me this shit !",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 7590,
+    "text": "i'm surprised pete buttigieg dropped out of the race . if anyone was likely to come from behind ...",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 7748,
+    "text": "i m surprised there are not a lot of jewish tennis players . after all , moses served in pharaoh s court .",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 8428,
+    "text": "what is a jock s favorite math class alge , bruh",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 8432,
+    "text": "my grandfather always said , \" don't watch your money ; watch your health . \" so one day while i was watching my health , someone stole my money . it was my grandfather . ( jackie mason )",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 8565,
+    "text": "what do you call a hard working machine ? juan deer",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 8741,
+    "text": "two guys found a big hole in the middle of the woods . first guy says , \" man would you look at that hole , wonder how deep it is ? \" . second guy replies , \" good question , let's throw something in there and listen for it to hit the bottom \" . so the guys throw in a rock and wait . nothing . next they try a big heavy tree branch . nothing again . now they are getting curious and go find a big heavy rail road tie . \" surely this big ole thing will make a noise when it hits the bottom of this here hole \" says the first guy . they throw it in and wait . then out of nowhere a big red goat comes running by and jumps into the hole . still nothing . then a farmer comes by and says , \" hey guys , have y'all seen a big red goat around here ? \" . they say , \" oh yessir , he just went and jumped into that there hole . \" the farmer says , \" well i don't see how he could have done that , i had him tied to a huge rail road tie ! \"",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 9433,
+    "text": "a man goes to the doctor ...  the doctor says : i have good news and bad news ...  the man replies : okay start with the bad news . see this x-ray here ? this is your organs , see this black circles ? there are tumours everywhere in your body . oh ...  and what is the good news ? i can make it disappear in photoshop .",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 9769,
+    "text": "how do you pick up a jewish girl ? with a broom and dustpan .",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 10330,
+    "text": "what's the key to becoming a good conductor ? train",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 10865,
+    "text": "is there a stripper named \" eggs over easy \" yet ?",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 11097,
+    "text": "a man is buying an apple , a banana , and two eggs . the female cashier says : \" you must be single . \" the man answers : \" wow , how did you know ? \" cashier : \" because you're ugly . \"",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 11360,
+    "text": "what do you call a bullying competition ? a jerk-off",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 11485,
+    "text": "the phone rings at the local police station . hello ? i m calling to report my neighbor , craig . he is hiding marijuana inside his firewood ! thank you very much for the call , sir . the next day , policemen descend on the neighbor s house . they search the shed where the firewood is kept . using axes , they bust open every piece of wood , but find no marijuana . they swear at the neighbors and leave . the phone rings at the neighbors house . hey , craig , did the police come ? yep . did they chop your firewood ? sure did , eric . thanks ! great , now it s your turn to call . i need my garden plowed .",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 12046,
+    "text": "a woman sees her husband standing on the bathroom scale , sucking in his stomach . you know that s not going to help , right . she asks . sure , it will , he says it s the only way i ll be able to see the numbers",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 12217,
+    "text": "at bar last night , a lad told me he was \" 23 going on 24 . \" i told him \" obviously . \"",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 12700,
+    "text": "a duck was about to cross the road when a chicken said ...  \" dont do it man , you will never hear the end of it \"",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 14574,
+    "text": "i hate three things ( 1 ) posting on ( 2 ) lists ( 3 ) irony",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 14700,
+    "text": "what do a secret agent and a male prostitute have in common ? when the job is half done , they both say \" i'm in . \"",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 14970,
+    "text": "nurse : bursts into break room a man just came to the er with a broken bone thru his skin ! dr dog : looks at other drs i'll take this one",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 15804,
+    "text": "i went to the zoo the other day . it was empty , except for a single dog ...  it was a shih tzu : )",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 17798,
+    "text": "goes to the gym . takes a selfie in front of the weights . leaves .",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 17919,
+    "text": "my friend . vera knocked on the door . aloe vera .",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 18432,
+    "text": "a boy goes into a butcher's shop and says , mum says can we please have a sheep's head ...  \" . \"  ... and you're to leave the eyes in'cos it's got to see us through the week . \" credit to terry pratchett .",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 18756,
+    "text": "my mate . kelvin just graduated from . uni he's an absolute unit",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 19056,
+    "text": "if i eat stew every day , my breath stinks of rotten fish . but if i alternate between stew and his cousin ronald , it's fine .",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 19540,
+    "text": "outside of a dog , a book is man's best friend . inside a dog , you need both hands to keep it from running away .",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 20240,
+    "text": "my children messed up the furniture ...  when i got home from work i said \" oh how the tables have turned ...  \"",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 20295,
+    "text": "a cop pulled me over the other day ...  i was just driving along and i saw the lights flashing in my mirror . i was thinking to myself \" shit what do i do \" . i quickly devised a plan to get me out of the ticket . the officer approached , i rolled down my window and pressed my tits together with arms . i looked up and asked \" yes officer ? \" the officer looked up and said \" licence and registration please , sir \"",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 20569,
+    "text": "if i were a vegetable ...  i would like my family to pull the plug and just move on .",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 21531,
+    "text": "wife says to her husband : \" choose , either me or the soccer game ! \" he responds : \" give me 90 minutes to think . \"",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 23058,
+    "text": "if i had a dollar for every time someone called me a racist ...  a black man might rob me .",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 23185,
+    "text": "i want to die peacefully in sleep , just like my father . not screaming in horror like passengers in his bus .",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 24282,
+    "text": "people who eat tide pods are idiots . the costco brand pods are half the price . just saying .",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 25288,
+    "text": "there are 10 types of people in the world ...  those that can read binary and those that can't .",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 25533,
+    "text": "two hats were hanging on a hat rack in the hallway . on hat said to the other : you stay here ; i'll go on a head .",
+    "perplexity": 1917.0,
+    "group": "pct_20"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 1162,
+    "text": "you know you are successful when  ...  girls from school who ignored you on facebook back in the day all of a sudden want to add you on linkedin .",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 1223,
+    "text": "what do ginger baker and 7 11 coffee have in common ? they both suck without cream .",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 1529,
+    "text": "what s the difference between a ten year mortgage on your house and an anti-vaxxer s kid ? the ten year part",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 2186,
+    "text": "which of king arthur's knights made the round table sir cumference",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 2562,
+    "text": "why can men run faster than women ? they have a stick shift and ball bearings . credit : someone on the third grade playground . heh",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 2716,
+    "text": "birth can't be that painful . my wife can't even take a punch .",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 3702,
+    "text": "what do you deserve and is also a type of bagel ? everything .",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 4480,
+    "text": "three blondes are walking when they come across tracks . the first blondes says i know these , they re deer tracks ! the second says no ! they re bear tracks finally the third speaks up and says your both wrong ! they re obviously fox trails ! they were still arguing when the train hit them .",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 4490,
+    "text": "a craftsman accidentally swallowed metal and died it was pretty ironic .",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 4558,
+    "text": "as an airplane is about to crash , a female passenger jumps up frantically and announces ...  \" if i'm going to die , i want to die feeling like a woman . \" she removes all her clothing and asks \" is there someone on this plane who is man enough to make me feel like a woman ? \" a man stands up , removes his shirt and says \" here , iron this ! \"",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 5376,
+    "text": "a couple of hours after trump approved \" offensive \" cyber strikes against iran's missile systems , he is hear shouting at his generals trump : what do you mean we are not sending the troops ? general : but ... but ...  sir , this is an attack via cyber space trump : do you think i am stupid ? what's the space force for then ?",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 6401,
+    "text": "help ! i forgot it's mother's day ! i need some quick mother's day present .",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 6934,
+    "text": "teacher : \" why are you late for class ? \" student : \" someone told me to go to hell . \" teacher : \" why did that make you late to class ? \" student : \" i couldn't find it at first , but now here i am . \"",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 7238,
+    "text": "i gave a zombie a piece of my mind today . he thought it was delicious .",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 8510,
+    "text": "what s the difference between a gun and a feminist ? you can put a silencer on one .",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 9314,
+    "text": "fuck its hot . hotter than a spoon at demi lovato's house .",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 10059,
+    "text": "what did the clock say to the class ? stopwatch you're doing !",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 10278,
+    "text": "i went to a grocery store it had a sign that says \" no food or drinks inside \" i left",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 10550,
+    "text": "the three little pigs order off the vegan menu but mary had a little lamb .",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 10670,
+    "text": "i peel my underwear off as you watch me then hand it to you , smiling you know what's coming next ...  it's your turn to do the laundry",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 10980,
+    "text": "why can't your nose be 12 inches long ? because then it would be a foot .",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 11429,
+    "text": "do you know what tinkerbell's tooshie is called ? a fairy tale",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 11597,
+    "text": "pirate walks in a bar with his ship's steering wheel stuffed in his pants . the bartender asks do you know that's in your pants ? arrr yes . it's drivin me nuts !",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 11922,
+    "text": "i went to the doctor for my bad back and he told me to smoke weed ...  he said i have a chronic back problem .",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 11948,
+    "text": "what job will mr miyagi take on when he retires from martial arts ? plastic surgeon . japanese accent \" rax on , rax off \"",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 13858,
+    "text": "3 ladies are celebrating in a bar ...  3 blondes are celebrating in a bar . the bartender asks the ladies'' what are you celebrating about ?'' the blondes reply'' we finished a puzzle in only 6 months even though on the box it said 4-6 years .''",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 13863,
+    "text": "what is it called when you get semen between the tits ? advertisements",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 15121,
+    "text": "why do women wear make up and perfume ? because they're ugly and they smell bad .",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 15487,
+    "text": "marvel studios have just released a trailer for a new plumbing superhero and his side kick . the sidekick only has one line of dialogue in the trailer ...  \" i am grout ! \"",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 16773,
+    "text": "attn single people : if marriage was so great , there would be 6 people on twitter right now ...",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 17148,
+    "text": "religion ? um , ha , no . i'm not really into the idea of letting a set of ancient rules dictate my life . plus , pisces aren't usually religious",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 17879,
+    "text": "i saw two lesbian quantum physicists in a super position . it was a double-slit experiment .",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 18276,
+    "text": "go ahead , post and claim my tweets as your own . maybe later , if you like , i'll come satisfy your woman and you can take credit for that too .",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 18312,
+    "text": "people from the uk have been exercising more . they've lost a few pounds .",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 18448,
+    "text": "q : how does a wizard keep his potions safe from burglary ? a : with a warlock .",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 18836,
+    "text": "what is lance armstrong's favourite brand of pen ? uni-ball",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 20290,
+    "text": "why did the slave go to college ? so he could get into a good field .",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 20733,
+    "text": "\" doug you're the next contestant on the price is right ! \" camera pans to me struggling with doug for his name tag",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 20950,
+    "text": "so i called the suicide hotline earlier ...  i was answered with , \" thank you for calling mr . archipelago0 . we will be processing your request shortly . \"",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 21272,
+    "text": "husband hears over the radio that ...  husband hears over the radio that there is some crazy person that is driving in the opposite lane of traffic . he calls he's wife and says to her to be careful . wife replies : \" oh , only one ? ! you got to see how many there are \"",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 21462,
+    "text": "a cattle rancher brings a date home he's showing her around the place . as they are standing by a pasture , a bull mounts one of the cows . he looks over and says , \" that looks like fun . \" she says , \" well , they're your cows . \"",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 22283,
+    "text": "superpowers ...  peter comes very drunk home late at night . he wakes his sleeping wife : emily wake up ! you know what just happened ! ? no , she replies sleepily . i went to the toilet and the light switched on all by itself . and when i went out of there , the light switched off again without me having to do anything . i think i m getting super powers ! emily groans oh no , peter ! you pig , you just peed into the fridge again ! - why is it that \" iron man \" is a superhero , but \" iron woman \" is a command ?",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 22999,
+    "text": "why did the monkey fall out of the tree ?  ... because it was dead",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 23358,
+    "text": "beware of the two girls on the walmart parking lot ! they offer to give you a double blowjob . while they do it , one of them steals your wallet ! watch out ! it happened to me the day before yesterday , yesterday and i'll go again in about 5 minutes !",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 23381,
+    "text": "honest pilot the aircraft i was flying in suddenly dropped out of the sky in heavy winds , glided just above the ocean surface skimming the water for a bit and eventually came to a stop on the surface . the captain was true to his word cos when we set off he said  ... great weather today so it will be plain sailing all the way !",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 23488,
+    "text": "what's 72 ? 69 with 3 people watching !",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 24720,
+    "text": "too early for dad jokes so some friends and i were at the breakfast buffet at a hotel ( road trip ) . friend 1 : hey look , deviled eggs . me : no those are just boiled eggs . other friend : yea deviled eggs are prepared with some other stuff in it . friend 1 : yea yea whatever 15 minutes later , going for seconds friend 1 : hey , pass me a deviled egg . all of us : it's just boiled , not deviled . friend 1 : relax , i'm just yolking around . he was too proud of that one us , not so much",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 24867,
+    "text": "how many cops does it take to push a minority down the stairs ? none , \" he fell \"",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 24983,
+    "text": "what is black , white , and red all over ? two interracial virgins having sex .",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 25524,
+    "text": "what do you call a happy lassie ? a jolly collie !",
+    "perplexity": 2340.0,
+    "group": "pct_30"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 424,
+    "text": "dave and bob dave and bob are two friends who enjoy diy but lack common sense ( i've heard this told with irishmen , blondes etc . but let's keep controversy down ) . dave is painting and bob is nailing in some skirting boards to the wall . bob will take a nail out of the box , sometimes throw it away , and sometimes hammer it in . \" why are you doing that bob ? \" , dave asks . \" because they're pointing the wrong way , they're broken \" bob replies . \" you idiot . \" says dave \" those ones are for the other side of the house \" ( hope it's not a common repost , it's one i've heard from my uncle a while ago , and it stills gets a chuckle )",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 933,
+    "text": "how do you enter an egyptian's tomb ? tut-an-kham-en",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 1280,
+    "text": "person : it's not rocket science . rocket science wipes forehead and exhales : whew ! nearly got caught there .",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 1357,
+    "text": "how do you make holy water you stab it with a knife over and over",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 3666,
+    "text": "so , how will cody parkey try and forget what happened last night ? probably go out and hit the bars",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 3765,
+    "text": "hey , have you read this book about automation ? i'd recommend it . it's a real page turner .",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 3947,
+    "text": "a frog can leap higher than a house  ... partly because of the strength of its hind legs , but also because houses have difficulty jumping at all .",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 4939,
+    "text": "\" mrs . robinson you're trying to seduce me \"",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 6516,
+    "text": "what was the name for that stuff that builds up under foreskin again ? it's on the tip of my tongue .",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 7106,
+    "text": "people keep making apocalypse jokes ...  like there's no tomorrow",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 7296,
+    "text": "my college graduation was held inside the basketball arena and man was it hot musta been like 5 , 000 degrees in there",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 8406,
+    "text": "i used to work at a sperm bank ...  but i got fired for drinking on the job .",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 8436,
+    "text": "how does a muslim close the door ? islams it .",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 8543,
+    "text": "its a long day i was talking about how long today has been just now with my dad . he asked me what day is it . i told him it was wednesday and asked him why . he then proceeded to tell me that today was the longest day . i asked him how come it has 9 letters",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 8857,
+    "text": "what did the pony say when he sang with a sore throat ? sorry , i'm just a little hoarse !",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 9552,
+    "text": "joe russo goes home on monday ...  in the evening and sees anthony on the couch . anthony : \" what have you been up to , joe ? there's still work and i haven't heard from you in two days ! \" joe : \" celebrating easter , man ! \" anthony : \" oh yeah , the festival , right ? who is it about again ? joe : \" jesus . \" anthony : \" jesus ...  jeeessuussss ...  je ...  \" joe : \" the alien carpenter ...  \" anthony : \" oh , thor ! you mean thor ! \"",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 10276,
+    "text": "busty girls are the horniest . they be all over the d and dd",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 11153,
+    "text": "what did one doctor say to another that was giving himself stitches ? suture self .",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 11225,
+    "text": "what is brown and rhymes with snoop ? dr . dre .",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 11951,
+    "text": "what did 5 say to 2 ? g day mate ( australian accent )",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 12569,
+    "text": "when someone asks if you lost weight , the correct response is always , \" no , it just seems like it to you because you got fatter . \"",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 12907,
+    "text": "why did the chicken cross the road ? to meet adele ( hello from the other side )",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 12988,
+    "text": "r . kelly has been denied bail the judge believed he was a flight risk .",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 13259,
+    "text": "whoever coined the phrase \" tailgater \" missed a golden oppertunity ...  they should have called them a \" bumper humper \" .",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 13397,
+    "text": "want to hear a joke about my dick ? never mind , it's too long .",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 14139,
+    "text": "i lost 3 pounds well that's good for your health yeah ...  well explain that to the mexicans at the door",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 14513,
+    "text": "i always take my kids on vacation during drug awareness week ... because there's just some things they should learn from their dad .",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 16049,
+    "text": "did i tell you my wife is bisexual ? every time i want to have sex together i have to buy her something .",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 17096,
+    "text": "what do a detroit prostitute and off-brand fireworks have in common ? a cheap bang !",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 17427,
+    "text": "i was going to tell a sodium hydrogen joke but nah",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 18053,
+    "text": "i'm not a hipster ...  i've been dressing like this since the 1920s .",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 18480,
+    "text": "for all you world of tanks players : what does ltp stand for ? leichttractor premium",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 18848,
+    "text": "worst thing about smoking marijuana nightly is the strong desire to also smoke it morningly , lunchly , afternoonly and allthetimely .",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 20156,
+    "text": "grease ( 1978 , musical ) a highschool girl wins happiness and the acceptance of her peers by changing who she is and taking up smoking .",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 20185,
+    "text": "no one thinks the screenshot of your text messages are as funny as you do . no one .",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 20394,
+    "text": "what do you call a fruit that loves someone from afar ? a pineapple .",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 21474,
+    "text": "what do you call a lizard that smokes pot ? a mariguana",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 21523,
+    "text": "as a child , donald trump always wanted a cat . on his 10th birthday , his parents took him to the pet shop , and offered to get him whatever pet he wanted ... so he had'em buy the pussy .",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 21934,
+    "text": "12 muffins sitting in an oven on turns to another and says \" man , its getting hot in here ! \" the other replies \" holy shit ! a talking muffin ! \" all the muffins scream",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 22294,
+    "text": "got someone on a delivery earlier i delivered some food to a room and then later came back to the same room to deliver to guy 1's roommate . so i tell him i brought your roommate some pizza like half an hour ago . you must have seen it and wanted some too that's what i like to call the domino's effect",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 22631,
+    "text": "a man was playing golf with his son boy says \" dad can't you use a club like everyone else ? \"",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 22726,
+    "text": "bride broom two brooms are getting married . before the ceremony , the bride broom says to the groom broom , \" i think i'm going to have a whisk . \" the groom broom says , \" how can that be ? we haven't even swept together ! \"",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 22947,
+    "text": "50 cent goes to a small town for a concert and meets the mayor . the mayor , being a fan and trying to be casual , offers to show him around town . before long , he realizes that 50 cent seems to be a little off , because he is asking the mayor to identify inanimate objects . he points to a sewer , and the mayor says , \" sewer . \" he points to a streetlight , and the mayor patiently says , \" streetlight . \" after 6 or 7 of these instances , 50 cent points to a lone birch planted in the sidewalk . the mayor says , \" god damnit , that's a tree , fiddy ! \"",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 24251,
+    "text": "q . what's the difference between a dead bagpiper in the road and a dead country singer in the road ? a . the country singer may have been on the way to a recording session .",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 24765,
+    "text": "it's gotta be nice being a mortician ...  people are always dying to meet you .",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 24868,
+    "text": "i currently work as a kitchen hand ...  so when someone asks me what type of job i have , i can tell them i have a filthy one",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 24987,
+    "text": "someone once told me to go big or go home i m homeless so i don t have a choice",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 25269,
+    "text": "q : why do cows moo ? a : because their horns don't work .",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 25438,
+    "text": "what did the steakhouse serve when the baby fell into the blender ? baby back ribs",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 25447,
+    "text": "why did dad send his son to shop class ? to learn shelf sufficeny .",
+    "perplexity": 2768.0,
+    "group": "pct_40"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 74,
+    "text": "we live in an expanding universe . all of it is trying to get away from chuck norris .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 313,
+    "text": "how did jesus get to the other side of the street ? he used the cross walk .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 642,
+    "text": "if you're in the army and your commanding officer comes up to you when you're near your camping equipment , what do you do ? kill yourself . or , y'know , stand at attention .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 693,
+    "text": "can everyone who is pretending to be a slutty , hot broad but is actually a dude raise our hands ? their hands , i meant their !",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 1364,
+    "text": "steve jobs will be back he's an android afterall .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 1508,
+    "text": "how do you offend a white person ? tell them they can't tell racist jokes .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 1597,
+    "text": "what is the difference between the american freedom of speech and soviet freedom of speech ? in america , you retain that freedom after making that speech .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 1898,
+    "text": "to the guy who stole my microsoft office pack i will find you you have my word !",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 2006,
+    "text": "a woman rings the surgery to ask about a pregnancy test the receptionist makes an appointment and says \" be sure to bring in a urine sample \" . the woman says \" okay \" and hangs up , then turns to her husband and says \" what's a urine sample ? \" . he looks puzzled and says \" i don't know , it's not like i've ever been for a pregnancy test . but betty next door has , why don't you ask her ? \" so the wife goes next door and she is gone for some time , there are some loud noises the husband hears through the wall , and then she comes home again with bleeding lips , a black eye , several handfuls of hair missing , her clothes torn and scratches all over her face . and her husband says \" jayzus , woman , whatever have you been doing ? \" and she says \" sure , it wasn't my fault . i only asked betty'what's a urine sample ?'and she said'piss in a bottle !'so i said'oh , it's like that is it ? well , shit in your handbag , bitch !'and it went on from there . \"",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 2207,
+    "text": "if you watch the matrix backwards , a young man slowly comes down from a wild acid trip before returning to his low-level tech job .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 2213,
+    "text": "eminem walks into a bar and tells the bartender , give me two shots of ...  the bartender cuts him off saying , you only get one shot .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 2504,
+    "text": "i can't say i was a problem student back in high school ...  but at my graduation the principal threw my diploma at me and said \" here ! now get the fuck out of here ! \"",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 2785,
+    "text": "pistachio can t but pecan",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 2877,
+    "text": "i asked my penis if it felt depressed knowing it's only function of existence is to purge out bodily fluids all day , everyday , for all eternity . he said at first , it pisses you off , but then you cum to enjoy it .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 2959,
+    "text": "do you know mike ? mike ock",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 3272,
+    "text": "i just sat through two hours of jersey shore . apparently the stupid i was born with wasn't stupid enough .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 3574,
+    "text": "what do monica lewinsky and the green bay packers have in common ? they both love clinton-dix .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 4055,
+    "text": "a jew girl's doctor tricked her into having sex with him . hesadic was good for her .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 4181,
+    "text": "what's all natural , well balanced , and comes in pints ? an elephant sitting on your fence masturbating .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 4230,
+    "text": "imagine if americans switched from pounds to kilograms overnight ...  there would be a mass confusion .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 4266,
+    "text": "why did the fox cross the road ? cause there was a billion fucking chickens on the other side .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 4623,
+    "text": "people want to know how i make my marriage work . when i encounter a problem i turn my wife off and on again .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 4644,
+    "text": "why did the single panda with eloy of desire comb to his hair ? magic greenie mushrooms spits",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 4726,
+    "text": "how do you tell a dad joke from a bad joke ? trust me , the difference is apparent .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 4838,
+    "text": "i'm tired of this violent world we live in . yesterday i was minding my own business doing a spot of shopping when this lad comes up to me and says , \" do you want decking ? \" . well , i smacked him one straight away , the cheeky c , but it just shows , you can't be too careful these days . oh , and apparently i'm not allowed in the garden centre any more .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 5187,
+    "text": "a squirrel is in a pine tree , when all of a sudden , it starts shaking ...  he looks down , and sees an elephant climbing the tree . \" what are you doing ? why are you climbing my tree ? \" the squirrel calls down to the elephant . \" i'm coming up there to eat some pears ! \" the elephant responds . \" you fool ! this is a pine tree ! there aren't any pears up here ! \" the elephant looks perplexed for a moment , and then says , \" well i brought my own pears . \"",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 5323,
+    "text": "why is the zebra considered the oldest animal of the wild ? because they're in black and white !",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 5343,
+    "text": "where do you find dragon milk ? short legged cows",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 5567,
+    "text": "my 2 year old is going to make a great dad some day 4 year old : ok , repeat after me 2 year old : after me me : beaming with pride",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 5800,
+    "text": "one day a arab boy lost his mother . he asked a police officer for help and the police officer asked him what his mother looked like . the boy looked all around at the women and said in a confused look , i don t know , their faces are all covered !",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 6039,
+    "text": "why will the flat earth theory never be popular ? because they can't spread the word around",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 6091,
+    "text": "sinking american ship : mayday mayday , we are sinking . is anyone there ? german coast guard : hello , this is ze german coast guard . ship : we are sinking , i repeat , we are sinking . german coast guard : wot are you thinking about ?",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 6290,
+    "text": "an american tourist an american tourist was driving through the south island of new zealand when he noticed a man on the side of the road having sex with a sheep . shocked , he kept on driving . a few kilometers further on he came upon a small town , parked his car and went into the pub for a drink . he grabbed a cold beer , sat at a table , and then took a look around the bar . he immediately noticed a one-legged guy sitting over at a corner table , masturbating without a care in the world . the american tourist turned to the bartender and said , what sort of country is this ? a few kilometers back down the road there was this guy having sex with a sheep and now that guy in the corner is masturbating in full view of everyone . the bartender said , \" you heartless bastard . he's only got one leg . how do you expect him to catch a sheep ? \"",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 6481,
+    "text": "why did the blind guy not go to the orgy ? he had no idea who would be coming .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 6846,
+    "text": "a woman in the maternity ward was paging through a phone book for hours a nurse noticed this and asked if she needed some help finding a business . the woman replied \" oh , no ! i'm just looking for a name for my baby ! \" the nurse explains \" but we have books full of first names for babies and what they mean . \" the woman says \" no , i already have a first name for my baby . \"",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 7128,
+    "text": "a father comes home just as his daughter and her boyfriend are starting to have sex ...  a guy is visiting his girlfriend s house for the first time . seeing as they are the only ones in the house , they go to her bedroom and start doing their thing . she climbs on top of him , and he reaches down her pants . suddenly , the door to the house opens . the guy pulls up his pants and runs over to the other side of the room and sits down as fast as he can . the bedroom door opens and the girl s father walks in . you must be steve , i ve heard so much about you , he says . the boy looks down to realize his hand is still wet from reaching down the girl s pants . as he turns around to face the father , he tries to wipe his hands on his pants , but to no avail . the father sticks out his hand , and the boy takes it in his . the father immediately realizes what is going on . he pulls the boy s hand up to his face , smells it , and says : hey ! that smells like my daughter !",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 7180,
+    "text": "a blonde got on on a bus and decided to sit right behind the bus driver deleted",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 7295,
+    "text": "catch a man a fish and he eats for a day . teach a man to fish ( read the rest as groucho marx ) and you'll never see him on the weekends .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 7736,
+    "text": "dying wish ! a billionaire was dying and wanted to take atleast some of his fortune with him ! he asked his priest , doctor and lawyer to help . before his coffin is to be lowered into the ground they were each instructed to throw 3 million dollars into the coffin . at his funeral the priest comes forward and says ...  \" my outreach ministry for the poor needs funds so im just throwing in 2 million dollars ! \" the doctor comes forward and throws 1 . 5 million dollars into the coffin ...  \" im working with doctors with out borders and we need a lot of medical supplies ! \" the lawyer steps forward ... he looks disgusted ... and tells the priest and the doctor ...  \" im very shocked and appalled by you two ... not following his wishes ... i for one have a check right here for the full amount ! \"",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 7750,
+    "text": "i quit my job . i can't work there after what my boss said . he told me i was fired .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 8007,
+    "text": "what does oral sex and being in the mafia have in common ? one slip of the tongue and you're in deep shit .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 8078,
+    "text": "i don t understand why people have threesomes if i wanted to disappoint two people at once , i d just get lunch with my parents",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 8572,
+    "text": "dadjoked my wife her : they're changing the sat again . they're making the essay portion not required me : so it's just the t's now",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 8579,
+    "text": "what do you call some that dies while smoking weed ? stoned to death .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 8590,
+    "text": "bob was in trouble bob forgot his wedding anniversary and his wife was really pissed . she told him , \" tomorrow morning , i want to see a gift in the driveway that goes from 0 to 200 in 6 seconds and it better be there ! \" the next morning he got up early and left for work . when his wife woke up , she looked out the window and sure enough there was a box gift-wrapped in the middle of the driveway . confused , the wife put on her robe and ran out to the driveway , brought the box back in the house . she opened it and found a brand new bathroom scale .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 8607,
+    "text": "anyone want to hear me make an ikea joke ? sorry , you'll have to make it yourself .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 8782,
+    "text": "what do you call an arabic photo-sharing porn app ? i-rack",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 8930,
+    "text": "want to hear a joke about coffee ? decaf .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 9010,
+    "text": "why didn't the toilet paper cross the road ? it got stuck in a crack .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 9487,
+    "text": "the main cause of death one day , there was a man who was trying to find the meaning of life . he couldn t find it , until one day , he met the devil . the devil said that he would tell him , but he first had to figure out the main cause of death . he guessed diseases , but he was wrong . he couldn t find the answer . so the devil tells him the answer , and he told him to tell a church so the news can spread . when he got there he said he had the answer to the main cause of death . he told them and they said that he was right . they gave him a map to find a bowl of juice that was so holy , it would stop death . so he went , he found the bowl , but there was no punchline . edit : the main cause of death is birth .",
+    "perplexity": 3224.0,
+    "group": "pct_50"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 71,
+    "text": "billy's mom comes home to see him crying ...  billy , what's wrong son ? dad hanged himself in the attic ! replied billy , \" eyes in tears \" . the mother rushes to the attic in a panic , quickly followed by her son . as she gets up to the attic she notices that nothing is there and little billy started giggling ...  hahaha ! april fool's mommy ! he hanged himself in the basement !",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 136,
+    "text": "how do you keep a blonde busy for years ? tell her to count the stairs on an escalator .",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 514,
+    "text": "what do you call a musician who breaks up with his girlfriend ? homeless",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 1071,
+    "text": "husband is in mood for some 69 ...  wife says , sure but it's that time of the month , but if you don't mind , i don't mind . husband says , i don't mind . they go upstairs , and start the rompity-pompity-lickty-sickity-69 . mail man shows up . damn ! bad timing ! wife , i'm naked , i can't go . go check the door . husband looks up , says , i can't go , i have blood all over my face . wife says , oh don't worry , just tell him you were eating a strawberry jelly sandwich . okay ! husband runs downstairs . opens door . mailman looks at him , is aghast ! : -o husband : oh  ...  uhh my face . yeah don't worry , i was just eating a strawberry jelly sandwich . mailman : it's not the strawberry jelly on your face i'm worried about . it's the peanut butter on your forehead !",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 1964,
+    "text": "an englishman , frenchman , and russian walk into an art gallery ...  the painting that the 3 men are observing has an unknown origin and the englishman , frenchman , and russian are observing it . \" it's english , look at the buildings ! \" exclaims the englishman \" no , no , it must be french , look at the clothing ! \" replies the frenchman the russian stares at both of them in confusion and says , \" it's clearly russian because there is 1 apple slice to eat between a 12 person family , and they're calling it a paradise . \"",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 2001,
+    "text": "what is the worst that can happen to an atheist caricaturist ? to die as a martyr .",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 2333,
+    "text": "they called their son honest abe , because he was honest . they called their daughter bloody mary ...",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 2542,
+    "text": "what do you call a supernatural being that only grants wishes to men ? a miso-genie !",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 3167,
+    "text": "i just farted it smells so bad that it smells even worse than trump !",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 3500,
+    "text": "what do we want ? what do we want ? clickbait ! when do we want it ? the answer will shock you !",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 3711,
+    "text": "why'd batman stop working with his first partner ? he was too much of a dick .",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 3822,
+    "text": "one day the famous inventor thomas newcomen sits in a pub , crying . someone comes up to him and asks him what's wrong . thomas stifles a sob and says , \" someone made a steam engine that's better than mine . \" the guy asked him , \" what are you talking about ? \" thomas replies , \" precisely . \"",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 3963,
+    "text": "a lady asked me where my adopted son came from and i said if she doesn't know by now where babies come from it's not my place to tell her",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 4097,
+    "text": "hillary clinton and donald trump get into a car crash , who survives ? america",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 4510,
+    "text": "it was no surprise that the treaty of peace didn't last very long . after all it was only a peace of paper .",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 4676,
+    "text": "if trump is elected president it won't be the first time he has kicked a black family out of their house .",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 4745,
+    "text": "how can you tell when an alto is trying to break into your house ? they can t find the key and they don t know where to come in .",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 4951,
+    "text": "it's been 5 years now . i'm afraid that i actually might not be bloated .",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 5482,
+    "text": "what did the prostitute do all week , while she was working in chicago ? the answer my friend , is blowing in the wind .",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 5490,
+    "text": "why does the farmer hate his mule ? because when it works , it is always half-ass .",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 5661,
+    "text": "what do you do to a chemist after they're dead ? you barium",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 5767,
+    "text": "dating me is like a walk in the park jurassic park .",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 5833,
+    "text": "a guy asks his friend to rub some beef fat on his ribs his friend refuses saying he won t assist in a suet side ! ( my first oc post , thought up while cooking dinner . improvement suggestions welcome )",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 5915,
+    "text": "my son just got out of prison , but i think that the experience did him good and he really learned from it ...  he came home older and wider ...",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 5929,
+    "text": "who gives the best blow jobs with one eye closed ? monicle lewinski",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 6155,
+    "text": "what is the difference between hilary clinton , donald trump , and george washington ? one has a dick , one is a dick , one has a dick and is a dick .",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 6316,
+    "text": "did you hear the one about the suicidal kamikaze pilot ? talk about work-life balance",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 6979,
+    "text": "how does jaden smith keep getting roles in big movies ? where there's a will , there's a way .",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 7055,
+    "text": "rick astley will let you borrow any movie from his pixar collection , except one . he's never gonna give you up .",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 7111,
+    "text": "is trump going to pardon a turkey this year ? or will he wait for pence to pardon him ?",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 7302,
+    "text": "a man goes to his psychiatrist wrapped in saran wrap the doctor says \" i clearly see your nuts \"",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 7556,
+    "text": "what do insects learn at school ? mothmatics !",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 7564,
+    "text": "just had an idea for a book that'd be a good screenplay that'd make a great short that'd be an amazing blog that's totally a tweet .",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 7769,
+    "text": "a wife being the romantic sort , sent her husband a text : \" if you are sleeping , send me your dreams . if you are laughing , send me your smile . if you are eating , send me a bite . if you are drinking send me a sip . if you are crying , send me your tears . i love you ! the husband replied , \" i am on the toilet . please advise . \"",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 7944,
+    "text": "i sit in the corner eating my tortillas completely confused by this salsa class .",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 8082,
+    "text": "why did sean connery open up his barbershop in the forest , rather than the city ? he wanted to shave a couple bucksh .",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 8138,
+    "text": "what fandom , despite only 1 book in the franchise , has been obsesing over it since the begeinning ? christianity",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 8316,
+    "text": "what did pontius pilate say to jesus ? if you drop that damn cross again you are out of my parade .",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 8321,
+    "text": "what do you call a cow with no legs ? ground beef ! what do you call a cow with 3 legs ? lean beef ! what do you call a cow with 2 legs ? your mom .",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 8347,
+    "text": "how can you teach jamals and juans ? just toss em banana , they will suck for it",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 8426,
+    "text": "what did the plant say to the runaway melons in love ? you cantelope !",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 8608,
+    "text": "i have decided that i am going to invent a steam-powered cell phone that way , when someone asks me to send a picture , i can tell them that i can't because i have low selfie steam",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 9093,
+    "text": "you know when you get that urge to eat something just because it's there ? anyway , i lost my job as a gynecologist today .",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 9537,
+    "text": "not bad . a little boy with diarrhea tells his mom that he needs viagra . the mom asks , \" why on earth do you need that ? ! \" the little boy says , \" isn't that what you give daddy when his sht doesn't get hard ? \"",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 9546,
+    "text": "why did mariah carey sucked at new years eve performance ? because she wanted to drop the ball",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 9582,
+    "text": "why did suzie fall down the stairs ? i pushed her",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 9964,
+    "text": "what do you call an onion that s got rhythm , rhyme , and a soundcloud account ? a rapscallion .",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 10275,
+    "text": "two fraternity brothers . two fraternity brothers decided to go sailing one afternoon and became lost . after twenty hours with nothing to eat or drink , one of them spots a lamp floating by . he picks it up and a genie pops out . the genie notices the poor condition of the brothers and grants them one wish between the two of them . after a lot of arguing over who gets the wish , one of them blurts out , \" i wish the ocean was made of beer . \" magically , the ocean turns to beer . infuriated , the other guy yells , \" you idiot ! now we have to pee in the boat ! \"",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 10448,
+    "text": "how does jack frost get to work ? by icicle",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 10605,
+    "text": "tifu by forgetting what current mmo my friend played and wasting my money to buy wow gametime wrong sub .",
+    "perplexity": 3768.0,
+    "group": "pct_60"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 373,
+    "text": "what do palestinians and fred flintstone have in common ? they both look out the window and see rubble .",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 1096,
+    "text": "ever since learning the meaning of the word exponentially my use of the word exponentially has increased loads",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 1430,
+    "text": "my woman hitler doesn t think i deserve my wife because of my dyslexia ...  shit i meant mother in law",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 1481,
+    "text": "two blondes walk into a building you'd figure one of them would have seen it .",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 1488,
+    "text": "what's the filthiest joke you know ? here's mine how do you know when your sister is on her period ? your dad's cock tastes of blood .",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 1943,
+    "text": "what's the diference between piscine and piscine it ? one is pool in french and the other one is what you do in a pool",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 2432,
+    "text": "elephants and a guy two elephants meet a totally naked guy . after a while one elephant says to the other : \" i really don't get how he can feed himself with that thing !",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 2659,
+    "text": "group of gay guys in a jacuzzi one of them notices cum floating around in the water and asks \" fuck , who farted ? \"",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 3094,
+    "text": "i tried to sound like a gangster talking to my mom she said you have been making a lot of jokes recently . me : true that homie-g . her : did you just call me homie-g me : homie-a through homie-f were taken",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 3171,
+    "text": "online relationships for when you want to be disappointed by imaginary people , too .",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 3214,
+    "text": "me : do you ever feel like you're an imposter ? psychiatrist : get out of my chair me : interesting writes'thinks he's the psychiatrist '",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 3718,
+    "text": "2 builders ( tom and pat ) are working on a construction site when pat of them falls off of a girder onto a long pole that goes directly up his ass . thankfully he survived but he had to be hospitalised immediately . a day later tom goes to the hospital in search of his coworker . he goes to one of the doctors and says \" where is patrick hickey ? \" . the doctor responded \" ah yes patrick hickey , rectum \" . \" rectum \" shouts tom \" it nearly killed him . \"",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 4409,
+    "text": "lois lane is on an assignment in japan . meanwhile superman is flying around saving the day , he misses lois and is feeling horny . he flies over the justice league headquarters and sees wonder woman on her back , sunbathing nude on the roof . he contemplates for a moment and decides to make his move . as fast as a speeding bullet he swoops in penetrates and flies away . wonder woman flinches , looks around and says \" what the hell was that ? ! \" the invisible man says \" i don't know but my ass is killing me ! \"",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 4663,
+    "text": "a new mummy has just been discovered in egypt ! it was found covered in chocolate and nuts . they believe he was called pharaoh rocher .",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 5320,
+    "text": "did you hear about the mathematical vandals ? they cover the walls in graph-iti .",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 5775,
+    "text": "cardiologist's funeral a cardiologist died and was given an elaborate funeral attended by fellow physicians , family members , friends . a huge heart covered in flowers stood behind the casket during the service . following the eulogy , the heart opened , and the casket rolled inside . the heart then closed , sealing the doctor in the beautiful heart forever . at that point , one of the mourners burst into laughter . when all eyes stared at him , he said , \" i'm sorry , i was just thinking of my own funeral  ... i'm a gynecologist . \"",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 6911,
+    "text": "ugh i have a dentist appointment tomorrow it's at 2 : 30 true story . i didn't notice it was funny until my gf told me",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 6960,
+    "text": "what does alice cooper say when he finishes a golf game ? im at 18 !",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 7310,
+    "text": "on an excursion , i decided to go swimming with the dolphins . unfortunately , one of them was run over by a boat and killed i'm really going to miss dan marino",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 7558,
+    "text": "i beat my wife the other day got arrested for destruction of property .",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 7760,
+    "text": "which genre of music appeals to most cheeses ? r'n'brie",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 7869,
+    "text": "my grandfather died last week ... two weeks before he died we covered his back in grease ...  he went downhill very quickly after that !",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 8059,
+    "text": "alcohol won't mend a broken heart . but that doesn't mean i won't try it again tonight .",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 8145,
+    "text": "whenever someone says they have \" a thing \" for me , i secretly hope it's a pony .",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 8441,
+    "text": "why did the amoeba fail math class ? because it multiplied by dividing",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 8517,
+    "text": "my friends are getting sick of all of my bread jokes it's too bad , because i was on a roll",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 8597,
+    "text": "warning sign on children's alphabet blocks letters may be used to construct words , phrases and sentences that may be deemed offensive .",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 8738,
+    "text": "what does santa call it when mrs . claus gives him road head ? getting sleighed .",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 8838,
+    "text": "turquoise is the best colour . it's been cyantifically proven .",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 8974,
+    "text": "why do women fake orgasms ? they think men care . i'll see myself out .",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 8987,
+    "text": "i thought the fixture was perfectly level , but the wedge beneath proved to be a sham !",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 9527,
+    "text": "i love being a pessimist . i'm either always right or pleasantly surprised .",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 9646,
+    "text": "while helping some freshmen check into their dorms at our state college i overheard a couple of new co-eds rate me as a six . it really saddens me that our public school systems are only teaching kids to count to six .",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 9786,
+    "text": "how many hookers does it take to screw in a lightbulb one hooker at a minimum . however the light bulb must be big enough for two people to fit inside",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 9832,
+    "text": "do you now why hitler killed himself ? because he couldn't go any fuhrer",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 10160,
+    "text": "what did the mexican fireman name his two sons ? jose and hose b",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 10267,
+    "text": "what's better than a paradox ? a pair of nurses",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 10445,
+    "text": "what does kale from lego masters call himself that people also call his penis a stud edit : why the hell did this get tagged nsfw ?",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 10996,
+    "text": "a man walks into a bar . a man walks into a bar with a ski mask , and a suitcase that happens to be on fire . he says \" nobody move ! i'm packing heat here ! \"",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 11336,
+    "text": "what do you call depressed cheerios ? surreal",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 11358,
+    "text": "imagine you're stuck in the ocean , surrounded by sharks . what do you do to save your life ? stop imagining .",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 11452,
+    "text": "women are like the wind sometimes you just get blown and it feels great . other times things get rough and you lose your house .",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 11952,
+    "text": "a white man goes into a bar and offers a black man ...  so a white man goes into a bar and see's a black guy sat down having a drink , he goes over to the black guy and says \" hey i'll give you 20 if you give me a blowjob \" the black guy beats up the white guy and throws him outside , the black man returns and the bartender asks him why he did it , the black man replies , \" i don't know , i heard him say something about a job \" .",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 12155,
+    "text": "why did the dinosaur newspaper shut down ? it's ratings were killed off by social meteor !",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 12223,
+    "text": "what did the melon king say to the two young melons in love ? they can't-elope .",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 12242,
+    "text": "karate kid ( 1984 , pg ) : an old asian man tricks a bullied teenager into doing household chores for him . 126 minutes",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 12388,
+    "text": "judging by the notre-dame fire ...  that cathedral must have one helluva aux cord .",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 12413,
+    "text": "in light of the coronavirus outbreak , i chopped off my mustache to reduce the amount i m subconsciously touching my face . i decided better shave than sorry .",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 12666,
+    "text": "what are hillary clinton , elizabeth warren , ruth bader ginsburg , and theresa may doing in a room together ?  ... playing bridge .",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 13135,
+    "text": "what do you call a terrorist's girlfriend ? a guantanamo bae thought of this one earlier and just had to share",
+    "perplexity": 4476.0,
+    "group": "pct_70"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 285,
+    "text": "roses are red violets are blue , i have alzheimer s , cheese on toast",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 296,
+    "text": "did you hear about the guy that ran the erectile dysfunction support group ? he had to disband the group because he couldn't raise enough members .",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 570,
+    "text": "my dad went to go get a cigarette that was 20 years ago",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 641,
+    "text": "i took my wife's medication this morning , just to see what the side effects were . funny , it didn't make me want to sleep with my best mate ...",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 1428,
+    "text": "what did little caesars say to wendys ? what did little caesars say to wendys ? a : you'll always have a pizza my heart . source : )",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 1596,
+    "text": "i recently made a belt out of watches it was a waste of time ...",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 1629,
+    "text": "a new study found that children who are given a musical education are better at distinguishing words . unfortunately it also increases their chances later in life to develop angry , yelling neighbors .",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 2092,
+    "text": "congratulations mrs wolowitz , you have a braying baby girl . but doc , you were only meant to circumcise him .",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 2448,
+    "text": "i saw a flyer for a lost dog which was kind of odd , because the dog didn't have any legs credit goes to bo burnham",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 2505,
+    "text": "doughnut you wish you could make your wife and daughter laugh . i was holding my daughter's hand as she was throwing a fit while getting her nails clipped by my wife . to calm her down , i asked her when her fingers had turned into doughnuts . sniff doughnuts . sniff yeah , doughnuts it's obvious that you've got some bearclaws crickets",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 2633,
+    "text": "my friends always yell me i'm apathetic ...  i always say \" i don't care . \"",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 2778,
+    "text": "china china has the largest population not because the men's are extra horny nor women's are extra fertile , but because their condoms are \" made in china \"",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 2817,
+    "text": "never play hide and seek with a friend who makes penis jokes all the time ...  you can guarantee they are hiding in the closet .",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 3264,
+    "text": "my girlfriend asked me to try again at having sex . it's re-dick-ulous",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 4186,
+    "text": "i have a friend who won't have sex unless he pays for it ... he is a buy-sexual .",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 4400,
+    "text": "what's the difference between americans and yogurt ? if you leave yogurt alone for 200 years it'll grow a culture",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 4629,
+    "text": "i'm so sick of people calling me a weeb if i had a death note they'd be sorry ...",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 4893,
+    "text": "it's mayhem in the kitchen , and two chefs are at each other's throats over a botched order ...  \" i told you the manager wanted cod seasoned with parsley ! \" yelled the first chef , brandisihing a butcher's knife . \" well i told you that he wanted mackerel seasoned with paprika ! \" yelled the other , grabbing a pan of hot oil . at that point the manager walked in holding a plate , just as both chefs were about to murder each other . with a look of utter disgust at the dish he was holding , he said \" i don't know what you two are fighting about , but this is neither the thyme nor plaice ! \"",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 5103,
+    "text": "did know that king leopold ii never visited belgian congo ? it was a hands off operation .",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 5125,
+    "text": "today i was jumping with a parachute for the first time and i was scared to death . it began when the guy who was in the tandem with me asked me how long am i working as an instructor .",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 5338,
+    "text": "a girl told me this joke yesterday , and it was really funny until i realized she was amy schumer .",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 5687,
+    "text": "why was the guitar teacher arrested ? allegedly he fingered a minor .",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 5834,
+    "text": "a cardiologist goes to a mechanic a motorcycle mechanic was removing a cylinder-head from the motor of a harley-davidson when he spotted a well-known cardiologist in his shop . the cardiologist was there waiting for the service manager to come and take a look at his bike when the mechanic shouted across the garage ,'hey doc , want to take a look at this ?'the cardiologist , a bit surprised , walked over to where the mechanic was working on the motorcycle . the mechanic straightened up , wiped his hands on a rag and asked ,'so doc , look at this engine . i opened its heart , take the valves out , repair any damage , and then put them back in , and when i finish , it works just like new . so how come i make 39 , 700 a year and you make 1 , 700 , 000 when you and i are doing basically the same work ?'the cardiologist paused , leaned over , and then whispered to the mechanic ...'try doing it with the engine running '",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 6131,
+    "text": "she told me that if i wanted to be her lover , i had to get with her friends . unfortunately , she was a redditor .",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 6190,
+    "text": "why does no one in antartica have covid-19 because they r ice-o-lated",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 6315,
+    "text": "again one of those wife-comebacks my wife and i were sitting by one of the canals in my city when a duck came flying towards us . i shouted duck as it flew close over our heads and was really please with myself . my wife doesn't even smile so i ask if she didn't think it was funny her reply : i guess it went over my head",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 6620,
+    "text": "rubbishjokes what's black and white and makes a lot of noise ? a panda with a set of drums .",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 6792,
+    "text": "heard a dad joke at bonnaroo music festival was at the kanye ( yeezus ) performance this weekend and he kept doing this thing where he would start playing a song then cut it off about five seconds in and rant about something the third time this happened a guy behind me yelled more like teezus , am i right",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 6890,
+    "text": "why doesn't jesus eat m m's ? because of the holes in his hands .",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 7273,
+    "text": "a guy goes to his friend a guy goes to his friend and says \" i'm sleeping with the priest's wife . can you hold him in church for an hour after mass for me ? \" the friend doesn't like it but being a friend , he agrees and after mass , he starts talking to the priest and asking him all sorts of stupid questions just to keep him occupied . finally the priest gets pissed and asks the guy what he's really up to . the man feeling guilty confesses my friend is sleeping with your wife right now . the priest smiles n says you better hurry home now . my wife died 10 years ago .",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 7346,
+    "text": "you think i'm over dramatic ? when an octopus gets upset , it eats itself . that's over dramatic .",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 8193,
+    "text": "where do americans buy their groceries in afghanistan ? at the infideli counter .",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 8614,
+    "text": "what's a terrorists'favourite car ? citro n c4",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 8763,
+    "text": "job interview with al-qaeda had a job interview with al-qaeda today . \" where do you see yourself exploding in five years ? \" , they asked .",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 9067,
+    "text": "donald trump is smart for not paying his taxes he's the only candidate who truly wants to reduce the massive military budget .",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 9149,
+    "text": "a panda walks into a bar he eats shoots and leaves",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 9249,
+    "text": "i don't know why but when i adjusted my sleeping position ...  everyone at the crematorium freaked out .",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 9640,
+    "text": "my 8yo son just dad-joked me . son : dad , what's the second tron movie called . me : tron legacy son : what's the third tron movie called . me : i don't know ; i'll have to look it up son : i don't know ; i'll have to look it up that's a pretty high-tech name",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 10410,
+    "text": "the year is 42069 . we've stopped changing the date , it's just always the year 42069 and people spell their names with emojis . it's awesome .",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 10458,
+    "text": "how many italians does it take to screw in a light bulb ? i dunno , but my brother's girlfriend's father's manager's priest's nephew's cousin did it good for me",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 10508,
+    "text": "a joke everyone can relate to your mom",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 10787,
+    "text": "i bought a new weed-whacker today it's cutting hedge technology",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 10788,
+    "text": "i bought a new weed-whacker today it's cutting hedge technology",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 10884,
+    "text": "what do you call a police pretending to be a sleeping 5 year old an undercover cop",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 10995,
+    "text": "a rich man and a poor man are talking a rich man and a poor man are talking and they realize that both of their wives have birthdays coming up . so the poor man asks the rich man what are you getting your wife for her birthday ? . the rich man replies i m getting her a nice car and a diamond ring . the poor man asks why and the rich man replies that way if she doesn t like the ring , she can return it in the nice car and still be happy . then the rich man asks the poor man what he s getting his wife for her birthday . the poor man replies i m buying her a pair of slippers and a dildo . the rich man asks why , and the poor man replies that way if she doesn t like the slippers , she can go fuck herself .",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 11295,
+    "text": "til a fundamental limit exists on the amount of information that can be stored in a given space : about 10 69 bits per square meter . regardless of technological advancement , any attempt to condense information further will cause the storage medium to collapse into a black hole . otherwise known as the space needed for your mom's sex tape",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 11857,
+    "text": "how can you tell your girlfriend is getting fat ? she starts fitting into your wife's clothes .",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 12034,
+    "text": "why didn't john travolta go to church on sunday ? he had a saturday night fever",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 12836,
+    "text": "long sherlock holmes and dr watson went on a hunting trip after a good meal they lay down for the night , and went to sleep . some hours later , holmes awoke and nudged his faithful friend awake . \" watson , look up at the sky and tell me what you see . \" watson replied , \" i see millions and millions of stars . \" \" what does that tell you ? \" holmes questioned . watson pondered for a minute . \" astronomically , it tells me that there are millions of galaxies and potentially billions of planets . astrologically , i observe that saturn is in leo . horologically , i deduce that the time is approximately a quarter past three . theologically , i can see that god is all powerful and that we are small and insignificant . meteorologically , i suspect that we will have a beautiful day tomorrow . what does it tell you ? \" holmes was silent for a minute , then spoke . \" watson , you idiot . someone has stolen our tent . \"",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 13314,
+    "text": "what do you call an alligator who can t get up ? a reptile dysfunction .",
+    "perplexity": 5524.0,
+    "group": "pct_80"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 463,
+    "text": "i was going to tell a joke i was going to tell a joke about the wether , but couldn't decided whether or not it was funny ...  sorry i'll kick myself out now",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 950,
+    "text": "did you hear the one about the alcoholic unicyclist ? he couldn t handle bars .",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 1090,
+    "text": "i searched for'wardrobe malfunction'on pornhub and it showed me a video about narnia",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 1770,
+    "text": "why can't you find pirates in kansas ? they all live in arkansas",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 2324,
+    "text": "as the memes about eating tidepods die down i've noticed something , a lifetime supply of tidepods is really cheap because , if you are eating them , that's one tidepod .",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 2910,
+    "text": "the laughing stock . a rancher was persuaded to cross-breed his cattle with hyenas . it was a disaster . the offspring were the laughing stock of the community !",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 3058,
+    "text": "what did gordon ramsey say to the lion with a speech impediment ? it's fucking roar !",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 4294,
+    "text": "i met a jewish girl and she asked for my number i met a jewish girl and she asked for my number",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 4325,
+    "text": "i once worked in a helium factory it wasn't a very nice job , because of the leaks , but the owner was very sympathetic and we all spoke highly of her .",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 4901,
+    "text": "walking your dog a korean man walks up to his friends house and sees that his dog is barking profusely and says , \" do you want me to wok your dog for you ? \"",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 5172,
+    "text": "if alcohol kills germs and laughter is the best medicine , i'm the healthiest mofo on this planet .",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 5483,
+    "text": "i've been saying mucho when talking with my hispanic friends it means a lot to them",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 5870,
+    "text": "why did the fetus kill his twin ? there wasn't enough womb for the two of them !",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 6653,
+    "text": "hear about the ex-body-builder couple that broke up ? they just weren't working out like they used to ...",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 7058,
+    "text": "the boy in the striped pyjamas ( spoilers ) near the end of the book i think bruno felt pretty gassed .",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 7327,
+    "text": "what's so strong and powerful it can withstand the biggest thing in the universe my zipper",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 7762,
+    "text": "i heard someone say a guy on tv \" oozes sexiness . \" i don't think oozing is very sexy at all . if something oozes , it's probably infected .",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 8448,
+    "text": "there once was a woman called alice who used a dynamite stick for a phallus , they found her vagina , in north carolina , and her butthole in buckingham palace ...",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 9101,
+    "text": "how do you know your fridge is going through menopause ? it's all out of eggs ...",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 9942,
+    "text": "tried turkish food today ...  it was revolting",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 10552,
+    "text": "why are people who suffers from insomnia so excited at the moment ? they only have to sleep 3 more times until christmas",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 10798,
+    "text": "tomorrow is erection day for all the asian-americans .",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 10817,
+    "text": "why are women like parachutes ? because if they don't spread they are worthless .",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 11059,
+    "text": "i can't stand working on roofs apparently i have truss issues",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 11698,
+    "text": "it's surprising how little people change actually the process isn't that different , other than the tiny clothes",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 11845,
+    "text": "what do you call 500 indians born without nippes ? the indianippleless 500",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 12401,
+    "text": "your helium addiction is out of control , but nobody is taking your cry for help seriously .",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 14764,
+    "text": "how do you make a hamburger laugh ? pickle it gently .",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 14772,
+    "text": "dog and cat thinking ...  ! a dog thinks : hey , these people i live with feed me , love me , provide me with a nice warm , dry house , pet me , and take good care of me ...  they must be gods ! a cat thinks : hey , these people i live with feed me , love me , provide me with a nice warm , dry house , pet me , and take good care of me ...  i must be a god !",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 14868,
+    "text": "why was the robot angry somebody kept pushing his buttons",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 15179,
+    "text": "i would tell a time travel joke but none of you liked it",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 15233,
+    "text": "my wife is always stealing my t-shirts and sweaters ...  but when i take one of her dresses , suddenly , it's , \" we need to talk ! \"",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 16362,
+    "text": "passed by beethoven's old apartment the other day ...  it was fur elise",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 16859,
+    "text": "why don't nomads circumsize their camels ? so they have somewhere to put their gum in a sandstorm",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 17027,
+    "text": "did you hear the one about the guy who pooped out a small fresh-water crustacean ? that shit cray .",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 17058,
+    "text": "what kind of deodorant does leonardo dicaprio wear ? old sport",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 17506,
+    "text": "an eye was on the ground with clark kent . super macular degeneration",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 17770,
+    "text": "my wife always takes long baths after we finish watching a hugh jackman movie i don't know what she's doing in there , but it gives me lots of time to jerk off to hugh jackman",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 17951,
+    "text": "if you got tired of living , don't share your thoughts with all your friends they might not give you a chance to change your mind ...",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 19131,
+    "text": "where does obama keep his armies ? in his sleevies .",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 19837,
+    "text": "what did the german piece of bread say to the other piece of bread gluten tag",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 20413,
+    "text": "i went with my kids for a swim in the public kids pool and apparently adults peeing in a pool is not entirely unnoticeable the lifeguard yelled so loud at me i almost fell in the water .",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 20447,
+    "text": "today i have learnt if you try and give someone the finger whilst wearing mittens , you are basically just showing them your mittens .",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 21657,
+    "text": "hillary clinton walks into a bar \" careful ! \" exclaims her cellmate .",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 22493,
+    "text": "what do you do if a girl farts while you're going down on her ? what do you do if a girl farts while you're going down on her ? stick a finger in her bum and say \" hush little fella , you're next . \"",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 22683,
+    "text": "scientists have discovered a new creature . the creature resembles a centaur from the legends and it seems to be always receiving a lot of attention from other animals and plants . tldr : it's a centaur of attention .",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 23242,
+    "text": "i once knew a friend who got mauled by dogs his name was ramsay . i have to give credit to my friend for this joke and thought to share it .",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 23473,
+    "text": "why does nasa offer sprite at their conferences ? because they couldn't get 7 up",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 24338,
+    "text": "oops a very good friend of mine was fired after one minor indiscretion . he slept with one of his clients and can now no longer work in the profession . a genuinely nice guy and an absolutely brilliant mortician .",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 26628,
+    "text": "apparently , using a french fry and an onion ring to simulate how i wanted the rest of the evening to go wasn't the most romantic move ever .",
+    "perplexity": 7612.0,
+    "group": "pct_90"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 547,
+    "text": "why did the nun bite her fingernails it was a habit",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 3536,
+    "text": "what do paedophiles and tortoises have in common ? what do paedophiles and tortoises have in common ? they both want to get there before the hair",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 5387,
+    "text": "how many engineers does it take to reset a light bulb ? just one : turn off for 2 seconds , turn on for 8 seconds . turn off for 2 seconds , turn on for 8 seconds . turn off for 2 seconds , turn on for 8 seconds . turn off for 2 seconds , turn on for 8 seconds . turn off for 2 seconds , turn on for 8 seconds . turn off for 2 seconds , turn on for 8 seconds . turn off for 2 seconds , turn on for 8 seconds . turn off for 2 seconds , turn on for 8 seconds . turn off for 2 seconds , turn on for 8 seconds . turn off for 2 seconds , turn on for 8 seconds . turn off for 2 seconds , turn on for 8 seconds . turn off for 2 seconds , turn on for 8 seconds . turn off for 2 seconds , turn on .",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 6641,
+    "text": "scientists have never been able to pinpoint the exact location of santa claus'birthplace scientists have never been able to pinpoint the exact location of santa claus'birthplace , so they agreed to refer to him as \" north polish \" .",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 10944,
+    "text": "make sense two time travelers walk into a bar . the drink server said \" sorry we don't serve time travelers \" . two time travelers walk into a bar . the drink server said \" sorry we don't serve time travelers \" . two time travelers walk into a bar . the drink server said \" sorry we don't serve time travelers \" . two time travelers walk into a bar . the drink server said \" sorry we don't serve time travelers \" . two time travelers walk into a bar . the drink server said \" sorry we don't serve time travelers \" . two time travelers walk into a bar . then their five past selves also walk in and reality warps in on itself .",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 12179,
+    "text": "everyone said life would be different after my vasectomy but there hasn't been a vas deferens",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 18997,
+    "text": "i was captured and tortured by an mime he did unspeakable things to me",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 20519,
+    "text": "best presidential debate 1990's hilary v 2000 hilary v 2004 hilary v 2008 hilary v now hilary",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 21549,
+    "text": "did you know a chicken can fly higher than the chrysler building because the chrysler building doesn't fly",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 22524,
+    "text": "never trust an acupuncturist they're all backstabbers",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 22966,
+    "text": "tequila everyday keeps sobriety away",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 25893,
+    "text": "what scientific principle should you follow when making guacamole avocadro's law",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 26499,
+    "text": "why aren't koalas considered bears they don't meat the koala-fications",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 27222,
+    "text": "watermelon cantaloupe but apple pears",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 33922,
+    "text": "pete and repeat walking down a street , pete fell in a hole , who was left ? pete and repeat , walking down a street , pete fell in a hole , who was left ? pete and repeat , walking down the street , pete fell in a hole , who was left ? pete and repeat , walking down the street , pete fell in a hole , who was left ?",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 35144,
+    "text": "what vegetable do plumbers hate leeks",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 39330,
+    "text": "what is pac-man s favorite cooking utensil ? a wok a wok a wok a wok a wok a wok a wok a wok a wok a wok",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 40082,
+    "text": "adds'memory loss'to symptoms adds'memory loss'to symptoms adds'memory loss'to symptoms adds'memory loss'to symptoms",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 48968,
+    "text": "nana nana nana nana nana nana nana nana batman ! nana nana nana nana nana nana nana nana batman ! me , sorting through my grandma's mail .",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 49084,
+    "text": "breaking news : man-in-parachute accidentally lands on a ferris wheel paramedics say he's slowly coming around",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 50376,
+    "text": "what's the kitty kidnapper's conniving occupation purr snatcher",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 50878,
+    "text": "imagine a drunk porcupine trying to sneak into bed without waking his porcupine wife but his porcupine wife put balloons everywhere .",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 51932,
+    "text": "before the problems start ! a man walks into a bar and says , give me a beer before the problems start ! he drinks the beer and then orders another saying , give me a beer before the problems start ! the bartender looks confused but gives him another beer . this goes on for a while , and after the fifth beer the bartender is totally confused and asks the man , when are you going to pay for these beers ? the man answers , now the problems start ! a man walks into a bar and says , give me a beer before the problems start ! he drinks the beer and then orders another saying , give me a beer before the problems start ! the bartender looks confused but gives him another beer . this goes on for a while , and after the fifth beer the bartender is totally confused and asks the man , when are you going to pay for these beers ? the man answers , now the problems start !",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 52198,
+    "text": "i was raped by mimes they did unspeakable things to me",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 55485,
+    "text": "what do you call it when a leprechaun sharts ? lucky streak",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 55872,
+    "text": "head injuries in pillow fights can cause severe concushion",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 56329,
+    "text": "i was raped by a group of mimes they did unspeakable things to me",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 57587,
+    "text": "most pencils have erasers but that's beside the point",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 58018,
+    "text": "father loses custody of his handicapped son he couldn't make the downs payment",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 59026,
+    "text": "someone who speaks two languages is bilingual someone who speaks three languages is trilingual someone who speaks four languages is quadrilingual someone who speaks five languages is pentalingual someone who speaks one language is american",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 60591,
+    "text": "why didn't the marsupial get his dream job he wasn't koalafied",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 62412,
+    "text": "difference between atheists and agnostics . agnostics are just atheists who lack confidence .",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 64628,
+    "text": "what are the two states of a chameleon chameleon and chameleoff",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 66578,
+    "text": "an order of celibate monks were spring-cleaning their montestary an order of celibate monks were spring-cleaning their montestary and happened accross the founder's original manuscript . after a careful examination of the document the montestary was retrofit to more accurately represent the order of the celebrate monks .",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 67249,
+    "text": "why do south koreans go to heaven when north koreans don't because north koreans have no seoul",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 67621,
+    "text": "i was once kidnapped by a group of mimes they did unspeakable things to me",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 69845,
+    "text": "breaking news : miami heat joins lebron james .",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 76648,
+    "text": "how does a woman scare a gynecologist by learning ventriloquism",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 79594,
+    "text": "my wife was raped by a mime he preformed unspeakable acts on her",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 80324,
+    "text": "what is pac man's favorite piece of cookware a wok a wok a wok a wok a wok a wok a wok",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "shuttie_dadjokes.csv",
+    "id": 81962,
+    "text": "mountains aren't funny they're hill areas",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 84986,
+    "text": "why don't tortoises wear scarves ? they have turtlenecks",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 85463,
+    "text": "my friends tell me i'm condescending condescending is when you talk down to people",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 85860,
+    "text": "what do plums and bunnies have in common ? they're both purple , except bunnies ... bunnies aren't purple :",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 93933,
+    "text": "while megatron was gloating he committed several acts of vehicular man's laughter",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 95394,
+    "text": "what has two legs and bleeds profusely ? what has two legs and bleeds profusely ? half a cat",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "train.tsv|train.tsv.gz",
+    "id": 95703,
+    "text": "terrorists are mindblowing literally",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 104371,
+    "text": "new health study on the psychology of midgets shows that 6 out of 7 dwarfs aren't happy",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "ysharma_short_jokes.csv",
+    "id": 105606,
+    "text": "10 ways to cut down on click bait ! 1 . don't click 2 . don't click 3 . don't click 4 . don't click 5 . don't click 6 . don't click 7 . don't click 8 . don't click 9 . don't click 10 . don't click",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  },
+  {
+    "source": "amirkid_jokes.csv",
+    "id": 106189,
+    "text": "what do pickled cabbage and an angry german have in common ? both are sauerkrauts .",
+    "perplexity": Infinity,
+    "group": "pct_100_highest"
+  }
+]

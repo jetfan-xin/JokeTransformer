@@ -213,3 +213,5 @@ wandb_logs/
 *.pt
 *.npz
 jana/
+*.csv
+*.gz

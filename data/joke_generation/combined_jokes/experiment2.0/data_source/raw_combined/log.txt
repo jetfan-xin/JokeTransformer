@@ -1,0 +1,10 @@
+(/mnt/data1/users/4xin/conda_envs/ML) 4xin@ltgpu3:~/uhh-ias-ml$ CUDA_VISIBLE_DEVICES=2 python utils/preprocessing_jingfan.py --combine
+2025-12-11 23:59:21,611 - preprocessing_jingfan.py - INFO - [COMBINE] Loading data/raw/ysharma_short_jokes.csv
+2025-12-11 23:59:21,989 - preprocessing_jingfan.py - INFO - [COMBINE] Loaded 231657 jokes from ysharma
+2025-12-11 23:59:22,021 - preprocessing_jingfan.py - INFO - [COMBINE] Loading train.tsv.gz
+2025-12-11 23:59:22,749 - preprocessing_jingfan.py - INFO - [COMBINE] Loaded 345965 from rJokesData
+2025-12-11 23:59:22,803 - preprocessing_jingfan.py - INFO - [COMBINE] Loading data/raw/shuttie_dadjokes.csv
+2025-12-11 23:59:24,450 - preprocessing_jingfan.py - INFO - [COMBINE] Loaded 53400 dadjokes
+2025-12-11 23:59:24,459 - preprocessing_jingfan.py - INFO - [COMBINE] Loading local file data/raw/amirkid_jokes.csv
+2025-12-11 23:59:26,039 - preprocessing_jingfan.py - INFO - [COMBINE] Loaded 574189 jokes from Amirkid/jokes
+2025-12-11 23:59:29,686 - preprocessing_jingfan.py - INFO - [COMBINE] Wrote data/raw_combined/combined_raw.csv | rows=1205211

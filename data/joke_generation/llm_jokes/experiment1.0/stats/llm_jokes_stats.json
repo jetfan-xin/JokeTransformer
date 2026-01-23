@@ -1,0 +1,4621 @@
+{
+    "Llama-3.1-70B-NF4": {
+        "total_model_count": 32531,
+        "batch_size_1": {
+            "total_jokes_generated": 1,
+            "unique_combos_count": 1,
+            "combos_detail": {
+                "pedophile": {
+                    "original_index": 313,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_2": {
+            "total_jokes_generated": 1,
+            "unique_combos_count": 1,
+            "combos_detail": {
+                "pedophile": {
+                    "original_index": 313,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_3": {
+            "total_jokes_generated": 1,
+            "unique_combos_count": 1,
+            "combos_detail": {
+                "pedophile": {
+                    "original_index": 313,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_4": {
+            "total_jokes_generated": 5,
+            "unique_combos_count": 2,
+            "combos_detail": {
+                "rape": {
+                    "original_index": 414,
+                    "generated_count": 4
+                },
+                "pedophile": {
+                    "original_index": 313,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_5": {
+            "total_jokes_generated": 2,
+            "unique_combos_count": 2,
+            "combos_detail": {
+                "pedophile": {
+                    "original_index": 313,
+                    "generated_count": 1
+                },
+                "rape": {
+                    "original_index": 414,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_6": {
+            "total_jokes_generated": 2,
+            "unique_combos_count": 2,
+            "combos_detail": {
+                "pedophile": {
+                    "original_index": 313,
+                    "generated_count": 1
+                },
+                "rape": {
+                    "original_index": 414,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_7": {
+            "total_jokes_generated": 2,
+            "unique_combos_count": 2,
+            "combos_detail": {
+                "pedophile": {
+                    "original_index": 313,
+                    "generated_count": 1
+                },
+                "rape": {
+                    "original_index": 414,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_8": {
+            "total_jokes_generated": 34,
+            "unique_combos_count": 6,
+            "combos_detail": {
+                "month": {
+                    "original_index": 355,
+                    "generated_count": 8
+                },
+                "jew": {
+                    "original_index": 380,
+                    "generated_count": 8
+                },
+                "numeral": {
+                    "original_index": 198,
+                    "generated_count": 8
+                },
+                "muslim": {
+                    "original_index": 454,
+                    "generated_count": 8
+                },
+                "pedophile": {
+                    "original_index": 313,
+                    "generated_count": 1
+                },
+                "rape": {
+                    "original_index": 414,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_9": {
+            "total_jokes_generated": 57,
+            "unique_combos_count": 9,
+            "combos_detail": {
+                "bathroom, pterodactyl": {
+                    "original_index": 96,
+                    "generated_count": 9
+                },
+                "butt, fuck": {
+                    "original_index": 178,
+                    "generated_count": 9
+                },
+                "redditor": {
+                    "original_index": 88,
+                    "generated_count": 9
+                },
+                "midget": {
+                    "original_index": 160,
+                    "generated_count": 9
+                },
+                "feminist, lightbulb": {
+                    "original_index": 142,
+                    "generated_count": 9
+                },
+                "sex, wife": {
+                    "original_index": 190,
+                    "generated_count": 9
+                },
+                "pedophile": {
+                    "original_index": 313,
+                    "generated_count": 1
+                },
+                "rape": {
+                    "original_index": 414,
+                    "generated_count": 1
+                },
+                "muslim": {
+                    "original_index": 454,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_10": {
+            "total_jokes_generated": 664,
+            "unique_combos_count": 69,
+            "combos_detail": {
+                "glass": {
+                    "original_index": 163,
+                    "generated_count": 20
+                },
+                "belt, waist, watch": {
+                    "original_index": 87,
+                    "generated_count": 10
+                },
+                "god": {
+                    "original_index": 91,
+                    "generated_count": 10
+                },
+                "bar, beer, finger": {
+                    "original_index": 89,
+                    "generated_count": 10
+                },
+                "title": {
+                    "original_index": 407,
+                    "generated_count": 10
+                },
+                "dentist": {
+                    "original_index": 182,
+                    "generated_count": 10
+                },
+                "middle": {
+                    "original_index": 166,
+                    "generated_count": 10
+                },
+                "condom": {
+                    "original_index": 167,
+                    "generated_count": 10
+                },
+                "movie": {
+                    "original_index": 90,
+                    "generated_count": 10
+                },
+                "phone": {
+                    "original_index": 95,
+                    "generated_count": 10
+                },
+                "travel": {
+                    "original_index": 94,
+                    "generated_count": 10
+                },
+                "kidnapping, school": {
+                    "original_index": 97,
+                    "generated_count": 10
+                },
+                "letter": {
+                    "original_index": 92,
+                    "generated_count": 10
+                },
+                "belt": {
+                    "original_index": 144,
+                    "generated_count": 10
+                },
+                "pan, peter": {
+                    "original_index": 99,
+                    "generated_count": 10
+                },
+                "relationship": {
+                    "original_index": 141,
+                    "generated_count": 10
+                },
+                "coffee, slave": {
+                    "original_index": 143,
+                    "generated_count": 10
+                },
+                "plane": {
+                    "original_index": 146,
+                    "generated_count": 10
+                },
+                "bar, irishman": {
+                    "original_index": 145,
+                    "generated_count": 10
+                },
+                "poem": {
+                    "original_index": 147,
+                    "generated_count": 10
+                },
+                "difference, jesus, nail, picture": {
+                    "original_index": 98,
+                    "generated_count": 10
+                },
+                "window": {
+                    "original_index": 155,
+                    "generated_count": 10
+                },
+                "alphabet, friend, letter": {
+                    "original_index": 148,
+                    "generated_count": 10
+                },
+                "bar, beer, mop, skeleton": {
+                    "original_index": 150,
+                    "generated_count": 10
+                },
+                "bar, duck": {
+                    "original_index": 149,
+                    "generated_count": 10
+                },
+                "boat, diver, scuba": {
+                    "original_index": 152,
+                    "generated_count": 10
+                },
+                "baseball, home, orphan": {
+                    "original_index": 153,
+                    "generated_count": 10
+                },
+                "melon": {
+                    "original_index": 154,
+                    "generated_count": 10
+                },
+                "dinosaur": {
+                    "original_index": 151,
+                    "generated_count": 10
+                },
+                "girlfriend, sex": {
+                    "original_index": 159,
+                    "generated_count": 10
+                },
+                "water": {
+                    "original_index": 156,
+                    "generated_count": 10
+                },
+                "mama": {
+                    "original_index": 158,
+                    "generated_count": 10
+                },
+                "area, hill, mountain": {
+                    "original_index": 157,
+                    "generated_count": 10
+                },
+                "medium, midget, prison": {
+                    "original_index": 162,
+                    "generated_count": 10
+                },
+                "money": {
+                    "original_index": 161,
+                    "generated_count": 10
+                },
+                "job": {
+                    "original_index": 164,
+                    "generated_count": 10
+                },
+                "masochist, sadist": {
+                    "original_index": 165,
+                    "generated_count": 10
+                },
+                "father": {
+                    "original_index": 191,
+                    "generated_count": 10
+                },
+                "wife, year": {
+                    "original_index": 183,
+                    "generated_count": 10
+                },
+                "line": {
+                    "original_index": 184,
+                    "generated_count": 10
+                },
+                "communism": {
+                    "original_index": 168,
+                    "generated_count": 10
+                },
+                "yesterday": {
+                    "original_index": 169,
+                    "generated_count": 10
+                },
+                "son": {
+                    "original_index": 170,
+                    "generated_count": 10
+                },
+                "laugh, octopus, tickle": {
+                    "original_index": 171,
+                    "generated_count": 10
+                },
+                "pool, table, tree": {
+                    "original_index": 172,
+                    "generated_count": 10
+                },
+                "bird": {
+                    "original_index": 173,
+                    "generated_count": 10
+                },
+                "print, snow": {
+                    "original_index": 174,
+                    "generated_count": 10
+                },
+                "love, player, tennis": {
+                    "original_index": 175,
+                    "generated_count": 10
+                },
+                "face": {
+                    "original_index": 176,
+                    "generated_count": 10
+                },
+                "coffee, freezer, woman": {
+                    "original_index": 177,
+                    "generated_count": 10
+                },
+                "foot, inch, nose": {
+                    "original_index": 179,
+                    "generated_count": 10
+                },
+                "chicken": {
+                    "original_index": 180,
+                    "generated_count": 10
+                },
+                "drug": {
+                    "original_index": 181,
+                    "generated_count": 10
+                },
+                "girlfriend, root": {
+                    "original_index": 195,
+                    "generated_count": 10
+                },
+                "clickbait": {
+                    "original_index": 192,
+                    "generated_count": 10
+                },
+                "ball, cinderella": {
+                    "original_index": 193,
+                    "generated_count": 10
+                },
+                "life, melon": {
+                    "original_index": 185,
+                    "generated_count": 10
+                },
+                "beard": {
+                    "original_index": 186,
+                    "generated_count": 10
+                },
+                "chicken, egg": {
+                    "original_index": 187,
+                    "generated_count": 10
+                },
+                "elephant": {
+                    "original_index": 188,
+                    "generated_count": 10
+                },
+                "card, mexican, uno": {
+                    "original_index": 189,
+                    "generated_count": 10
+                },
+                "paper": {
+                    "original_index": 197,
+                    "generated_count": 10
+                },
+                "corner, degree": {
+                    "original_index": 196,
+                    "generated_count": 10
+                },
+                "organ, piano, rose, tulip": {
+                    "original_index": 199,
+                    "generated_count": 10
+                },
+                "subreddit": {
+                    "original_index": 194,
+                    "generated_count": 10
+                },
+                "muslim": {
+                    "original_index": 454,
+                    "generated_count": 1
+                },
+                "rape": {
+                    "original_index": 414,
+                    "generated_count": 1
+                },
+                "pedophile": {
+                    "original_index": 313,
+                    "generated_count": 1
+                },
+                "redditor": {
+                    "original_index": 88,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_11": {
+            "total_jokes_generated": 15,
+            "unique_combos_count": 5,
+            "combos_detail": {
+                "gang, rape": {
+                    "original_index": 319,
+                    "generated_count": 11
+                },
+                "pedophile": {
+                    "original_index": 313,
+                    "generated_count": 1
+                },
+                "title": {
+                    "original_index": 407,
+                    "generated_count": 1
+                },
+                "rape": {
+                    "original_index": 414,
+                    "generated_count": 1
+                },
+                "muslim": {
+                    "original_index": 454,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_12": {
+            "total_jokes_generated": 4,
+            "unique_combos_count": 4,
+            "combos_detail": {
+                "pedophile": {
+                    "original_index": 313,
+                    "generated_count": 1
+                },
+                "gang, rape": {
+                    "original_index": 319,
+                    "generated_count": 1
+                },
+                "title": {
+                    "original_index": 407,
+                    "generated_count": 1
+                },
+                "rape": {
+                    "original_index": 414,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_13": {
+            "total_jokes_generated": 4,
+            "unique_combos_count": 4,
+            "combos_detail": {
+                "pedophile": {
+                    "original_index": 313,
+                    "generated_count": 1
+                },
+                "gang, rape": {
+                    "original_index": 319,
+                    "generated_count": 1
+                },
+                "title": {
+                    "original_index": 407,
+                    "generated_count": 1
+                },
+                "rape": {
+                    "original_index": 414,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_14": {
+            "total_jokes_generated": 18,
+            "unique_combos_count": 5,
+            "combos_detail": {
+                "cunt, tampon": {
+                    "original_index": 243,
+                    "generated_count": 14
+                },
+                "pedophile": {
+                    "original_index": 313,
+                    "generated_count": 1
+                },
+                "gang, rape": {
+                    "original_index": 319,
+                    "generated_count": 1
+                },
+                "title": {
+                    "original_index": 407,
+                    "generated_count": 1
+                },
+                "rape": {
+                    "original_index": 414,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_15": {
+            "total_jokes_generated": 5,
+            "unique_combos_count": 5,
+            "combos_detail": {
+                "cunt, tampon": {
+                    "original_index": 243,
+                    "generated_count": 1
+                },
+                "pedophile": {
+                    "original_index": 313,
+                    "generated_count": 1
+                },
+                "gang, rape": {
+                    "original_index": 319,
+                    "generated_count": 1
+                },
+                "title": {
+                    "original_index": 407,
+                    "generated_count": 1
+                },
+                "rape": {
+                    "original_index": 414,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_16": {
+            "total_jokes_generated": 21,
+            "unique_combos_count": 6,
+            "combos_detail": {
+                "abortion": {
+                    "original_index": 401,
+                    "generated_count": 16
+                },
+                "cunt, tampon": {
+                    "original_index": 243,
+                    "generated_count": 1
+                },
+                "pedophile": {
+                    "original_index": 313,
+                    "generated_count": 1
+                },
+                "gang, rape": {
+                    "original_index": 319,
+                    "generated_count": 1
+                },
+                "title": {
+                    "original_index": 407,
+                    "generated_count": 1
+                },
+                "rape": {
+                    "original_index": 414,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_17": {
+            "total_jokes_generated": 39,
+            "unique_combos_count": 7,
+            "combos_detail": {
+                "bill, gas, hitler": {
+                    "original_index": 351,
+                    "generated_count": 17
+                },
+                "leper, prostitute, tip": {
+                    "original_index": 378,
+                    "generated_count": 17
+                },
+                "cunt, tampon": {
+                    "original_index": 243,
+                    "generated_count": 1
+                },
+                "gang, rape": {
+                    "original_index": 319,
+                    "generated_count": 1
+                },
+                "pedophile": {
+                    "original_index": 313,
+                    "generated_count": 1
+                },
+                "title": {
+                    "original_index": 407,
+                    "generated_count": 1
+                },
+                "rape": {
+                    "original_index": 414,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_18": {
+            "total_jokes_generated": 149,
+            "unique_combos_count": 13,
+            "combos_detail": {
+                "fuck": {
+                    "original_index": 232,
+                    "generated_count": 18
+                },
+                "sub": {
+                    "original_index": 244,
+                    "generated_count": 18
+                },
+                "boob, support": {
+                    "original_index": 283,
+                    "generated_count": 18
+                },
+                "grammar, nazi": {
+                    "original_index": 296,
+                    "generated_count": 18
+                },
+                "earther": {
+                    "original_index": 300,
+                    "generated_count": 18
+                },
+                "punchline, title": {
+                    "original_index": 453,
+                    "generated_count": 18
+                },
+                "cocaine": {
+                    "original_index": 337,
+                    "generated_count": 18
+                },
+                "redditor": {
+                    "original_index": 88,
+                    "generated_count": 18
+                },
+                "cunt, tampon": {
+                    "original_index": 243,
+                    "generated_count": 1
+                },
+                "gang, rape": {
+                    "original_index": 319,
+                    "generated_count": 1
+                },
+                "pedophile": {
+                    "original_index": 313,
+                    "generated_count": 1
+                },
+                "rape": {
+                    "original_index": 414,
+                    "generated_count": 1
+                },
+                "title": {
+                    "original_index": 407,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_19": {
+            "total_jokes_generated": 141,
+            "unique_combos_count": 15,
+            "combos_detail": {
+                "circumcision, rip": {
+                    "original_index": 216,
+                    "generated_count": 19
+                },
+                "coffee, penis, woman": {
+                    "original_index": 298,
+                    "generated_count": 19
+                },
+                "sentence": {
+                    "original_index": 316,
+                    "generated_count": 19
+                },
+                "line, shame": {
+                    "original_index": 464,
+                    "generated_count": 19
+                },
+                "memory": {
+                    "original_index": 485,
+                    "generated_count": 19
+                },
+                "letter": {
+                    "original_index": 92,
+                    "generated_count": 19
+                },
+                "camping, sex, tent": {
+                    "original_index": 387,
+                    "generated_count": 19
+                },
+                "gang, rape": {
+                    "original_index": 319,
+                    "generated_count": 1
+                },
+                "pedophile": {
+                    "original_index": 313,
+                    "generated_count": 1
+                },
+                "earther": {
+                    "original_index": 300,
+                    "generated_count": 1
+                },
+                "cunt, tampon": {
+                    "original_index": 243,
+                    "generated_count": 1
+                },
+                "rape": {
+                    "original_index": 414,
+                    "generated_count": 1
+                },
+                "title": {
+                    "original_index": 407,
+                    "generated_count": 1
+                },
+                "cocaine": {
+                    "original_index": 337,
+                    "generated_count": 1
+                },
+                "redditor": {
+                    "original_index": 88,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_20": {
+            "total_jokes_generated": 27744,
+            "unique_combos_count": 372,
+            "combos_detail": {
+                "mother, slip": {
+                    "original_index": 497,
+                    "generated_count": 100
+                },
+                "girlfriend, lubricant": {
+                    "original_index": 486,
+                    "generated_count": 100
+                },
+                "boomerang, dad": {
+                    "original_index": 218,
+                    "generated_count": 100
+                },
+                "amazon, chicken, egg": {
+                    "original_index": 479,
+                    "generated_count": 100
+                },
+                "old, year": {
+                    "original_index": 237,
+                    "generated_count": 100
+                },
+                "baby, wall": {
+                    "original_index": 240,
+                    "generated_count": 100
+                },
+                "baby, club, seal": {
+                    "original_index": 306,
+                    "generated_count": 100
+                },
+                "france, fry, greece": {
+                    "original_index": 422,
+                    "generated_count": 100
+                },
+                "eye, girl": {
+                    "original_index": 309,
+                    "generated_count": 100
+                },
+                "lot, ocelot, tit": {
+                    "original_index": 413,
+                    "generated_count": 100
+                },
+                "doctor, illness, month, patient, week": {
+                    "original_index": 270,
+                    "generated_count": 100
+                },
+                "board, hockey, jesus": {
+                    "original_index": 396,
+                    "generated_count": 100
+                },
+                "bitch, tampon": {
+                    "original_index": 372,
+                    "generated_count": 100
+                },
+                "harry, hill, potter, rolling": {
+                    "original_index": 310,
+                    "generated_count": 100
+                },
+                "dre, snoop": {
+                    "original_index": 212,
+                    "generated_count": 100
+                },
+                "brake, fluid": {
+                    "original_index": 271,
+                    "generated_count": 99
+                },
+                "society": {
+                    "original_index": 438,
+                    "generated_count": 99
+                },
+                "datum, type, world": {
+                    "original_index": 287,
+                    "generated_count": 99
+                },
+                "dick, difference, mom": {
+                    "original_index": 420,
+                    "generated_count": 99
+                },
+                "hour": {
+                    "original_index": 459,
+                    "generated_count": 99
+                },
+                "dick, richard": {
+                    "original_index": 441,
+                    "generated_count": 99
+                },
+                "mile, shoe": {
+                    "original_index": 305,
+                    "generated_count": 99
+                },
+                "blacksmith, bolt, dog, door": {
+                    "original_index": 484,
+                    "generated_count": 99
+                },
+                "dozen, girl, nipple, tit": {
+                    "original_index": 229,
+                    "generated_count": 99
+                },
+                "ant, gender, girl, water": {
+                    "original_index": 493,
+                    "generated_count": 99
+                },
+                "alligator, investigator, vest": {
+                    "original_index": 406,
+                    "generated_count": 99
+                },
+                "reddit, repost": {
+                    "original_index": 338,
+                    "generated_count": 99
+                },
+                "dad, kid": {
+                    "original_index": 297,
+                    "generated_count": 99
+                },
+                "eyebrow, wife": {
+                    "original_index": 417,
+                    "generated_count": 99
+                },
+                "iran, iraq": {
+                    "original_index": 367,
+                    "generated_count": 99
+                },
+                "difference, light": {
+                    "original_index": 342,
+                    "generated_count": 99
+                },
+                "bathroom, european": {
+                    "original_index": 360,
+                    "generated_count": 99
+                },
+                "bmw, difference, outside, porcupine, prick": {
+                    "original_index": 331,
+                    "generated_count": 99
+                },
+                "comment": {
+                    "original_index": 324,
+                    "generated_count": 98
+                },
+                "thank": {
+                    "original_index": 376,
+                    "generated_count": 98
+                },
+                "sense": {
+                    "original_index": 201,
+                    "generated_count": 98
+                },
+                "brick, tooth": {
+                    "original_index": 294,
+                    "generated_count": 98
+                },
+                "clothe, girlfriend, wife": {
+                    "original_index": 275,
+                    "generated_count": 98
+                },
+                "melon, wedding": {
+                    "original_index": 419,
+                    "generated_count": 98
+                },
+                "dark": {
+                    "original_index": 332,
+                    "generated_count": 98
+                },
+                "car, grandfather, passenger, sleep": {
+                    "original_index": 353,
+                    "generated_count": 98
+                },
+                "deer, eye": {
+                    "original_index": 249,
+                    "generated_count": 98
+                },
+                "friend, girl, number, sex": {
+                    "original_index": 465,
+                    "generated_count": 98
+                },
+                "eyebrow, girlfriend": {
+                    "original_index": 412,
+                    "generated_count": 98
+                },
+                "difference, taste, thermometer": {
+                    "original_index": 220,
+                    "generated_count": 98
+                },
+                "body, man, woman": {
+                    "original_index": 341,
+                    "generated_count": 98
+                },
+                "aim, wife": {
+                    "original_index": 335,
+                    "generated_count": 98
+                },
+                "ass, girlfriend": {
+                    "original_index": 347,
+                    "generated_count": 98
+                },
+                "girl, number": {
+                    "original_index": 204,
+                    "generated_count": 98
+                },
+                "alligator, crocodile, difference": {
+                    "original_index": 352,
+                    "generated_count": 98
+                },
+                "fish, wall": {
+                    "original_index": 214,
+                    "generated_count": 98
+                },
+                "bison, buffalo, college, son": {
+                    "original_index": 490,
+                    "generated_count": 97
+                },
+                "elephant, man": {
+                    "original_index": 210,
+                    "generated_count": 97
+                },
+                "chickpea, difference, face, lentil": {
+                    "original_index": 211,
+                    "generated_count": 97
+                },
+                "animal, dog, man, shitzu, zoo": {
+                    "original_index": 366,
+                    "generated_count": 97
+                },
+                "battery, bunny, energizer": {
+                    "original_index": 255,
+                    "generated_count": 97
+                },
+                "ground, hole": {
+                    "original_index": 467,
+                    "generated_count": 97
+                },
+                "microsoft, office, word": {
+                    "original_index": 487,
+                    "generated_count": 97
+                },
+                "eye, fish, fsh": {
+                    "original_index": 247,
+                    "generated_count": 97
+                },
+                "elephant, friend, room, thank": {
+                    "original_index": 432,
+                    "generated_count": 97
+                },
+                "friend, orange": {
+                    "original_index": 399,
+                    "generated_count": 97
+                },
+                "ant, pant, uncle": {
+                    "original_index": 389,
+                    "generated_count": 97
+                },
+                "mind": {
+                    "original_index": 364,
+                    "generated_count": 96
+                },
+                "grass, wheel": {
+                    "original_index": 368,
+                    "generated_count": 96
+                },
+                "girl, sex": {
+                    "original_index": 334,
+                    "generated_count": 96
+                },
+                "self": {
+                    "original_index": 359,
+                    "generated_count": 96
+                },
+                "american, bathroom, european": {
+                    "original_index": 391,
+                    "generated_count": 96
+                },
+                "clown, door, jester": {
+                    "original_index": 450,
+                    "generated_count": 96
+                },
+                "peanut, street": {
+                    "original_index": 248,
+                    "generated_count": 96
+                },
+                "bell, knock, prize": {
+                    "original_index": 451,
+                    "generated_count": 96
+                },
+                "body, nose": {
+                    "original_index": 231,
+                    "generated_count": 96
+                },
+                "dog, shih, tzu, zoo": {
+                    "original_index": 217,
+                    "generated_count": 96
+                },
+                "month, vampire": {
+                    "original_index": 498,
+                    "generated_count": 96
+                },
+                "computer, dell": {
+                    "original_index": 327,
+                    "generated_count": 96
+                },
+                "essay, midget, paragraph": {
+                    "original_index": 435,
+                    "generated_count": 96
+                },
+                "pussy": {
+                    "original_index": 345,
+                    "generated_count": 96
+                },
+                "man, pilot, plane": {
+                    "original_index": 392,
+                    "generated_count": 96
+                },
+                "bulb, feminist": {
+                    "original_index": 325,
+                    "generated_count": 96
+                },
+                "butt, cheek, shit": {
+                    "original_index": 461,
+                    "generated_count": 96
+                },
+                "shit, toilet": {
+                    "original_index": 262,
+                    "generated_count": 96
+                },
+                "language": {
+                    "original_index": 259,
+                    "generated_count": 96
+                },
+                "dream, nightmare": {
+                    "original_index": 447,
+                    "generated_count": 96
+                },
+                "president": {
+                    "original_index": 446,
+                    "generated_count": 96
+                },
+                "jew, oven": {
+                    "original_index": 383,
+                    "generated_count": 95
+                },
+                "beer, buck, deer, difference, nut": {
+                    "original_index": 242,
+                    "generated_count": 95
+                },
+                "closet, janitor, supply": {
+                    "original_index": 488,
+                    "generated_count": 95
+                },
+                "ass, dick, difference, jam, jelly": {
+                    "original_index": 350,
+                    "generated_count": 95
+                },
+                "man, wife": {
+                    "original_index": 373,
+                    "generated_count": 95
+                },
+                "god, john, life, toaster": {
+                    "original_index": 375,
+                    "generated_count": 95
+                },
+                "adele, road": {
+                    "original_index": 358,
+                    "generated_count": 95
+                },
+                "money, woman": {
+                    "original_index": 205,
+                    "generated_count": 95
+                },
+                "cop, lightbulb, room": {
+                    "original_index": 424,
+                    "generated_count": 95
+                },
+                "girl, santa": {
+                    "original_index": 466,
+                    "generated_count": 95
+                },
+                "guitar, minor, teacher": {
+                    "original_index": 460,
+                    "generated_count": 95
+                },
+                "week": {
+                    "original_index": 455,
+                    "generated_count": 95
+                },
+                "mother": {
+                    "original_index": 273,
+                    "generated_count": 95
+                },
+                "boy, camp, difference, jew, scout": {
+                    "original_index": 458,
+                    "generated_count": 95
+                },
+                "anti, book, gravity": {
+                    "original_index": 456,
+                    "generated_count": 95
+                },
+                "lawyer": {
+                    "original_index": 261,
+                    "generated_count": 95
+                },
+                "fire, life, man, night, rest": {
+                    "original_index": 322,
+                    "generated_count": 95
+                },
+                "campground, tent": {
+                    "original_index": 398,
+                    "generated_count": 95
+                },
+                "dollar, girl": {
+                    "original_index": 403,
+                    "generated_count": 95
+                },
+                "dream": {
+                    "original_index": 336,
+                    "generated_count": 95
+                },
+                "gym": {
+                    "original_index": 365,
+                    "generated_count": 95
+                },
+                "kleptomaniac": {
+                    "original_index": 390,
+                    "generated_count": 95
+                },
+                "ladder, step": {
+                    "original_index": 280,
+                    "generated_count": 95
+                },
+                "arm, knock, swing": {
+                    "original_index": 496,
+                    "generated_count": 94
+                },
+                "pigeon, sex": {
+                    "original_index": 348,
+                    "generated_count": 94
+                },
+                "bar, chair, helen, keller, table": {
+                    "original_index": 395,
+                    "generated_count": 94
+                },
+                "car, frog, toad": {
+                    "original_index": 393,
+                    "generated_count": 94
+                },
+                "therapist": {
+                    "original_index": 475,
+                    "generated_count": 94
+                },
+                "body": {
+                    "original_index": 226,
+                    "generated_count": 94
+                },
+                "cucumber, cum": {
+                    "original_index": 492,
+                    "generated_count": 94
+                },
+                "repost": {
+                    "original_index": 228,
+                    "generated_count": 94
+                },
+                "party, planet, space": {
+                    "original_index": 246,
+                    "generated_count": 94
+                },
+                "farmer, tractor": {
+                    "original_index": 284,
+                    "generated_count": 94
+                },
+                "chef, pasta": {
+                    "original_index": 439,
+                    "generated_count": 94
+                },
+                "morning": {
+                    "original_index": 293,
+                    "generated_count": 94
+                },
+                "calendar, month": {
+                    "original_index": 263,
+                    "generated_count": 94
+                },
+                "mathematician, pencil": {
+                    "original_index": 301,
+                    "generated_count": 94
+                },
+                "asshole": {
+                    "original_index": 235,
+                    "generated_count": 93
+                },
+                "band, gig": {
+                    "original_index": 227,
+                    "generated_count": 93
+                },
+                "car, carlos, mexican": {
+                    "original_index": 480,
+                    "generated_count": 93
+                },
+                "porn": {
+                    "original_index": 369,
+                    "generated_count": 93
+                },
+                "boomerang, stick": {
+                    "original_index": 448,
+                    "generated_count": 93
+                },
+                "letter, love, pirate": {
+                    "original_index": 469,
+                    "generated_count": 93
+                },
+                "dentist, hurty, tooth": {
+                    "original_index": 213,
+                    "generated_count": 93
+                },
+                "bulb, cop, room": {
+                    "original_index": 404,
+                    "generated_count": 93
+                },
+                "dog, shitzu, zoo": {
+                    "original_index": 405,
+                    "generated_count": 93
+                },
+                "mist, water": {
+                    "original_index": 386,
+                    "generated_count": 93
+                },
+                "acne, difference, face, priest": {
+                    "original_index": 384,
+                    "generated_count": 93
+                },
+                "umbrella": {
+                    "original_index": 349,
+                    "generated_count": 93
+                },
+                "boyfriend": {
+                    "original_index": 361,
+                    "generated_count": 93
+                },
+                "game": {
+                    "original_index": 264,
+                    "generated_count": 93
+                },
+                "arm": {
+                    "original_index": 408,
+                    "generated_count": 93
+                },
+                "belt, orion, space, star, waist": {
+                    "original_index": 440,
+                    "generated_count": 93
+                },
+                "owl": {
+                    "original_index": 433,
+                    "generated_count": 93
+                },
+                "dick, dog, leg": {
+                    "original_index": 409,
+                    "generated_count": 93
+                },
+                "girlfriend, wife": {
+                    "original_index": 302,
+                    "generated_count": 93
+                },
+                "knee": {
+                    "original_index": 495,
+                    "generated_count": 92
+                },
+                "bomber, suicide": {
+                    "original_index": 457,
+                    "generated_count": 92
+                },
+                "apple, store, window": {
+                    "original_index": 442,
+                    "generated_count": 92
+                },
+                "month": {
+                    "original_index": 355,
+                    "generated_count": 92
+                },
+                "head": {
+                    "original_index": 215,
+                    "generated_count": 92
+                },
+                "carrot, snowman": {
+                    "original_index": 292,
+                    "generated_count": 92
+                },
+                "nose": {
+                    "original_index": 286,
+                    "generated_count": 92
+                },
+                "light": {
+                    "original_index": 260,
+                    "generated_count": 91
+                },
+                "beer": {
+                    "original_index": 281,
+                    "generated_count": 91
+                },
+                "point": {
+                    "original_index": 437,
+                    "generated_count": 91
+                },
+                "shower": {
+                    "original_index": 427,
+                    "generated_count": 91
+                },
+                "rock": {
+                    "original_index": 291,
+                    "generated_count": 91
+                },
+                "finger": {
+                    "original_index": 429,
+                    "generated_count": 91
+                },
+                "beer, canoe, sex, water": {
+                    "original_index": 323,
+                    "generated_count": 91
+                },
+                "weight": {
+                    "original_index": 382,
+                    "generated_count": 91
+                },
+                "fight": {
+                    "original_index": 203,
+                    "generated_count": 91
+                },
+                "coffee, hipster, tongue": {
+                    "original_index": 340,
+                    "generated_count": 90
+                },
+                "cleaner, vacuum": {
+                    "original_index": 326,
+                    "generated_count": 90
+                },
+                "thesaurus": {
+                    "original_index": 315,
+                    "generated_count": 90
+                },
+                "flamingo, foot, wife": {
+                    "original_index": 290,
+                    "generated_count": 90
+                },
+                "kid, wife": {
+                    "original_index": 418,
+                    "generated_count": 90
+                },
+                "dog, night": {
+                    "original_index": 381,
+                    "generated_count": 90
+                },
+                "eye, woman": {
+                    "original_index": 233,
+                    "generated_count": 90
+                },
+                "meal": {
+                    "original_index": 236,
+                    "generated_count": 90
+                },
+                "cake, tier, wedding": {
+                    "original_index": 425,
+                    "generated_count": 90
+                },
+                "tomorrow": {
+                    "original_index": 470,
+                    "generated_count": 90
+                },
+                "elevator, level": {
+                    "original_index": 224,
+                    "generated_count": 90
+                },
+                "cancer": {
+                    "original_index": 494,
+                    "generated_count": 90
+                },
+                "divorce": {
+                    "original_index": 489,
+                    "generated_count": 90
+                },
+                "bar, bartender, face, horse": {
+                    "original_index": 411,
+                    "generated_count": 89
+                },
+                "lady": {
+                    "original_index": 245,
+                    "generated_count": 89
+                },
+                "feminist": {
+                    "original_index": 472,
+                    "generated_count": 89
+                },
+                "fog, mist": {
+                    "original_index": 241,
+                    "generated_count": 89
+                },
+                "house": {
+                    "original_index": 253,
+                    "generated_count": 89
+                },
+                "band, gig, megabyte": {
+                    "original_index": 320,
+                    "generated_count": 89
+                },
+                "beach, man": {
+                    "original_index": 276,
+                    "generated_count": 89
+                },
+                "hell": {
+                    "original_index": 267,
+                    "generated_count": 89
+                },
+                "juan": {
+                    "original_index": 266,
+                    "generated_count": 89
+                },
+                "frog": {
+                    "original_index": 200,
+                    "generated_count": 89
+                },
+                "potato": {
+                    "original_index": 402,
+                    "generated_count": 89
+                },
+                "butt": {
+                    "original_index": 371,
+                    "generated_count": 88
+                },
+                "coffin": {
+                    "original_index": 468,
+                    "generated_count": 88
+                },
+                "cleaner, dust, vacuum": {
+                    "original_index": 476,
+                    "generated_count": 88
+                },
+                "clown": {
+                    "original_index": 289,
+                    "generated_count": 88
+                },
+                "bar, walk": {
+                    "original_index": 314,
+                    "generated_count": 88
+                },
+                "german": {
+                    "original_index": 426,
+                    "generated_count": 88
+                },
+                "scale": {
+                    "original_index": 278,
+                    "generated_count": 88
+                },
+                "circle": {
+                    "original_index": 431,
+                    "generated_count": 88
+                },
+                "boy": {
+                    "original_index": 483,
+                    "generated_count": 88
+                },
+                "rose, violet": {
+                    "original_index": 230,
+                    "generated_count": 88
+                },
+                "cashew, nut": {
+                    "original_index": 499,
+                    "generated_count": 87
+                },
+                "dad, dog, onion": {
+                    "original_index": 444,
+                    "generated_count": 87
+                },
+                "conversation, wife": {
+                    "original_index": 482,
+                    "generated_count": 87
+                },
+                "orange": {
+                    "original_index": 374,
+                    "generated_count": 87
+                },
+                "teacher": {
+                    "original_index": 339,
+                    "generated_count": 87
+                },
+                "jew": {
+                    "original_index": 380,
+                    "generated_count": 87
+                },
+                "root": {
+                    "original_index": 317,
+                    "generated_count": 87
+                },
+                "bulb": {
+                    "original_index": 208,
+                    "generated_count": 87
+                },
+                "cannibal": {
+                    "original_index": 344,
+                    "generated_count": 87
+                },
+                "trump": {
+                    "original_index": 388,
+                    "generated_count": 87
+                },
+                "pant": {
+                    "original_index": 394,
+                    "generated_count": 87
+                },
+                "bar, duck, man": {
+                    "original_index": 303,
+                    "generated_count": 87
+                },
+                "wheelchair": {
+                    "original_index": 410,
+                    "generated_count": 87
+                },
+                "trap": {
+                    "original_index": 423,
+                    "generated_count": 86
+                },
+                "dollar": {
+                    "original_index": 234,
+                    "generated_count": 86
+                },
+                "fart": {
+                    "original_index": 328,
+                    "generated_count": 86
+                },
+                "hipster, mainstream": {
+                    "original_index": 356,
+                    "generated_count": 86
+                },
+                "battery, charge": {
+                    "original_index": 258,
+                    "generated_count": 85
+                },
+                "morning, road, sock, sperm": {
+                    "original_index": 415,
+                    "generated_count": 85
+                },
+                "hipster, lightbulb, number": {
+                    "original_index": 443,
+                    "generated_count": 85
+                },
+                "kidnapping": {
+                    "original_index": 254,
+                    "generated_count": 85
+                },
+                "doctor, patient": {
+                    "original_index": 252,
+                    "generated_count": 85
+                },
+                "life, rule": {
+                    "original_index": 481,
+                    "generated_count": 85
+                },
+                "calendar, factory": {
+                    "original_index": 430,
+                    "generated_count": 84
+                },
+                "ghost": {
+                    "original_index": 219,
+                    "generated_count": 84
+                },
+                "internet": {
+                    "original_index": 304,
+                    "generated_count": 84
+                },
+                "bra, man": {
+                    "original_index": 307,
+                    "generated_count": 84
+                },
+                "idiot": {
+                    "original_index": 221,
+                    "generated_count": 84
+                },
+                "reason": {
+                    "original_index": 225,
+                    "generated_count": 84
+                },
+                "construction": {
+                    "original_index": 202,
+                    "generated_count": 83
+                },
+                "apple": {
+                    "original_index": 346,
+                    "generated_count": 83
+                },
+                "school": {
+                    "original_index": 329,
+                    "generated_count": 83
+                },
+                "ass": {
+                    "original_index": 330,
+                    "generated_count": 83
+                },
+                "chemistry": {
+                    "original_index": 295,
+                    "generated_count": 83
+                },
+                "cheese": {
+                    "original_index": 279,
+                    "generated_count": 83
+                },
+                "gender, subject, tower": {
+                    "original_index": 452,
+                    "generated_count": 83
+                },
+                "vampire": {
+                    "original_index": 471,
+                    "generated_count": 83
+                },
+                "frisbee": {
+                    "original_index": 385,
+                    "generated_count": 83
+                },
+                "bee": {
+                    "original_index": 312,
+                    "generated_count": 83
+                },
+                "banana": {
+                    "original_index": 272,
+                    "generated_count": 83
+                },
+                "bill, gas, hitler": {
+                    "original_index": 351,
+                    "generated_count": 82
+                },
+                "watch": {
+                    "original_index": 308,
+                    "generated_count": 82
+                },
+                "abortion": {
+                    "original_index": 401,
+                    "generated_count": 82
+                },
+                "boob, support": {
+                    "original_index": 283,
+                    "generated_count": 82
+                },
+                "fuck": {
+                    "original_index": 232,
+                    "generated_count": 82
+                },
+                "alcohol": {
+                    "original_index": 463,
+                    "generated_count": 82
+                },
+                "birthday": {
+                    "original_index": 449,
+                    "generated_count": 82
+                },
+                "grape, wine": {
+                    "original_index": 257,
+                    "generated_count": 82
+                },
+                "password": {
+                    "original_index": 421,
+                    "generated_count": 82
+                },
+                "arrow, banana, fly, fruit": {
+                    "original_index": 377,
+                    "generated_count": 82
+                },
+                "difference, jew, oven, pizza": {
+                    "original_index": 370,
+                    "generated_count": 82
+                },
+                "battery": {
+                    "original_index": 268,
+                    "generated_count": 81
+                },
+                "grammar, nazi": {
+                    "original_index": 296,
+                    "generated_count": 81
+                },
+                "book": {
+                    "original_index": 206,
+                    "generated_count": 81
+                },
+                "camping, sex, tent": {
+                    "original_index": 387,
+                    "generated_count": 81
+                },
+                "rabbit": {
+                    "original_index": 250,
+                    "generated_count": 81
+                },
+                "vacuum": {
+                    "original_index": 491,
+                    "generated_count": 81
+                },
+                "calendar": {
+                    "original_index": 436,
+                    "generated_count": 81
+                },
+                "chemistry, reaction": {
+                    "original_index": 265,
+                    "generated_count": 81
+                },
+                "muslim": {
+                    "original_index": 454,
+                    "generated_count": 81
+                },
+                "circumcision, rip": {
+                    "original_index": 216,
+                    "generated_count": 81
+                },
+                "line, shame": {
+                    "original_index": 464,
+                    "generated_count": 81
+                },
+                "sub": {
+                    "original_index": 244,
+                    "generated_count": 81
+                },
+                "job, mirror": {
+                    "original_index": 397,
+                    "generated_count": 80
+                },
+                "leper, prostitute, tip": {
+                    "original_index": 378,
+                    "generated_count": 80
+                },
+                "pilot, plane": {
+                    "original_index": 354,
+                    "generated_count": 79
+                },
+                "cop": {
+                    "original_index": 311,
+                    "generated_count": 79
+                },
+                "asshole, nurse, pen, pocket, thermometer": {
+                    "original_index": 222,
+                    "generated_count": 79
+                },
+                "baseball": {
+                    "original_index": 274,
+                    "generated_count": 79
+                },
+                "drive, keller, woman": {
+                    "original_index": 474,
+                    "generated_count": 79
+                },
+                "toilet": {
+                    "original_index": 357,
+                    "generated_count": 78
+                },
+                "brain, mind, transplant": {
+                    "original_index": 269,
+                    "generated_count": 78
+                },
+                "poop": {
+                    "original_index": 477,
+                    "generated_count": 78
+                },
+                "earther": {
+                    "original_index": 300,
+                    "generated_count": 77
+                },
+                "computer": {
+                    "original_index": 238,
+                    "generated_count": 77
+                },
+                "shoe": {
+                    "original_index": 362,
+                    "generated_count": 76
+                },
+                "fruit": {
+                    "original_index": 318,
+                    "generated_count": 76
+                },
+                "lightbulb": {
+                    "original_index": 239,
+                    "generated_count": 76
+                },
+                "coffee, penis, woman": {
+                    "original_index": 298,
+                    "generated_count": 76
+                },
+                "love": {
+                    "original_index": 251,
+                    "generated_count": 74
+                },
+                "sun": {
+                    "original_index": 473,
+                    "generated_count": 74
+                },
+                "chemist": {
+                    "original_index": 363,
+                    "generated_count": 74
+                },
+                "duck": {
+                    "original_index": 223,
+                    "generated_count": 74
+                },
+                "bar, bartender, traveler": {
+                    "original_index": 209,
+                    "generated_count": 71
+                },
+                "sentence": {
+                    "original_index": 316,
+                    "generated_count": 71
+                },
+                "cocaine": {
+                    "original_index": 337,
+                    "generated_count": 71
+                },
+                "party": {
+                    "original_index": 379,
+                    "generated_count": 71
+                },
+                "difference, hole, sex": {
+                    "original_index": 462,
+                    "generated_count": 70
+                },
+                "fire, life, man, rest": {
+                    "original_index": 343,
+                    "generated_count": 70
+                },
+                "memory": {
+                    "original_index": 485,
+                    "generated_count": 69
+                },
+                "fun": {
+                    "original_index": 478,
+                    "generated_count": 69
+                },
+                "stair, step": {
+                    "original_index": 285,
+                    "generated_count": 68
+                },
+                "elevator, step": {
+                    "original_index": 434,
+                    "generated_count": 68
+                },
+                "bike, dog, lot": {
+                    "original_index": 282,
+                    "generated_count": 67
+                },
+                "math": {
+                    "original_index": 207,
+                    "generated_count": 67
+                },
+                "work": {
+                    "original_index": 299,
+                    "generated_count": 67
+                },
+                "kind": {
+                    "original_index": 277,
+                    "generated_count": 63
+                },
+                "mirror": {
+                    "original_index": 256,
+                    "generated_count": 62
+                },
+                "hole": {
+                    "original_index": 428,
+                    "generated_count": 61
+                },
+                "christmas": {
+                    "original_index": 416,
+                    "generated_count": 55
+                },
+                "punchline, title": {
+                    "original_index": 453,
+                    "generated_count": 54
+                },
+                "gang, rape": {
+                    "original_index": 319,
+                    "generated_count": 53
+                },
+                "difference, job, wife, year": {
+                    "original_index": 321,
+                    "generated_count": 50
+                },
+                "animal": {
+                    "original_index": 445,
+                    "generated_count": 49
+                },
+                "title": {
+                    "original_index": 407,
+                    "generated_count": 49
+                },
+                "opposite": {
+                    "original_index": 333,
+                    "generated_count": 48
+                },
+                "cunt, tampon": {
+                    "original_index": 243,
+                    "generated_count": 48
+                },
+                "mistake": {
+                    "original_index": 400,
+                    "generated_count": 43
+                },
+                "glass": {
+                    "original_index": 163,
+                    "generated_count": 40
+                },
+                "rape": {
+                    "original_index": 414,
+                    "generated_count": 40
+                },
+                "food, humor": {
+                    "original_index": 288,
+                    "generated_count": 31
+                },
+                "dentist": {
+                    "original_index": 182,
+                    "generated_count": 20
+                },
+                "card, mexican, uno": {
+                    "original_index": 189,
+                    "generated_count": 20
+                },
+                "elephant": {
+                    "original_index": 188,
+                    "generated_count": 20
+                },
+                "father": {
+                    "original_index": 191,
+                    "generated_count": 20
+                },
+                "subreddit": {
+                    "original_index": 194,
+                    "generated_count": 20
+                },
+                "ball, cinderella": {
+                    "original_index": 193,
+                    "generated_count": 20
+                },
+                "clickbait": {
+                    "original_index": 192,
+                    "generated_count": 20
+                },
+                "girlfriend, root": {
+                    "original_index": 195,
+                    "generated_count": 20
+                },
+                "communism": {
+                    "original_index": 168,
+                    "generated_count": 20
+                },
+                "drug": {
+                    "original_index": 181,
+                    "generated_count": 20
+                },
+                "chicken": {
+                    "original_index": 180,
+                    "generated_count": 20
+                },
+                "wife, year": {
+                    "original_index": 183,
+                    "generated_count": 20
+                },
+                "chicken, egg": {
+                    "original_index": 187,
+                    "generated_count": 20
+                },
+                "line": {
+                    "original_index": 184,
+                    "generated_count": 20
+                },
+                "life, melon": {
+                    "original_index": 185,
+                    "generated_count": 20
+                },
+                "beard": {
+                    "original_index": 186,
+                    "generated_count": 20
+                },
+                "sex, wife": {
+                    "original_index": 190,
+                    "generated_count": 20
+                },
+                "belt, waist, watch": {
+                    "original_index": 87,
+                    "generated_count": 20
+                },
+                "movie": {
+                    "original_index": 90,
+                    "generated_count": 20
+                },
+                "bar, beer, finger": {
+                    "original_index": 89,
+                    "generated_count": 20
+                },
+                "travel": {
+                    "original_index": 94,
+                    "generated_count": 20
+                },
+                "hitler": {
+                    "original_index": 93,
+                    "generated_count": 20
+                },
+                "bathroom, pterodactyl": {
+                    "original_index": 96,
+                    "generated_count": 20
+                },
+                "god": {
+                    "original_index": 91,
+                    "generated_count": 20
+                },
+                "belt": {
+                    "original_index": 144,
+                    "generated_count": 20
+                },
+                "bar, irishman": {
+                    "original_index": 145,
+                    "generated_count": 20
+                },
+                "kidnapping, school": {
+                    "original_index": 97,
+                    "generated_count": 20
+                },
+                "difference, jesus, nail, picture": {
+                    "original_index": 98,
+                    "generated_count": 20
+                },
+                "pan, peter": {
+                    "original_index": 99,
+                    "generated_count": 20
+                },
+                "relationship": {
+                    "original_index": 141,
+                    "generated_count": 20
+                },
+                "feminist, lightbulb": {
+                    "original_index": 142,
+                    "generated_count": 20
+                },
+                "coffee, slave": {
+                    "original_index": 143,
+                    "generated_count": 20
+                },
+                "alphabet, friend, letter": {
+                    "original_index": 148,
+                    "generated_count": 20
+                },
+                "bar, duck": {
+                    "original_index": 149,
+                    "generated_count": 20
+                },
+                "plane": {
+                    "original_index": 146,
+                    "generated_count": 20
+                },
+                "poem": {
+                    "original_index": 147,
+                    "generated_count": 20
+                },
+                "bar, beer, mop, skeleton": {
+                    "original_index": 150,
+                    "generated_count": 20
+                },
+                "dinosaur": {
+                    "original_index": 151,
+                    "generated_count": 20
+                },
+                "boat, diver, scuba": {
+                    "original_index": 152,
+                    "generated_count": 20
+                },
+                "phone": {
+                    "original_index": 95,
+                    "generated_count": 20
+                },
+                "face": {
+                    "original_index": 176,
+                    "generated_count": 20
+                },
+                "yesterday": {
+                    "original_index": 169,
+                    "generated_count": 20
+                },
+                "melon": {
+                    "original_index": 154,
+                    "generated_count": 20
+                },
+                "baseball, home, orphan": {
+                    "original_index": 153,
+                    "generated_count": 20
+                },
+                "water": {
+                    "original_index": 156,
+                    "generated_count": 20
+                },
+                "area, hill, mountain": {
+                    "original_index": 157,
+                    "generated_count": 20
+                },
+                "mama": {
+                    "original_index": 158,
+                    "generated_count": 20
+                },
+                "window": {
+                    "original_index": 155,
+                    "generated_count": 20
+                },
+                "girlfriend, sex": {
+                    "original_index": 159,
+                    "generated_count": 20
+                },
+                "midget": {
+                    "original_index": 160,
+                    "generated_count": 20
+                },
+                "money": {
+                    "original_index": 161,
+                    "generated_count": 20
+                },
+                "medium, midget, prison": {
+                    "original_index": 162,
+                    "generated_count": 20
+                },
+                "job": {
+                    "original_index": 164,
+                    "generated_count": 20
+                },
+                "masochist, sadist": {
+                    "original_index": 165,
+                    "generated_count": 20
+                },
+                "middle": {
+                    "original_index": 166,
+                    "generated_count": 20
+                },
+                "condom": {
+                    "original_index": 167,
+                    "generated_count": 20
+                },
+                "corner, degree": {
+                    "original_index": 196,
+                    "generated_count": 20
+                },
+                "coffee, freezer, woman": {
+                    "original_index": 177,
+                    "generated_count": 20
+                },
+                "son": {
+                    "original_index": 170,
+                    "generated_count": 20
+                },
+                "laugh, octopus, tickle": {
+                    "original_index": 171,
+                    "generated_count": 20
+                },
+                "pool, table, tree": {
+                    "original_index": 172,
+                    "generated_count": 20
+                },
+                "bird": {
+                    "original_index": 173,
+                    "generated_count": 20
+                },
+                "print, snow": {
+                    "original_index": 174,
+                    "generated_count": 20
+                },
+                "love, player, tennis": {
+                    "original_index": 175,
+                    "generated_count": 20
+                },
+                "numeral": {
+                    "original_index": 198,
+                    "generated_count": 20
+                },
+                "paper": {
+                    "original_index": 197,
+                    "generated_count": 20
+                },
+                "butt, fuck": {
+                    "original_index": 178,
+                    "generated_count": 20
+                },
+                "foot, inch, nose": {
+                    "original_index": 179,
+                    "generated_count": 20
+                },
+                "organ, piano, rose, tulip": {
+                    "original_index": 199,
+                    "generated_count": 20
+                },
+                "pedophile": {
+                    "original_index": 313,
+                    "generated_count": 9
+                },
+                "redditor": {
+                    "original_index": 88,
+                    "generated_count": 1
+                },
+                "letter": {
+                    "original_index": 92,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_38": {
+            "total_jokes_generated": 38,
+            "unique_combos_count": 1,
+            "combos_detail": {
+                "hitler": {
+                    "original_index": 93,
+                    "generated_count": 38
+                }
+            }
+        },
+        "batch_size_39": {
+            "total_jokes_generated": 1,
+            "unique_combos_count": 1,
+            "combos_detail": {
+                "hitler": {
+                    "original_index": 93,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_40": {
+            "total_jokes_generated": 1,
+            "unique_combos_count": 1,
+            "combos_detail": {
+                "hitler": {
+                    "original_index": 93,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_41": {
+            "total_jokes_generated": 1,
+            "unique_combos_count": 1,
+            "combos_detail": {
+                "hitler": {
+                    "original_index": 93,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_42": {
+            "total_jokes_generated": 1,
+            "unique_combos_count": 1,
+            "combos_detail": {
+                "hitler": {
+                    "original_index": 93,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_43": {
+            "total_jokes_generated": 1,
+            "unique_combos_count": 1,
+            "combos_detail": {
+                "hitler": {
+                    "original_index": 93,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_44": {
+            "total_jokes_generated": 1,
+            "unique_combos_count": 1,
+            "combos_detail": {
+                "hitler": {
+                    "original_index": 93,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_45": {
+            "total_jokes_generated": 1,
+            "unique_combos_count": 1,
+            "combos_detail": {
+                "hitler": {
+                    "original_index": 93,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_46": {
+            "total_jokes_generated": 1,
+            "unique_combos_count": 1,
+            "combos_detail": {
+                "hitler": {
+                    "original_index": 93,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_47": {
+            "total_jokes_generated": 1,
+            "unique_combos_count": 1,
+            "combos_detail": {
+                "hitler": {
+                    "original_index": 93,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_48": {
+            "total_jokes_generated": 1,
+            "unique_combos_count": 1,
+            "combos_detail": {
+                "hitler": {
+                    "original_index": 93,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_49": {
+            "total_jokes_generated": 1,
+            "unique_combos_count": 1,
+            "combos_detail": {
+                "hitler": {
+                    "original_index": 93,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_50": {
+            "total_jokes_generated": 3573,
+            "unique_combos_count": 72,
+            "combos_detail": {
+                "glass": {
+                    "original_index": 163,
+                    "generated_count": 98
+                },
+                "numeral": {
+                    "original_index": 198,
+                    "generated_count": 52
+                },
+                "bathroom, pterodactyl": {
+                    "original_index": 96,
+                    "generated_count": 51
+                },
+                "midget": {
+                    "original_index": 160,
+                    "generated_count": 51
+                },
+                "feminist, lightbulb": {
+                    "original_index": 142,
+                    "generated_count": 51
+                },
+                "sex, wife": {
+                    "original_index": 190,
+                    "generated_count": 51
+                },
+                "belt, waist, watch": {
+                    "original_index": 87,
+                    "generated_count": 50
+                },
+                "redditor": {
+                    "original_index": 88,
+                    "generated_count": 50
+                },
+                "father": {
+                    "original_index": 191,
+                    "generated_count": 50
+                },
+                "travel": {
+                    "original_index": 94,
+                    "generated_count": 50
+                },
+                "letter": {
+                    "original_index": 92,
+                    "generated_count": 50
+                },
+                "god": {
+                    "original_index": 91,
+                    "generated_count": 50
+                },
+                "movie": {
+                    "original_index": 90,
+                    "generated_count": 50
+                },
+                "bar, beer, finger": {
+                    "original_index": 89,
+                    "generated_count": 50
+                },
+                "coffee, slave": {
+                    "original_index": 143,
+                    "generated_count": 50
+                },
+                "pan, peter": {
+                    "original_index": 99,
+                    "generated_count": 50
+                },
+                "alphabet, friend, letter": {
+                    "original_index": 148,
+                    "generated_count": 50
+                },
+                "bar, duck": {
+                    "original_index": 149,
+                    "generated_count": 50
+                },
+                "plane": {
+                    "original_index": 146,
+                    "generated_count": 50
+                },
+                "poem": {
+                    "original_index": 147,
+                    "generated_count": 50
+                },
+                "bar, beer, mop, skeleton": {
+                    "original_index": 150,
+                    "generated_count": 50
+                },
+                "dinosaur": {
+                    "original_index": 151,
+                    "generated_count": 50
+                },
+                "kidnapping, school": {
+                    "original_index": 97,
+                    "generated_count": 50
+                },
+                "phone": {
+                    "original_index": 95,
+                    "generated_count": 50
+                },
+                "girlfriend, sex": {
+                    "original_index": 159,
+                    "generated_count": 50
+                },
+                "mama": {
+                    "original_index": 158,
+                    "generated_count": 50
+                },
+                "boat, diver, scuba": {
+                    "original_index": 152,
+                    "generated_count": 50
+                },
+                "baseball, home, orphan": {
+                    "original_index": 153,
+                    "generated_count": 50
+                },
+                "water": {
+                    "original_index": 156,
+                    "generated_count": 50
+                },
+                "area, hill, mountain": {
+                    "original_index": 157,
+                    "generated_count": 50
+                },
+                "melon": {
+                    "original_index": 154,
+                    "generated_count": 50
+                },
+                "window": {
+                    "original_index": 155,
+                    "generated_count": 50
+                },
+                "masochist, sadist": {
+                    "original_index": 165,
+                    "generated_count": 50
+                },
+                "middle": {
+                    "original_index": 166,
+                    "generated_count": 50
+                },
+                "money": {
+                    "original_index": 161,
+                    "generated_count": 50
+                },
+                "medium, midget, prison": {
+                    "original_index": 162,
+                    "generated_count": 50
+                },
+                "condom": {
+                    "original_index": 167,
+                    "generated_count": 50
+                },
+                "communism": {
+                    "original_index": 168,
+                    "generated_count": 50
+                },
+                "bar, irishman": {
+                    "original_index": 145,
+                    "generated_count": 50
+                },
+                "belt": {
+                    "original_index": 144,
+                    "generated_count": 50
+                },
+                "girlfriend, root": {
+                    "original_index": 195,
+                    "generated_count": 50
+                },
+                "clickbait": {
+                    "original_index": 192,
+                    "generated_count": 50
+                },
+                "subreddit": {
+                    "original_index": 194,
+                    "generated_count": 50
+                },
+                "son": {
+                    "original_index": 170,
+                    "generated_count": 50
+                },
+                "print, snow": {
+                    "original_index": 174,
+                    "generated_count": 50
+                },
+                "bird": {
+                    "original_index": 173,
+                    "generated_count": 50
+                },
+                "laugh, octopus, tickle": {
+                    "original_index": 171,
+                    "generated_count": 50
+                },
+                "pool, table, tree": {
+                    "original_index": 172,
+                    "generated_count": 50
+                },
+                "dentist": {
+                    "original_index": 182,
+                    "generated_count": 50
+                },
+                "coffee, freezer, woman": {
+                    "original_index": 177,
+                    "generated_count": 50
+                },
+                "drug": {
+                    "original_index": 181,
+                    "generated_count": 50
+                },
+                "chicken": {
+                    "original_index": 180,
+                    "generated_count": 50
+                },
+                "wife, year": {
+                    "original_index": 183,
+                    "generated_count": 50
+                },
+                "beard": {
+                    "original_index": 186,
+                    "generated_count": 50
+                },
+                "love, player, tennis": {
+                    "original_index": 175,
+                    "generated_count": 50
+                },
+                "face": {
+                    "original_index": 176,
+                    "generated_count": 50
+                },
+                "organ, piano, rose, tulip": {
+                    "original_index": 199,
+                    "generated_count": 50
+                },
+                "corner, degree": {
+                    "original_index": 196,
+                    "generated_count": 50
+                },
+                "paper": {
+                    "original_index": 197,
+                    "generated_count": 50
+                },
+                "line": {
+                    "original_index": 184,
+                    "generated_count": 50
+                },
+                "chicken, egg": {
+                    "original_index": 187,
+                    "generated_count": 50
+                },
+                "elephant": {
+                    "original_index": 188,
+                    "generated_count": 50
+                },
+                "card, mexican, uno": {
+                    "original_index": 189,
+                    "generated_count": 50
+                },
+                "life, melon": {
+                    "original_index": 185,
+                    "generated_count": 50
+                },
+                "ball, cinderella": {
+                    "original_index": 193,
+                    "generated_count": 50
+                },
+                "foot, inch, nose": {
+                    "original_index": 179,
+                    "generated_count": 49
+                },
+                "difference, jesus, nail, picture": {
+                    "original_index": 98,
+                    "generated_count": 48
+                },
+                "butt, fuck": {
+                    "original_index": 178,
+                    "generated_count": 43
+                },
+                "yesterday": {
+                    "original_index": 169,
+                    "generated_count": 43
+                },
+                "job": {
+                    "original_index": 164,
+                    "generated_count": 39
+                },
+                "relationship": {
+                    "original_index": 141,
+                    "generated_count": 38
+                },
+                "hitler": {
+                    "original_index": 93,
+                    "generated_count": 9
+                }
+            }
+        }
+    },
+    "Llama-3.1-8B-Full": {
+        "total_model_count": 3879,
+        "batch_size_20": {
+            "total_jokes_generated": 3879,
+            "unique_combos_count": 41,
+            "combos_detail": {
+                "diarrhea, jean": {
+                    "original_index": 100,
+                    "generated_count": 100
+                },
+                "lot": {
+                    "original_index": 102,
+                    "generated_count": 100
+                },
+                "bar, tender, termite": {
+                    "original_index": 108,
+                    "generated_count": 100
+                },
+                "hokey, pokey": {
+                    "original_index": 135,
+                    "generated_count": 100
+                },
+                "soap": {
+                    "original_index": 119,
+                    "generated_count": 100
+                },
+                "wanna": {
+                    "original_index": 136,
+                    "generated_count": 100
+                },
+                "sack, santa, year": {
+                    "original_index": 116,
+                    "generated_count": 99
+                },
+                "period": {
+                    "original_index": 101,
+                    "generated_count": 99
+                },
+                "balance, bank, lady": {
+                    "original_index": 129,
+                    "generated_count": 99
+                },
+                "mood, ring": {
+                    "original_index": 113,
+                    "generated_count": 99
+                },
+                "post": {
+                    "original_index": 125,
+                    "generated_count": 99
+                },
+                "door": {
+                    "original_index": 132,
+                    "generated_count": 99
+                },
+                "corduroy, headline, pillow": {
+                    "original_index": 139,
+                    "generated_count": 98
+                },
+                "sausage, wurst": {
+                    "original_index": 107,
+                    "generated_count": 98
+                },
+                "haircut": {
+                    "original_index": 128,
+                    "generated_count": 98
+                },
+                "award, field, scarecrow": {
+                    "original_index": 111,
+                    "generated_count": 98
+                },
+                "night, sun": {
+                    "original_index": 131,
+                    "generated_count": 97
+                },
+                "night": {
+                    "original_index": 118,
+                    "generated_count": 97
+                },
+                "harry, hill, potter": {
+                    "original_index": 127,
+                    "generated_count": 97
+                },
+                "john, life, lord, toaster": {
+                    "original_index": 133,
+                    "generated_count": 96
+                },
+                "stair": {
+                    "original_index": 104,
+                    "generated_count": 96
+                },
+                "ball": {
+                    "original_index": 115,
+                    "generated_count": 96
+                },
+                "clock, second": {
+                    "original_index": 130,
+                    "generated_count": 96
+                },
+                "doll": {
+                    "original_index": 122,
+                    "generated_count": 96
+                },
+                "earth": {
+                    "original_index": 124,
+                    "generated_count": 96
+                },
+                "paint": {
+                    "original_index": 114,
+                    "generated_count": 95
+                },
+                "boss": {
+                    "original_index": 117,
+                    "generated_count": 95
+                },
+                "ocean": {
+                    "original_index": 105,
+                    "generated_count": 94
+                },
+                "crack, paper, road, toilet": {
+                    "original_index": 134,
+                    "generated_count": 94
+                },
+                "iphone": {
+                    "original_index": 138,
+                    "generated_count": 94
+                },
+                "bike": {
+                    "original_index": 110,
+                    "generated_count": 94
+                },
+                "stick": {
+                    "original_index": 121,
+                    "generated_count": 94
+                },
+                "atmosphere, food, moon, restaurant": {
+                    "original_index": 123,
+                    "generated_count": 94
+                },
+                "dwarf": {
+                    "original_index": 126,
+                    "generated_count": 93
+                },
+                "coffee": {
+                    "original_index": 103,
+                    "generated_count": 93
+                },
+                "donald, trump": {
+                    "original_index": 106,
+                    "generated_count": 92
+                },
+                "prostitute": {
+                    "original_index": 109,
+                    "generated_count": 92
+                },
+                "fish": {
+                    "original_index": 137,
+                    "generated_count": 86
+                },
+                "bear": {
+                    "original_index": 120,
+                    "generated_count": 84
+                },
+                "type": {
+                    "original_index": 112,
+                    "generated_count": 73
+                },
+                "old, sex, year": {
+                    "original_index": 140,
+                    "generated_count": 59
+                }
+            }
+        }
+    },
+    "Qwen3-30B-A3B": {
+        "total_model_count": 7231,
+        "batch_size_20": {
+            "total_jokes_generated": 5189,
+            "unique_combos_count": 55,
+            "combos_detail": {
+                "eye": {
+                    "original_index": 44,
+                    "generated_count": 138
+                },
+                "hand": {
+                    "original_index": 43,
+                    "generated_count": 100
+                },
+                "dude, girl, nose, party, watch": {
+                    "original_index": 1006,
+                    "generated_count": 100
+                },
+                "child": {
+                    "original_index": 46,
+                    "generated_count": 100
+                },
+                "offender": {
+                    "original_index": 45,
+                    "generated_count": 100
+                },
+                "letter, pirate": {
+                    "original_index": 47,
+                    "generated_count": 100
+                },
+                "bar, chair, man, table": {
+                    "original_index": 49,
+                    "generated_count": 100
+                },
+                "alzheimer": {
+                    "original_index": 59,
+                    "generated_count": 100
+                },
+                "box, chocolate, life": {
+                    "original_index": 51,
+                    "generated_count": 100
+                },
+                "difference, hippo, zippo": {
+                    "original_index": 53,
+                    "generated_count": 100
+                },
+                "vegan": {
+                    "original_index": 52,
+                    "generated_count": 100
+                },
+                "dam, fish, wall": {
+                    "original_index": 54,
+                    "generated_count": 100
+                },
+                "tree": {
+                    "original_index": 61,
+                    "generated_count": 100
+                },
+                "plagiarism, word": {
+                    "original_index": 57,
+                    "generated_count": 100
+                },
+                "horse": {
+                    "original_index": 56,
+                    "generated_count": 100
+                },
+                "jesus": {
+                    "original_index": 71,
+                    "generated_count": 100
+                },
+                "date": {
+                    "original_index": 72,
+                    "generated_count": 100
+                },
+                "boomerang": {
+                    "original_index": 73,
+                    "generated_count": 100
+                },
+                "cannibal, clown": {
+                    "original_index": 75,
+                    "generated_count": 100
+                },
+                "parent": {
+                    "original_index": 68,
+                    "generated_count": 100
+                },
+                "kind, world": {
+                    "original_index": 69,
+                    "generated_count": 100
+                },
+                "sodium": {
+                    "original_index": 70,
+                    "generated_count": 100
+                },
+                "problem": {
+                    "original_index": 64,
+                    "generated_count": 100
+                },
+                "cannibal, dinner, shoulder": {
+                    "original_index": 1205,
+                    "generated_count": 100
+                },
+                "dog, insomniac, night": {
+                    "original_index": 76,
+                    "generated_count": 100
+                },
+                "pirate": {
+                    "original_index": 78,
+                    "generated_count": 100
+                },
+                "egg": {
+                    "original_index": 86,
+                    "generated_count": 100
+                },
+                "elephant, tree": {
+                    "original_index": 83,
+                    "generated_count": 100
+                },
+                "cow": {
+                    "original_index": 85,
+                    "generated_count": 100
+                },
+                "funeral": {
+                    "original_index": 81,
+                    "generated_count": 100
+                },
+                "alphabet, letter": {
+                    "original_index": 82,
+                    "generated_count": 100
+                },
+                "dad, son": {
+                    "original_index": 77,
+                    "generated_count": 100
+                },
+                "hair": {
+                    "original_index": 65,
+                    "generated_count": 99
+                },
+                "belt, waist, watch": {
+                    "original_index": 87,
+                    "generated_count": 99
+                },
+                "hell, water": {
+                    "original_index": 74,
+                    "generated_count": 99
+                },
+                "bean, chickpea, difference, face, garbanzo": {
+                    "original_index": 84,
+                    "generated_count": 99
+                },
+                "comedian": {
+                    "original_index": 55,
+                    "generated_count": 99
+                },
+                "resolution, year": {
+                    "original_index": 62,
+                    "generated_count": 99
+                },
+                "penis": {
+                    "original_index": 50,
+                    "generated_count": 99
+                },
+                "inch": {
+                    "original_index": 810,
+                    "generated_count": 98
+                },
+                "pencil": {
+                    "original_index": 80,
+                    "generated_count": 98
+                },
+                "world": {
+                    "original_index": 63,
+                    "generated_count": 98
+                },
+                "punchline": {
+                    "original_index": 48,
+                    "generated_count": 98
+                },
+                "difference": {
+                    "original_index": 58,
+                    "generated_count": 98
+                },
+                "bed": {
+                    "original_index": 79,
+                    "generated_count": 98
+                },
+                "doctor, opinion, patient": {
+                    "original_index": 1406,
+                    "generated_count": 96
+                },
+                "pizza": {
+                    "original_index": 66,
+                    "generated_count": 96
+                },
+                "bicycle": {
+                    "original_index": 67,
+                    "generated_count": 95
+                },
+                "pun": {
+                    "original_index": 60,
+                    "generated_count": 85
+                },
+                "atlantic": {
+                    "original_index": 811,
+                    "generated_count": 79
+                },
+                "diarrhea, jean": {
+                    "original_index": 100,
+                    "generated_count": 79
+                },
+                "government": {
+                    "original_index": 1005,
+                    "generated_count": 40
+                },
+                "chicken, lettuce, salad": {
+                    "original_index": 1405,
+                    "generated_count": 40
+                },
+                "complex, inferiority": {
+                    "original_index": 1204,
+                    "generated_count": 40
+                },
+                "redditor": {
+                    "original_index": 88,
+                    "generated_count": 20
+                }
+            }
+        },
+        "batch_size_50": {
+            "total_jokes_generated": 2042,
+            "unique_combos_count": 22,
+            "combos_detail": {
+                "boat": {
+                    "original_index": 1000,
+                    "generated_count": 100
+                },
+                "farmer, field": {
+                    "original_index": 1001,
+                    "generated_count": 100
+                },
+                "antenna, ceremony, reception": {
+                    "original_index": 1002,
+                    "generated_count": 100
+                },
+                "medium": {
+                    "original_index": 1003,
+                    "generated_count": 100
+                },
+                "condom, penis": {
+                    "original_index": 1004,
+                    "generated_count": 100
+                },
+                "train": {
+                    "original_index": 805,
+                    "generated_count": 100
+                },
+                "matey, pirate": {
+                    "original_index": 1202,
+                    "generated_count": 100
+                },
+                "hipster": {
+                    "original_index": 806,
+                    "generated_count": 100
+                },
+                "moses, tea": {
+                    "original_index": 808,
+                    "generated_count": 100
+                },
+                "hippie, lifeguard, man": {
+                    "original_index": 809,
+                    "generated_count": 100
+                },
+                "waiter": {
+                    "original_index": 1401,
+                    "generated_count": 100
+                },
+                "line, punch": {
+                    "original_index": 1200,
+                    "generated_count": 100
+                },
+                "store": {
+                    "original_index": 1404,
+                    "generated_count": 100
+                },
+                "factory, keyboard, shift": {
+                    "original_index": 1403,
+                    "generated_count": 100
+                },
+                "buddhist, dog, vendor": {
+                    "original_index": 1201,
+                    "generated_count": 100
+                },
+                "business, jalapeno, nosey, pepper": {
+                    "original_index": 1203,
+                    "generated_count": 99
+                },
+                "liar": {
+                    "original_index": 1400,
+                    "generated_count": 99
+                },
+                "stool": {
+                    "original_index": 1402,
+                    "generated_count": 99
+                },
+                "box, ken": {
+                    "original_index": 807,
+                    "generated_count": 95
+                },
+                "government": {
+                    "original_index": 1005,
+                    "generated_count": 50
+                },
+                "chicken, lettuce, salad": {
+                    "original_index": 1405,
+                    "generated_count": 50
+                },
+                "complex, inferiority": {
+                    "original_index": 1204,
+                    "generated_count": 50
+                }
+            }
+        }
+    },
+    "deepseek-chat": {
+        "total_model_count": 23567,
+        "batch_size_10": {
+            "total_jokes_generated": 23567,
+            "unique_combos_count": 238,
+            "combos_detail": {
+                "boy, girl": {
+                    "original_index": 567,
+                    "generated_count": 100
+                },
+                "army, sleevie": {
+                    "original_index": 568,
+                    "generated_count": 100
+                },
+                "bar, bartender, cable, jumper": {
+                    "original_index": 569,
+                    "generated_count": 100
+                },
+                "field, promotion, scarecrow": {
+                    "original_index": 576,
+                    "generated_count": 100
+                },
+                "gun": {
+                    "original_index": 575,
+                    "generated_count": 100
+                },
+                "execution, isis": {
+                    "original_index": 573,
+                    "generated_count": 100
+                },
+                "priest": {
+                    "original_index": 579,
+                    "generated_count": 100
+                },
+                "chin, teller": {
+                    "original_index": 588,
+                    "generated_count": 100
+                },
+                "field, nobel, prize, scarecrow": {
+                    "original_index": 586,
+                    "generated_count": 100
+                },
+                "dentist, tooth": {
+                    "original_index": 587,
+                    "generated_count": 100
+                },
+                "condom, dick, wallet, woman": {
+                    "original_index": 585,
+                    "generated_count": 100
+                },
+                "batman, batmobile, robin": {
+                    "original_index": 584,
+                    "generated_count": 100
+                },
+                "feeling": {
+                    "original_index": 582,
+                    "generated_count": 100
+                },
+                "bar, bartender, charge, drink, neutron": {
+                    "original_index": 581,
+                    "generated_count": 100
+                },
+                "facebook": {
+                    "original_index": 612,
+                    "generated_count": 100
+                },
+                "animal, bear, jungle": {
+                    "original_index": 610,
+                    "generated_count": 100
+                },
+                "reader, second, story, victim, world": {
+                    "original_index": 607,
+                    "generated_count": 100
+                },
+                "leg, pool, table, tree": {
+                    "original_index": 605,
+                    "generated_count": 100
+                },
+                "life, sex": {
+                    "original_index": 608,
+                    "generated_count": 100
+                },
+                "bear, tooth": {
+                    "original_index": 600,
+                    "generated_count": 100
+                },
+                "difference, feminist, suicide, vest": {
+                    "original_index": 599,
+                    "generated_count": 100
+                },
+                "song, tortilla, wrap": {
+                    "original_index": 589,
+                    "generated_count": 100
+                },
+                "frog, piggy, throat": {
+                    "original_index": 592,
+                    "generated_count": 100
+                },
+                "dav, david, friend": {
+                    "original_index": 591,
+                    "generated_count": 100
+                },
+                "ghost, spirit": {
+                    "original_index": 593,
+                    "generated_count": 100
+                },
+                "crusher, job, soda": {
+                    "original_index": 604,
+                    "generated_count": 100
+                },
+                "picture": {
+                    "original_index": 601,
+                    "generated_count": 100
+                },
+                "ball, leg, moth": {
+                    "original_index": 598,
+                    "generated_count": 100
+                },
+                "dinner": {
+                    "original_index": 638,
+                    "generated_count": 100
+                },
+                "batman, car, robin": {
+                    "original_index": 642,
+                    "generated_count": 100
+                },
+                "answer": {
+                    "original_index": 629,
+                    "generated_count": 100
+                },
+                "animal, dog, shih, tzu, zoo": {
+                    "original_index": 630,
+                    "generated_count": 100
+                },
+                "juan, lightbulb, mexican": {
+                    "original_index": 631,
+                    "generated_count": 100
+                },
+                "juan, mexican": {
+                    "original_index": 634,
+                    "generated_count": 100
+                },
+                "frog, toad": {
+                    "original_index": 635,
+                    "generated_count": 100
+                },
+                "beef, vegan": {
+                    "original_index": 644,
+                    "generated_count": 100
+                },
+                "humor": {
+                    "original_index": 628,
+                    "generated_count": 100
+                },
+                "basketball": {
+                    "original_index": 625,
+                    "generated_count": 100
+                },
+                "list": {
+                    "original_index": 621,
+                    "generated_count": 100
+                },
+                "balloon": {
+                    "original_index": 622,
+                    "generated_count": 100
+                },
+                "coffee, hipster, mouth": {
+                    "original_index": 623,
+                    "generated_count": 100
+                },
+                "coconut, face, food, friend, onion": {
+                    "original_index": 624,
+                    "generated_count": 100
+                },
+                "girlfriend, pedophile, word, year": {
+                    "original_index": 617,
+                    "generated_count": 100
+                },
+                "girlfriend, wheelchair": {
+                    "original_index": 619,
+                    "generated_count": 100
+                },
+                "bell, cow, horn": {
+                    "original_index": 615,
+                    "generated_count": 100
+                },
+                "case, golfer, hole, pair, pant": {
+                    "original_index": 616,
+                    "generated_count": 100
+                },
+                "cow, foot, hoof": {
+                    "original_index": 672,
+                    "generated_count": 100
+                },
+                "condom, fuck": {
+                    "original_index": 661,
+                    "generated_count": 100
+                },
+                "cell, mitosis, sister, toe": {
+                    "original_index": 663,
+                    "generated_count": 100
+                },
+                "girl, number, sleeve": {
+                    "original_index": 665,
+                    "generated_count": 100
+                },
+                "gump, password": {
+                    "original_index": 667,
+                    "generated_count": 100
+                },
+                "colony, man": {
+                    "original_index": 666,
+                    "generated_count": 100
+                },
+                "dad, mom": {
+                    "original_index": 671,
+                    "generated_count": 100
+                },
+                "difference, hippo": {
+                    "original_index": 670,
+                    "generated_count": 100
+                },
+                "apple, holocaust, worm": {
+                    "original_index": 676,
+                    "generated_count": 100
+                },
+                "ear": {
+                    "original_index": 673,
+                    "generated_count": 100
+                },
+                "contest, pun": {
+                    "original_index": 656,
+                    "generated_count": 100
+                },
+                "chameleon, color, dysfunction, reptile": {
+                    "original_index": 657,
+                    "generated_count": 100
+                },
+                "butter": {
+                    "original_index": 653,
+                    "generated_count": 100
+                },
+                "bar, buck, deer, walk": {
+                    "original_index": 654,
+                    "generated_count": 100
+                },
+                "americans, confusion, kilogram, pound": {
+                    "original_index": 648,
+                    "generated_count": 100
+                },
+                "bill, gas, hitler, suicide": {
+                    "original_index": 645,
+                    "generated_count": 100
+                },
+                "copper, jews, penny, wire": {
+                    "original_index": 664,
+                    "generated_count": 100
+                },
+                "magnet": {
+                    "original_index": 769,
+                    "generated_count": 100
+                },
+                "dad, father, son": {
+                    "original_index": 725,
+                    "generated_count": 100
+                },
+                "mountain": {
+                    "original_index": 724,
+                    "generated_count": 100
+                },
+                "body, pupil": {
+                    "original_index": 721,
+                    "generated_count": 100
+                },
+                "liner": {
+                    "original_index": 726,
+                    "generated_count": 100
+                },
+                "daughter": {
+                    "original_index": 722,
+                    "generated_count": 100
+                },
+                "boob": {
+                    "original_index": 739,
+                    "generated_count": 100
+                },
+                "car, house, hurricane, woman": {
+                    "original_index": 733,
+                    "generated_count": 100
+                },
+                "boat, diver, scuba, water": {
+                    "original_index": 736,
+                    "generated_count": 100
+                },
+                "bulb, hipster, number": {
+                    "original_index": 732,
+                    "generated_count": 100
+                },
+                "band, reggae, ting, triangle": {
+                    "original_index": 731,
+                    "generated_count": 100
+                },
+                "epipen, friend": {
+                    "original_index": 729,
+                    "generated_count": 100
+                },
+                "air, jews, nose": {
+                    "original_index": 730,
+                    "generated_count": 100
+                },
+                "count, magician, poof, tre, uno": {
+                    "original_index": 738,
+                    "generated_count": 100
+                },
+                "circus, juggler": {
+                    "original_index": 740,
+                    "generated_count": 100
+                },
+                "friday": {
+                    "original_index": 709,
+                    "generated_count": 100
+                },
+                "chemist, difference, plumber": {
+                    "original_index": 710,
+                    "generated_count": 100
+                },
+                "atm, balance, lady": {
+                    "original_index": 711,
+                    "generated_count": 100
+                },
+                "lightbulb, mouse": {
+                    "original_index": 712,
+                    "generated_count": 100
+                },
+                "officer": {
+                    "original_index": 713,
+                    "generated_count": 100
+                },
+                "coffee, dick, woman": {
+                    "original_index": 715,
+                    "generated_count": 100
+                },
+                "aloha, pizza, temperature": {
+                    "original_index": 716,
+                    "generated_count": 100
+                },
+                "beer, violence": {
+                    "original_index": 718,
+                    "generated_count": 100
+                },
+                "road, sock, sperm": {
+                    "original_index": 723,
+                    "generated_count": 100
+                },
+                "gut, road, skeleton": {
+                    "original_index": 719,
+                    "generated_count": 100
+                },
+                "aid, phone, sex": {
+                    "original_index": 720,
+                    "generated_count": 100
+                },
+                "country": {
+                    "original_index": 703,
+                    "generated_count": 100
+                },
+                "kid, parent": {
+                    "original_index": 702,
+                    "generated_count": 100
+                },
+                "beer, glass, root": {
+                    "original_index": 705,
+                    "generated_count": 100
+                },
+                "cancer, stage": {
+                    "original_index": 706,
+                    "generated_count": 100
+                },
+                "whiteboard": {
+                    "original_index": 708,
+                    "generated_count": 100
+                },
+                "autocorrect": {
+                    "original_index": 693,
+                    "generated_count": 100
+                },
+                "erection": {
+                    "original_index": 695,
+                    "generated_count": 100
+                },
+                "cabbage, cole, law, murphy": {
+                    "original_index": 698,
+                    "generated_count": 100
+                },
+                "isis": {
+                    "original_index": 697,
+                    "generated_count": 100
+                },
+                "musician": {
+                    "original_index": 699,
+                    "generated_count": 100
+                },
+                "bar, bartender, snake": {
+                    "original_index": 704,
+                    "generated_count": 100
+                },
+                "habit, nun": {
+                    "original_index": 691,
+                    "generated_count": 100
+                },
+                "news": {
+                    "original_index": 692,
+                    "generated_count": 100
+                },
+                "antidepressant": {
+                    "original_index": 685,
+                    "generated_count": 100
+                },
+                "audience, school, shooting": {
+                    "original_index": 686,
+                    "generated_count": 100
+                },
+                "brothel, business, sign": {
+                    "original_index": 687,
+                    "generated_count": 100
+                },
+                "racing, shell, snail": {
+                    "original_index": 688,
+                    "generated_count": 100
+                },
+                "doctor, knock": {
+                    "original_index": 690,
+                    "generated_count": 100
+                },
+                "con, criminal, descending, stair": {
+                    "original_index": 683,
+                    "generated_count": 100
+                },
+                "friend, girlfriend": {
+                    "original_index": 681,
+                    "generated_count": 100
+                },
+                "american, language": {
+                    "original_index": 678,
+                    "generated_count": 100
+                },
+                "gender, tower": {
+                    "original_index": 794,
+                    "generated_count": 100
+                },
+                "bale, batman, church": {
+                    "original_index": 789,
+                    "generated_count": 100
+                },
+                "bicycle, stand": {
+                    "original_index": 790,
+                    "generated_count": 100
+                },
+                "brie, cheese, explosion, factory": {
+                    "original_index": 801,
+                    "generated_count": 100
+                },
+                "bolt, difference, hitler, race": {
+                    "original_index": 767,
+                    "generated_count": 100
+                },
+                "cemetery, fence": {
+                    "original_index": 800,
+                    "generated_count": 100
+                },
+                "race": {
+                    "original_index": 799,
+                    "generated_count": 100
+                },
+                "box, chocolate, dog, girlfriend": {
+                    "original_index": 797,
+                    "generated_count": 100
+                },
+                "group": {
+                    "original_index": 803,
+                    "generated_count": 100
+                },
+                "lipstick, stick, wife": {
+                    "original_index": 802,
+                    "generated_count": 100
+                },
+                "shirt": {
+                    "original_index": 792,
+                    "generated_count": 100
+                },
+                "feminist, leg, wrestler": {
+                    "original_index": 787,
+                    "generated_count": 100
+                },
+                "caesar, mexican, pizza": {
+                    "original_index": 783,
+                    "generated_count": 100
+                },
+                "orgasm, woman": {
+                    "original_index": 779,
+                    "generated_count": 100
+                },
+                "pupil, teacher": {
+                    "original_index": 780,
+                    "generated_count": 100
+                },
+                "dad, job, road, sign, worker": {
+                    "original_index": 773,
+                    "generated_count": 100
+                },
+                "dad, punchline": {
+                    "original_index": 770,
+                    "generated_count": 100
+                },
+                "monkey, tree": {
+                    "original_index": 765,
+                    "generated_count": 100
+                },
+                "bean, difference, face, garbanzo, pea": {
+                    "original_index": 759,
+                    "generated_count": 100
+                },
+                "eye, site": {
+                    "original_index": 760,
+                    "generated_count": 100
+                },
+                "diarrhea, gene": {
+                    "original_index": 761,
+                    "generated_count": 100
+                },
+                "virgin": {
+                    "original_index": 763,
+                    "generated_count": 100
+                },
+                "bit": {
+                    "original_index": 753,
+                    "generated_count": 100
+                },
+                "dollar, gender": {
+                    "original_index": 756,
+                    "generated_count": 100
+                },
+                "blood, type": {
+                    "original_index": 749,
+                    "generated_count": 100
+                },
+                "choice": {
+                    "original_index": 750,
+                    "generated_count": 100
+                },
+                "unemployment": {
+                    "original_index": 754,
+                    "generated_count": 100
+                },
+                "coke, whiskey, woman, year": {
+                    "original_index": 748,
+                    "generated_count": 100
+                },
+                "pokemon": {
+                    "original_index": 746,
+                    "generated_count": 100
+                },
+                "room": {
+                    "original_index": 744,
+                    "generated_count": 100
+                },
+                "future": {
+                    "original_index": 743,
+                    "generated_count": 100
+                },
+                "batmobile, orphan, robin": {
+                    "original_index": 741,
+                    "generated_count": 100
+                },
+                "bar, bartender, food, sandwich": {
+                    "original_index": 757,
+                    "generated_count": 100
+                },
+                "calculator": {
+                    "original_index": 758,
+                    "generated_count": 100
+                },
+                "condom, room": {
+                    "original_index": 772,
+                    "generated_count": 100
+                },
+                "blood": {
+                    "original_index": 577,
+                    "generated_count": 99
+                },
+                "sound": {
+                    "original_index": 571,
+                    "generated_count": 99
+                },
+                "bucket, grandpa": {
+                    "original_index": 594,
+                    "generated_count": 99
+                },
+                "dog, store, tail": {
+                    "original_index": 597,
+                    "generated_count": 99
+                },
+                "difference, snowball, snowman, snowwoman": {
+                    "original_index": 578,
+                    "generated_count": 99
+                },
+                "tweet": {
+                    "original_index": 606,
+                    "generated_count": 99
+                },
+                "field, scarecrow": {
+                    "original_index": 660,
+                    "generated_count": 99
+                },
+                "secret": {
+                    "original_index": 643,
+                    "generated_count": 99
+                },
+                "bar, coincidence, conspiracy, theorist": {
+                    "original_index": 659,
+                    "generated_count": 99
+                },
+                "shell, snail": {
+                    "original_index": 650,
+                    "generated_count": 99
+                },
+                "crime, racism": {
+                    "original_index": 570,
+                    "generated_count": 99
+                },
+                "police": {
+                    "original_index": 574,
+                    "generated_count": 99
+                },
+                "story": {
+                    "original_index": 602,
+                    "generated_count": 99
+                },
+                "bar, buck, deer": {
+                    "original_index": 611,
+                    "generated_count": 99
+                },
+                "bar, bartender, entendre, woman": {
+                    "original_index": 580,
+                    "generated_count": 99
+                },
+                "pilot": {
+                    "original_index": 682,
+                    "generated_count": 99
+                },
+                "weed": {
+                    "original_index": 677,
+                    "generated_count": 99
+                },
+                "stuff": {
+                    "original_index": 774,
+                    "generated_count": 99
+                },
+                "corner, degree, room": {
+                    "original_index": 778,
+                    "generated_count": 99
+                },
+                "clothe": {
+                    "original_index": 795,
+                    "generated_count": 99
+                },
+                "dream, muffler, night": {
+                    "original_index": 771,
+                    "generated_count": 99
+                },
+                "carrot, parrot": {
+                    "original_index": 707,
+                    "generated_count": 99
+                },
+                "bump, fear, speed": {
+                    "original_index": 700,
+                    "generated_count": 99
+                },
+                "drink": {
+                    "original_index": 662,
+                    "generated_count": 99
+                },
+                "finger, gorilla, nostril": {
+                    "original_index": 633,
+                    "generated_count": 99
+                },
+                "vegetable": {
+                    "original_index": 620,
+                    "generated_count": 99
+                },
+                "bar, future, past, present": {
+                    "original_index": 626,
+                    "generated_count": 99
+                },
+                "cow, difference, year": {
+                    "original_index": 632,
+                    "generated_count": 99
+                },
+                "parrot": {
+                    "original_index": 640,
+                    "generated_count": 99
+                },
+                "chef": {
+                    "original_index": 755,
+                    "generated_count": 99
+                },
+                "alphabet": {
+                    "original_index": 745,
+                    "generated_count": 99
+                },
+                "apple, worm": {
+                    "original_index": 742,
+                    "generated_count": 99
+                },
+                "student, teacher": {
+                    "original_index": 796,
+                    "generated_count": 99
+                },
+                "banker, interest": {
+                    "original_index": 777,
+                    "generated_count": 99
+                },
+                "meat": {
+                    "original_index": 784,
+                    "generated_count": 99
+                },
+                "bulb, juan, mexican": {
+                    "original_index": 766,
+                    "generated_count": 99
+                },
+                "bar, past": {
+                    "original_index": 776,
+                    "generated_count": 99
+                },
+                "garden, plot, soil": {
+                    "original_index": 728,
+                    "generated_count": 99
+                },
+                "number, word": {
+                    "original_index": 717,
+                    "generated_count": 99
+                },
+                "bus": {
+                    "original_index": 689,
+                    "generated_count": 99
+                },
+                "tomato": {
+                    "original_index": 734,
+                    "generated_count": 99
+                },
+                "birthday, neighbor, rolex": {
+                    "original_index": 714,
+                    "generated_count": 99
+                },
+                "math, teacher": {
+                    "original_index": 680,
+                    "generated_count": 99
+                },
+                "baby, chicken, road": {
+                    "original_index": 793,
+                    "generated_count": 98
+                },
+                "couple": {
+                    "original_index": 791,
+                    "generated_count": 98
+                },
+                "dust, vacuum": {
+                    "original_index": 804,
+                    "generated_count": 98
+                },
+                "pencil, point": {
+                    "original_index": 764,
+                    "generated_count": 98
+                },
+                "conversation": {
+                    "original_index": 675,
+                    "generated_count": 98
+                },
+                "apple, fault, store, window": {
+                    "original_index": 595,
+                    "generated_count": 98
+                },
+                "friend, korea, north": {
+                    "original_index": 637,
+                    "generated_count": 98
+                },
+                "bagel, bay, sea, seagull": {
+                    "original_index": 647,
+                    "generated_count": 98
+                },
+                "bathroom": {
+                    "original_index": 652,
+                    "generated_count": 98
+                },
+                "grape": {
+                    "original_index": 669,
+                    "generated_count": 98
+                },
+                "foot": {
+                    "original_index": 603,
+                    "generated_count": 98
+                },
+                "dog, shit": {
+                    "original_index": 572,
+                    "generated_count": 98
+                },
+                "hand, pocket, politician": {
+                    "original_index": 798,
+                    "generated_count": 98
+                },
+                "difference, egg": {
+                    "original_index": 788,
+                    "generated_count": 98
+                },
+                "kleptomaniac, pun": {
+                    "original_index": 701,
+                    "generated_count": 98
+                },
+                "boogie, dance, tissue": {
+                    "original_index": 694,
+                    "generated_count": 98
+                },
+                "letter, word": {
+                    "original_index": 727,
+                    "generated_count": 98
+                },
+                "clock, hand": {
+                    "original_index": 684,
+                    "generated_count": 98
+                },
+                "mime": {
+                    "original_index": 762,
+                    "generated_count": 98
+                },
+                "edison, tesla": {
+                    "original_index": 775,
+                    "generated_count": 98
+                },
+                "fall, summer": {
+                    "original_index": 786,
+                    "generated_count": 98
+                },
+                "stripe": {
+                    "original_index": 609,
+                    "generated_count": 97
+                },
+                "refrigerator, running": {
+                    "original_index": 583,
+                    "generated_count": 97
+                },
+                "machine": {
+                    "original_index": 782,
+                    "generated_count": 97
+                },
+                "friend, wife": {
+                    "original_index": 737,
+                    "generated_count": 97
+                },
+                "test": {
+                    "original_index": 735,
+                    "generated_count": 97
+                },
+                "bed, blanket, sheet": {
+                    "original_index": 781,
+                    "generated_count": 97
+                },
+                "friend, pun": {
+                    "original_index": 747,
+                    "generated_count": 97
+                },
+                "doctor, man": {
+                    "original_index": 627,
+                    "generated_count": 97
+                },
+                "dictionary, word": {
+                    "original_index": 613,
+                    "generated_count": 97
+                },
+                "book, head, shelf": {
+                    "original_index": 668,
+                    "generated_count": 97
+                },
+                "momma": {
+                    "original_index": 639,
+                    "generated_count": 97
+                },
+                "history": {
+                    "original_index": 596,
+                    "generated_count": 96
+                },
+                "con, congress, opposite, progress": {
+                    "original_index": 590,
+                    "generated_count": 96
+                },
+                "amnesia": {
+                    "original_index": 614,
+                    "generated_count": 96
+                },
+                "cucumber, difference": {
+                    "original_index": 658,
+                    "generated_count": 96
+                },
+                "arm, leg": {
+                    "original_index": 696,
+                    "generated_count": 96
+                },
+                "boss, work": {
+                    "original_index": 674,
+                    "generated_count": 96
+                },
+                "racist": {
+                    "original_index": 636,
+                    "generated_count": 95
+                },
+                "butter, rumor": {
+                    "original_index": 618,
+                    "generated_count": 95
+                },
+                "electrician": {
+                    "original_index": 641,
+                    "generated_count": 95
+                },
+                "beach": {
+                    "original_index": 655,
+                    "generated_count": 95
+                },
+                "bar, bartender, termite": {
+                    "original_index": 646,
+                    "generated_count": 95
+                },
+                "space": {
+                    "original_index": 768,
+                    "generated_count": 95
+                },
+                "english": {
+                    "original_index": 751,
+                    "generated_count": 94
+                },
+                "family": {
+                    "original_index": 679,
+                    "generated_count": 93
+                },
+                "mathematician": {
+                    "original_index": 752,
+                    "generated_count": 93
+                },
+                "marriage": {
+                    "original_index": 785,
+                    "generated_count": 93
+                },
+                "bar, blonde": {
+                    "original_index": 651,
+                    "generated_count": 92
+                },
+                "chuck, norris": {
+                    "original_index": 649,
+                    "generated_count": 74
+                }
+            }
+        }
+    },
+    "gemini-2.5-flash": {
+        "total_model_count": 6177,
+        "batch_size_20": {
+            "total_jokes_generated": 4529,
+            "unique_combos_count": 48,
+            "combos_detail": {
+                "bar, man": {
+                    "original_index": 7,
+                    "generated_count": 100
+                },
+                "girl": {
+                    "original_index": 5,
+                    "generated_count": 100
+                },
+                "sex": {
+                    "original_index": 11,
+                    "generated_count": 100
+                },
+                "knock": {
+                    "original_index": 8,
+                    "generated_count": 100
+                },
+                "type, world": {
+                    "original_index": 12,
+                    "generated_count": 100
+                },
+                "man, woman": {
+                    "original_index": 15,
+                    "generated_count": 100
+                },
+                "bottle, pepper, wife": {
+                    "original_index": 500,
+                    "generated_count": 100
+                },
+                "dick": {
+                    "original_index": 40,
+                    "generated_count": 100
+                },
+                "dealer, drug, shoe": {
+                    "original_index": 24,
+                    "generated_count": 100
+                },
+                "fish, tank": {
+                    "original_index": 27,
+                    "generated_count": 100
+                },
+                "vision, year": {
+                    "original_index": 30,
+                    "generated_count": 100
+                },
+                "vegetable, wheelchair": {
+                    "original_index": 29,
+                    "generated_count": 100
+                },
+                "leg": {
+                    "original_index": 31,
+                    "generated_count": 100
+                },
+                "chicken, road": {
+                    "original_index": 22,
+                    "generated_count": 100
+                },
+                "number": {
+                    "original_index": 20,
+                    "generated_count": 100
+                },
+                "coffee, woman": {
+                    "original_index": 18,
+                    "generated_count": 100
+                },
+                "question": {
+                    "original_index": 35,
+                    "generated_count": 100
+                },
+                "flag, plus, switzerland": {
+                    "original_index": 39,
+                    "generated_count": 100
+                },
+                "archaeologist, period, tampon": {
+                    "original_index": 502,
+                    "generated_count": 100
+                },
+                "field, road, tractor": {
+                    "original_index": 501,
+                    "generated_count": 100
+                },
+                "chicken, coop, door, sedan": {
+                    "original_index": 33,
+                    "generated_count": 100
+                },
+                "baby": {
+                    "original_index": 34,
+                    "generated_count": 99
+                },
+                "dog, leg": {
+                    "original_index": 19,
+                    "generated_count": 99
+                },
+                "year": {
+                    "original_index": 14,
+                    "generated_count": 99
+                },
+                "woman": {
+                    "original_index": 4,
+                    "generated_count": 99
+                },
+                "friend": {
+                    "original_index": 2,
+                    "generated_count": 99
+                },
+                "life": {
+                    "original_index": 9,
+                    "generated_count": 99
+                },
+                "kid": {
+                    "original_index": 17,
+                    "generated_count": 99
+                },
+                "clock": {
+                    "original_index": 25,
+                    "generated_count": 98
+                },
+                "person": {
+                    "original_index": 13,
+                    "generated_count": 98
+                },
+                "shit": {
+                    "original_index": 32,
+                    "generated_count": 98
+                },
+                "word": {
+                    "original_index": 21,
+                    "generated_count": 98
+                },
+                "reddit": {
+                    "original_index": 28,
+                    "generated_count": 98
+                },
+                "dad": {
+                    "original_index": 0,
+                    "generated_count": 97
+                },
+                "bar": {
+                    "original_index": 10,
+                    "generated_count": 97
+                },
+                "girlfriend": {
+                    "original_index": 3,
+                    "generated_count": 97
+                },
+                "mom": {
+                    "original_index": 38,
+                    "generated_count": 97
+                },
+                "car": {
+                    "original_index": 36,
+                    "generated_count": 96
+                },
+                "atom": {
+                    "original_index": 41,
+                    "generated_count": 95
+                },
+                "wife": {
+                    "original_index": 6,
+                    "generated_count": 95
+                },
+                "doctor": {
+                    "original_index": 26,
+                    "generated_count": 91
+                },
+                "man": {
+                    "original_index": 1,
+                    "generated_count": 89
+                },
+                "cat": {
+                    "original_index": 37,
+                    "generated_count": 89
+                },
+                "dog": {
+                    "original_index": 16,
+                    "generated_count": 82
+                },
+                "food": {
+                    "original_index": 23,
+                    "generated_count": 81
+                },
+                "constipation, movie": {
+                    "original_index": 42,
+                    "generated_count": 60
+                },
+                "chicken, egg, rooster": {
+                    "original_index": 503,
+                    "generated_count": 60
+                },
+                "cemetery": {
+                    "original_index": 504,
+                    "generated_count": 20
+                }
+            }
+        },
+        "batch_size_50": {
+            "total_jokes_generated": 1648,
+            "unique_combos_count": 17,
+            "combos_detail": {
+                "donald, president, trump": {
+                    "original_index": 527,
+                    "generated_count": 100
+                },
+                "girlfriend, penis": {
+                    "original_index": 538,
+                    "generated_count": 100
+                },
+                "suicide": {
+                    "original_index": 528,
+                    "generated_count": 100
+                },
+                "coronavirus": {
+                    "original_index": 529,
+                    "generated_count": 100
+                },
+                "dealer, drug, pair, shoe": {
+                    "original_index": 531,
+                    "generated_count": 100
+                },
+                "minute": {
+                    "original_index": 533,
+                    "generated_count": 100
+                },
+                "cent, concert, nickelback": {
+                    "original_index": 532,
+                    "generated_count": 100
+                },
+                "diaper, politician, reason": {
+                    "original_index": 535,
+                    "generated_count": 100
+                },
+                "man, sex": {
+                    "original_index": 534,
+                    "generated_count": 100
+                },
+                "crack, dealer, difference, drug, hooker": {
+                    "original_index": 540,
+                    "generated_count": 100
+                },
+                "bar, stool": {
+                    "original_index": 539,
+                    "generated_count": 100
+                },
+                "politician": {
+                    "original_index": 536,
+                    "generated_count": 100
+                },
+                "age": {
+                    "original_index": 537,
+                    "generated_count": 100
+                },
+                "finger, hand": {
+                    "original_index": 541,
+                    "generated_count": 100
+                },
+                "hormone": {
+                    "original_index": 530,
+                    "generated_count": 99
+                },
+                "beef, difference, pea, roast, soup": {
+                    "original_index": 526,
+                    "generated_count": 99
+                },
+                "procrastination": {
+                    "original_index": 525,
+                    "generated_count": 50
+                }
+            }
+        }
+    },
+    "gemini-2.5-flash-lite": {
+        "total_model_count": 2128,
+        "batch_size_30": {
+            "total_jokes_generated": 30,
+            "unique_combos_count": 1,
+            "combos_detail": {
+                "cemetery": {
+                    "original_index": 504,
+                    "generated_count": 30
+                }
+            }
+        },
+        "batch_size_50": {
+            "total_jokes_generated": 2098,
+            "unique_combos_count": 22,
+            "combos_detail": {
+                "twitter": {
+                    "original_index": 505,
+                    "generated_count": 100
+                },
+                "cellar, wine, woman, year": {
+                    "original_index": 506,
+                    "generated_count": 100
+                },
+                "mafia, pussy, shit, slip, tongue": {
+                    "original_index": 508,
+                    "generated_count": 100
+                },
+                "right, woman": {
+                    "original_index": 507,
+                    "generated_count": 100
+                },
+                "direction": {
+                    "original_index": 509,
+                    "generated_count": 100
+                },
+                "argon, chemistry": {
+                    "original_index": 510,
+                    "generated_count": 100
+                },
+                "irishman, potato": {
+                    "original_index": 524,
+                    "generated_count": 100
+                },
+                "gravity": {
+                    "original_index": 511,
+                    "generated_count": 100
+                },
+                "eye, fish": {
+                    "original_index": 512,
+                    "generated_count": 100
+                },
+                "brain": {
+                    "original_index": 513,
+                    "generated_count": 100
+                },
+                "bar, man, ouch": {
+                    "original_index": 514,
+                    "generated_count": 100
+                },
+                "baker, hand, poo": {
+                    "original_index": 515,
+                    "generated_count": 100
+                },
+                "denominator, fraction, line, numerator": {
+                    "original_index": 517,
+                    "generated_count": 100
+                },
+                "copy, microsoft, office, word": {
+                    "original_index": 518,
+                    "generated_count": 100
+                },
+                "cheese, nacho": {
+                    "original_index": 523,
+                    "generated_count": 100
+                },
+                "chick": {
+                    "original_index": 519,
+                    "generated_count": 100
+                },
+                "santa": {
+                    "original_index": 520,
+                    "generated_count": 100
+                },
+                "banana, vibrator": {
+                    "original_index": 522,
+                    "generated_count": 100
+                },
+                "coffee, man": {
+                    "original_index": 521,
+                    "generated_count": 99
+                },
+                "husband, wife": {
+                    "original_index": 516,
+                    "generated_count": 99
+                },
+                "cemetery": {
+                    "original_index": 504,
+                    "generated_count": 50
+                },
+                "procrastination": {
+                    "original_index": 525,
+                    "generated_count": 50
+                }
+            }
+        }
+    },
+    "gemini-2.5-pro": {
+        "total_model_count": 2487,
+        "batch_size_1": {
+            "total_jokes_generated": 1,
+            "unique_combos_count": 1,
+            "combos_detail": {
+                "german, lightbulb": {
+                    "original_index": 544,
+                    "generated_count": 1
+                }
+            }
+        },
+        "batch_size_50": {
+            "total_jokes_generated": 2486,
+            "unique_combos_count": 25,
+            "combos_detail": {
+                "yoda": {
+                    "original_index": 542,
+                    "generated_count": 100
+                },
+                "skydiving": {
+                    "original_index": 543,
+                    "generated_count": 100
+                },
+                "difference, glue, piano, tuna": {
+                    "original_index": 545,
+                    "generated_count": 100
+                },
+                "mod": {
+                    "original_index": 546,
+                    "generated_count": 100
+                },
+                "attire, bicycle, difference, man, unicycle": {
+                    "original_index": 547,
+                    "generated_count": 100
+                },
+                "beef, cow, ground, leg": {
+                    "original_index": 549,
+                    "generated_count": 100
+                },
+                "bar, bartender, pop, weasel": {
+                    "original_index": 554,
+                    "generated_count": 100
+                },
+                "anna, daughter, drummer": {
+                    "original_index": 553,
+                    "generated_count": 100
+                },
+                "hour, nose, party, watch, woman": {
+                    "original_index": 551,
+                    "generated_count": 100
+                },
+                "bread": {
+                    "original_index": 565,
+                    "generated_count": 100
+                },
+                "condom, difference, goodyear, tire, year": {
+                    "original_index": 564,
+                    "generated_count": 100
+                },
+                "shoulder": {
+                    "original_index": 562,
+                    "generated_count": 100
+                },
+                "friend, girl": {
+                    "original_index": 556,
+                    "generated_count": 100
+                },
+                "girl, name, number": {
+                    "original_index": 558,
+                    "generated_count": 100
+                },
+                "dish, sex, wife": {
+                    "original_index": 557,
+                    "generated_count": 100
+                },
+                "chicken, house, idiot, knock, road": {
+                    "original_index": 561,
+                    "generated_count": 100
+                },
+                "horse, mayo, neigh": {
+                    "original_index": 559,
+                    "generated_count": 100
+                },
+                "fish, gun, tank": {
+                    "original_index": 563,
+                    "generated_count": 99
+                },
+                "scientist": {
+                    "original_index": 548,
+                    "generated_count": 99
+                },
+                "german, lightbulb": {
+                    "original_index": 544,
+                    "generated_count": 99
+                },
+                "cow, milk": {
+                    "original_index": 555,
+                    "generated_count": 99
+                },
+                "bar, lawyer": {
+                    "original_index": 560,
+                    "generated_count": 99
+                },
+                "nut": {
+                    "original_index": 550,
+                    "generated_count": 98
+                },
+                "music": {
+                    "original_index": 552,
+                    "generated_count": 97
+                },
+                "cake": {
+                    "original_index": 566,
+                    "generated_count": 96
+                }
+            }
+        }
+    }
+}

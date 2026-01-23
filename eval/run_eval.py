@@ -26,7 +26,7 @@ parent_dir = os.path.abspath(os.path.join(current_dir, ".."))
 sys.path.append(parent_dir)
 
 from tokenizers import Tokenizer
-from models.decoder_only import TransformerDecoder
+from decoder_only.model.decoder_only import TransformerDecoder
 
 
 def load_model_and_tokenizer(model_ckpt: Path, device: str = "cuda"):

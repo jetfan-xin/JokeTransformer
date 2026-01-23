@@ -27,7 +27,7 @@ parent_dir = os.path.abspath(os.path.join(current_dir, ".."))
 sys.path.append(parent_dir)
 
 from tokenizers import Tokenizer
-from models.decoder_only import TransformerDecoder
+from decoder_only.model.decoder_only import TransformerDecoder
 
 
 # -----------------------------
@@ -340,8 +340,6 @@ def main():
     top_k = 0
     max_bleu_refs = 1000
 
-    # 🔺自定义一个 tag，加到输出文件名里
-    # 比如：null_combinations / k3_top5 / k3_p75 等
     eval_tag = "null_combinations_k3_p75_top5"
 
     print("[LOAD] Loading model...")

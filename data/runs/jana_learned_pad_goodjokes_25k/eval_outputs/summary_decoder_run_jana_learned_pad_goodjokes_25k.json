@@ -1,0 +1,42 @@
+{
+  "model_name": "decoder_run_jana_learned_pad_goodjokes_25k",
+  "decode_params": {
+    "max_new_tokens": 64,
+    "temperature": 1.0,
+    "top_k": 0
+  },
+  "num_examples": 150,
+  "mean_topic_recall_hard": 0.2,
+  "median_topic_recall_hard": 0.0,
+  "mean_topic_full_hit_hard": 0.2,
+  "median_topic_full_hit_hard": 0.0,
+  "mean_topic_recall_soft": 0.23333333333333334,
+  "median_topic_recall_soft": 0.0,
+  "mean_topic_full_hit_soft": 0.23333333333333334,
+  "median_topic_full_hit_soft": 0.0,
+  "mean_max_bleu_train": 0.04534505969004483,
+  "median_max_bleu_train": 0.025343191012060028,
+  "mean_copy_flag_bleu": 0.0,
+  "median_copy_flag_bleu": 0.0,
+  "diversity": {
+    "distinct_1": 0.3556028746340165,
+    "distinct_2": 0.8511228167452176
+  },
+  "by_num_topics": {
+    "1": {
+      "num_examples": 150,
+      "mean_topic_recall_hard": 0.2,
+      "median_topic_recall_hard": 0.0,
+      "mean_topic_full_hit_hard": 0.2,
+      "median_topic_full_hit_hard": 0.0,
+      "mean_topic_recall_soft": 0.23333333333333334,
+      "median_topic_recall_soft": 0.0,
+      "mean_topic_full_hit_soft": 0.23333333333333334,
+      "median_topic_full_hit_soft": 0.0,
+      "mean_max_bleu_train": 0.04534505969004483,
+      "median_max_bleu_train": 0.025343191012060028,
+      "mean_copy_flag_bleu": 0.0,
+      "median_copy_flag_bleu": 0.0
+    }
+  }
+}

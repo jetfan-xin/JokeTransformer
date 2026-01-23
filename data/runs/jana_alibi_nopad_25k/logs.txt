@@ -1,0 +1,93 @@
+2025-12-11 19:21:43,302 - joketokenizer.py - INFO - Writing jokes.text at data/runs/jana_alibi_nopad_25k/jokes_text.txt
+2025-12-11 19:21:43,540 - joketokenizer.py - INFO - Stored successfully at data/runs/jana_alibi_nopad_25k/jokes_text.txt
+2025-12-11 19:21:43,630 - joketokenizer.py - INFO - Training tokenizer with vocab size = 4000 
+2025-12-11 19:22:25,397 - joketokenizer.py - INFO - Storing tokenizer at data/runs/jana_alibi_nopad_25k/tokenizer.json
+2025-12-11 19:22:25,436 - dataset_loader.py - INFO - Creating tokenized data... (Reload code to release memory)
+2025-12-11 19:22:52,675 - dataset_loader.py - INFO - Getting rid of garbage
+2025-12-11 19:22:56,589 - dataset_loader.py - INFO - Done collecting garbage
+2025-12-11 19:22:56,589 - dataset_loader.py - INFO - Please restart code if stuck at this point, the tokenized data must be stored on local at this point.
+2025-12-11 19:22:56,822 - main.py - INFO - Model parameters: 8396704
+2025-12-11 19:22:57,670 - config.py - INFO - Configuration saved to data/runs/jana_alibi_nopad_25k/config.json
+2025-12-11 19:22:57,670 - training.py - INFO - No files found in directory: data/runs/jana_alibi_nopad_25k/model_checkpoints
+2025-12-11 19:23:00,739 - training.py - INFO - step 0: train loss 7.9423, val loss 7.9416
+2025-12-11 19:23:00,985 - training.py - INFO - [Checkpoint saved] iteration 0 -> data/runs/jana_alibi_nopad_25k/model_checkpoints/checkpoint_0.pt
+2025-12-11 19:23:00,985 - training.py - INFO - Time taken : 3.314918279647827
+2025-12-11 19:23:48,030 - training.py - INFO - step 1000: train loss 3.6826, val loss 3.6995
+2025-12-11 19:23:48,261 - training.py - INFO - [Checkpoint saved] iteration 1000 -> data/runs/jana_alibi_nopad_25k/model_checkpoints/checkpoint_1000.pt
+2025-12-11 19:23:48,261 - training.py - INFO - Time taken : 47.2756712436676
+2025-12-11 19:24:34,706 - training.py - INFO - step 2000: train loss 3.4284, val loss 3.4630
+2025-12-11 19:24:34,866 - training.py - INFO - [Checkpoint saved] iteration 2000 -> data/runs/jana_alibi_nopad_25k/model_checkpoints/checkpoint_2000.pt
+2025-12-11 19:24:34,867 - training.py - INFO - Time taken : 46.60575246810913
+2025-12-11 19:25:16,355 - training.py - INFO - step 3000: train loss 3.2665, val loss 3.2796
+2025-12-11 19:25:16,557 - training.py - INFO - [Checkpoint saved] iteration 3000 -> data/runs/jana_alibi_nopad_25k/model_checkpoints/checkpoint_3000.pt
+2025-12-11 19:25:16,558 - training.py - INFO - Time taken : 41.69053339958191
+2025-12-11 19:25:58,007 - training.py - INFO - step 4000: train loss 3.1869, val loss 3.2013
+2025-12-11 19:25:58,188 - training.py - INFO - [Checkpoint saved] iteration 4000 -> data/runs/jana_alibi_nopad_25k/model_checkpoints/checkpoint_4000.pt
+2025-12-11 19:25:58,189 - training.py - INFO - Time taken : 41.630943059921265
+2025-12-11 19:26:42,441 - training.py - INFO - step 5000: train loss 3.1079, val loss 3.1396
+2025-12-11 19:26:42,610 - training.py - INFO - [Checkpoint saved] iteration 5000 -> data/runs/jana_alibi_nopad_25k/model_checkpoints/checkpoint_5000.pt
+2025-12-11 19:26:42,610 - training.py - INFO - Time taken : 44.421268463134766
+2025-12-11 19:27:23,992 - training.py - INFO - step 6000: train loss 3.0629, val loss 3.0917
+2025-12-11 19:27:24,165 - training.py - INFO - [Checkpoint saved] iteration 6000 -> data/runs/jana_alibi_nopad_25k/model_checkpoints/checkpoint_6000.pt
+2025-12-11 19:27:24,165 - training.py - INFO - Time taken : 41.55495738983154
+2025-12-11 19:28:05,638 - training.py - INFO - step 7000: train loss 3.0082, val loss 3.0534
+2025-12-11 19:28:05,811 - training.py - INFO - [Checkpoint saved] iteration 7000 -> data/runs/jana_alibi_nopad_25k/model_checkpoints/checkpoint_7000.pt
+2025-12-11 19:28:05,811 - training.py - INFO - Time taken : 41.64583921432495
+2025-12-11 19:28:47,323 - training.py - INFO - step 8000: train loss 2.9684, val loss 3.0179
+2025-12-11 19:28:47,491 - training.py - INFO - [Checkpoint saved] iteration 8000 -> data/runs/jana_alibi_nopad_25k/model_checkpoints/checkpoint_8000.pt
+2025-12-11 19:28:47,491 - training.py - INFO - Time taken : 41.679877519607544
+2025-12-11 19:29:28,918 - training.py - INFO - step 9000: train loss 2.9507, val loss 2.9930
+2025-12-11 19:29:29,094 - training.py - INFO - [Checkpoint saved] iteration 9000 -> data/runs/jana_alibi_nopad_25k/model_checkpoints/checkpoint_9000.pt
+2025-12-11 19:29:29,094 - training.py - INFO - Time taken : 41.602848052978516
+2025-12-11 19:30:10,748 - training.py - INFO - step 10000: train loss 2.9154, val loss 2.9690
+2025-12-11 19:30:10,933 - training.py - INFO - [Checkpoint saved] iteration 10000 -> data/runs/jana_alibi_nopad_25k/model_checkpoints/checkpoint_10000.pt
+2025-12-11 19:30:10,933 - training.py - INFO - Time taken : 41.83912897109985
+2025-12-11 19:30:52,350 - training.py - INFO - step 11000: train loss 2.9116, val loss 2.9429
+2025-12-11 19:30:52,537 - training.py - INFO - [Checkpoint saved] iteration 11000 -> data/runs/jana_alibi_nopad_25k/model_checkpoints/checkpoint_11000.pt
+2025-12-11 19:30:52,537 - training.py - INFO - Time taken : 41.603450775146484
+2025-12-11 19:31:34,220 - training.py - INFO - step 12000: train loss 2.8713, val loss 2.9452
+2025-12-11 19:31:34,401 - training.py - INFO - [Checkpoint saved] iteration 12000 -> data/runs/jana_alibi_nopad_25k/model_checkpoints/checkpoint_12000.pt
+2025-12-11 19:31:34,402 - training.py - INFO - Time taken : 41.86413931846619
+2025-12-11 19:32:19,380 - training.py - INFO - step 13000: train loss 2.8612, val loss 2.9172
+2025-12-11 19:32:19,575 - training.py - INFO - [Checkpoint saved] iteration 13000 -> data/runs/jana_alibi_nopad_25k/model_checkpoints/checkpoint_13000.pt
+2025-12-11 19:32:19,575 - training.py - INFO - Time taken : 45.17333126068115
+2025-12-11 19:33:00,949 - training.py - INFO - step 14000: train loss 2.8523, val loss 2.9045
+2025-12-11 19:33:01,117 - training.py - INFO - [Checkpoint saved] iteration 14000 -> data/runs/jana_alibi_nopad_25k/model_checkpoints/checkpoint_14000.pt
+2025-12-11 19:33:01,117 - training.py - INFO - Time taken : 41.54203510284424
+2025-12-11 19:33:42,490 - training.py - INFO - step 15000: train loss 2.8454, val loss 2.8986
+2025-12-11 19:33:42,663 - training.py - INFO - [Checkpoint saved] iteration 15000 -> data/runs/jana_alibi_nopad_25k/model_checkpoints/checkpoint_15000.pt
+2025-12-11 19:33:42,664 - training.py - INFO - Time taken : 41.546229124069214
+2025-12-11 19:34:24,350 - training.py - INFO - step 16000: train loss 2.8084, val loss 2.8746
+2025-12-11 19:34:24,526 - training.py - INFO - [Checkpoint saved] iteration 16000 -> data/runs/jana_alibi_nopad_25k/model_checkpoints/checkpoint_16000.pt
+2025-12-11 19:34:24,526 - training.py - INFO - Time taken : 41.862268686294556
+2025-12-11 19:35:05,868 - training.py - INFO - step 17000: train loss 2.8087, val loss 2.8681
+2025-12-11 19:35:06,036 - training.py - INFO - [Checkpoint saved] iteration 17000 -> data/runs/jana_alibi_nopad_25k/model_checkpoints/checkpoint_17000.pt
+2025-12-11 19:35:06,036 - training.py - INFO - Time taken : 41.51038122177124
+2025-12-11 19:35:47,435 - training.py - INFO - step 18000: train loss 2.8174, val loss 2.8658
+2025-12-11 19:35:47,613 - training.py - INFO - [Checkpoint saved] iteration 18000 -> data/runs/jana_alibi_nopad_25k/model_checkpoints/checkpoint_18000.pt
+2025-12-11 19:35:47,614 - training.py - INFO - Time taken : 41.57696175575256
+2025-12-11 19:36:28,986 - training.py - INFO - step 19000: train loss 2.7912, val loss 2.8587
+2025-12-11 19:36:29,158 - training.py - INFO - [Checkpoint saved] iteration 19000 -> data/runs/jana_alibi_nopad_25k/model_checkpoints/checkpoint_19000.pt
+2025-12-11 19:36:29,158 - training.py - INFO - Time taken : 41.544453859329224
+2025-12-11 19:37:10,512 - training.py - INFO - step 20000: train loss 2.7728, val loss 2.8400
+2025-12-11 19:37:10,683 - training.py - INFO - [Checkpoint saved] iteration 20000 -> data/runs/jana_alibi_nopad_25k/model_checkpoints/checkpoint_20000.pt
+2025-12-11 19:37:10,683 - training.py - INFO - Time taken : 41.524507999420166
+2025-12-11 19:37:52,039 - training.py - INFO - step 21000: train loss 2.7697, val loss 2.8463
+2025-12-11 19:37:52,213 - training.py - INFO - [Checkpoint saved] iteration 21000 -> data/runs/jana_alibi_nopad_25k/model_checkpoints/checkpoint_21000.pt
+2025-12-11 19:37:52,214 - training.py - INFO - Time taken : 41.53048586845398
+2025-12-11 19:38:33,650 - training.py - INFO - step 22000: train loss 2.7532, val loss 2.8384
+2025-12-11 19:38:33,833 - training.py - INFO - [Checkpoint saved] iteration 22000 -> data/runs/jana_alibi_nopad_25k/model_checkpoints/checkpoint_22000.pt
+2025-12-11 19:38:33,833 - training.py - INFO - Time taken : 41.619508266448975
+2025-12-11 19:39:19,304 - training.py - INFO - step 23000: train loss 2.7345, val loss 2.8207
+2025-12-11 19:39:19,470 - training.py - INFO - [Checkpoint saved] iteration 23000 -> data/runs/jana_alibi_nopad_25k/model_checkpoints/checkpoint_23000.pt
+2025-12-11 19:39:19,470 - training.py - INFO - Time taken : 45.636632204055786
+2025-12-11 19:40:00,821 - training.py - INFO - step 24000: train loss 2.7475, val loss 2.8066
+2025-12-11 19:40:00,991 - training.py - INFO - [Checkpoint saved] iteration 24000 -> data/runs/jana_alibi_nopad_25k/model_checkpoints/checkpoint_24000.pt
+2025-12-11 19:40:00,991 - training.py - INFO - Time taken : 41.52107906341553
+2025-12-11 20:36:45,679 - joketokenizer.py - WARNING - Jokes text file already exists at: data/runs/jana_alibi_nopad_25k/jokes_text.txt
+2025-12-11 20:36:45,679 - joketokenizer.py - WARNING - Tokenizer already exists at: data/runs/jana_alibi_nopad_25k/tokenizer.json
+2025-12-11 20:36:45,706 - dataset_loader.py - INFO - Loading tokenized data from cache...
+2025-12-11 20:36:46,294 - dataset_loader.py - INFO - [DATASET] Cache detected as concatenated (train shape=(32300632,))
+2025-12-11 20:36:46,918 - decoder_only.py - INFO - Loading model checkpoint : data/runs/jana_alibi_nopad_25k/model_checkpoints/checkpoint_24000.pt
+2025-12-11 20:36:47,909 - metrics.py - INFO - Next-token LM metrics on test split: {'token_nll': 2.8014822578430176, 'perplexity': 16.469040051848836, 'token_accuracy': 0.47268310546875}
+2025-12-11 20:36:47,912 - metrics.py - INFO - Saved test LM metrics to data/runs/jana_alibi_nopad_25k/eval_outputs/test_lm_metrics.json

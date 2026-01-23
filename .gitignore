@@ -215,3 +215,4 @@ wandb_logs/
 jana/
 *.csv
 *.gz
+jokes_text.txt

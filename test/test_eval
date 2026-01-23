@@ -1,6 +1,0 @@
-from src.eval import keyword_hit_rate
-
-def test_keyword_hit_rate_basic():
-    txt = "the elephant told a joke"
-    score = keyword_hit_rate(txt, "elephants")
-    assert 0.0 <= score <= 1.0

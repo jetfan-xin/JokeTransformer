@@ -1,0 +1,135 @@
+2025-12-12 22:41:00,854 - joketokenizer.py - INFO - Writing jokes.text at data/runs/jana_learned_nopad_goodjokes_25k/jokes_text.txt
+2025-12-12 22:41:00,928 - joketokenizer.py - INFO - Stored successfully at data/runs/jana_learned_nopad_goodjokes_25k/jokes_text.txt
+2025-12-12 22:41:00,959 - joketokenizer.py - INFO - Training tokenizer with vocab size = 4000 
+2025-12-12 22:41:15,561 - joketokenizer.py - INFO - Storing tokenizer at data/runs/jana_learned_nopad_goodjokes_25k/tokenizer.json
+2025-12-12 22:41:15,582 - dataset_loader.py - INFO - Creating tokenized data... (Reload code to release memory)
+2025-12-12 22:41:24,950 - dataset_loader.py - INFO - Getting rid of garbage
+2025-12-12 22:41:26,028 - dataset_loader.py - INFO - Done collecting garbage
+2025-12-12 22:41:26,028 - dataset_loader.py - INFO - Please restart code if stuck at this point, the tokenized data must be stored on local at this point.
+2025-12-12 22:41:26,633 - main.py - INFO - Model parameters: 8495008
+2025-12-12 22:41:26,985 - config.py - INFO - Configuration saved to data/runs/jana_learned_nopad_goodjokes_25k/config.json
+2025-12-12 22:41:26,985 - training.py - INFO - No files found in directory: data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints
+2025-12-12 22:41:28,521 - training.py - INFO - step 0: train loss 8.1635, val loss 8.1395
+2025-12-12 22:41:28,708 - training.py - INFO - [Checkpoint saved] iteration 0 -> data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_0.pt
+2025-12-12 22:41:28,708 - training.py - INFO - Time taken : 1.7230002880096436
+2025-12-12 22:42:09,829 - training.py - INFO - step 1000: train loss 4.0687, val loss 4.0308
+2025-12-12 22:42:10,020 - training.py - INFO - [Checkpoint saved] iteration 1000 -> data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_1000.pt
+2025-12-12 22:42:10,020 - training.py - INFO - Time taken : 41.311774253845215
+2025-12-12 22:42:52,404 - training.py - INFO - step 2000: train loss 3.8119, val loss 3.8003
+2025-12-12 22:42:52,590 - training.py - INFO - [Checkpoint saved] iteration 2000 -> data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_2000.pt
+2025-12-12 22:42:52,590 - training.py - INFO - Time taken : 42.570114850997925
+2025-12-12 22:43:33,885 - training.py - INFO - step 3000: train loss 3.6266, val loss 3.6437
+2025-12-12 22:43:34,064 - training.py - INFO - [Checkpoint saved] iteration 3000 -> data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_3000.pt
+2025-12-12 22:43:34,065 - training.py - INFO - Time taken : 41.47466516494751
+2025-12-12 22:44:17,807 - training.py - INFO - step 4000: train loss 3.4804, val loss 3.5083
+2025-12-12 22:44:17,982 - training.py - INFO - [Checkpoint saved] iteration 4000 -> data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_4000.pt
+2025-12-12 22:44:17,982 - training.py - INFO - Time taken : 43.91692280769348
+2025-12-12 22:44:59,278 - training.py - INFO - step 5000: train loss 3.3787, val loss 3.4177
+2025-12-12 22:44:59,481 - training.py - INFO - [Checkpoint saved] iteration 5000 -> data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_5000.pt
+2025-12-12 22:44:59,481 - training.py - INFO - Time taken : 41.499411821365356
+2025-12-12 22:45:40,765 - training.py - INFO - step 6000: train loss 3.2888, val loss 3.3237
+2025-12-12 22:45:40,963 - training.py - INFO - [Checkpoint saved] iteration 6000 -> data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_6000.pt
+2025-12-12 22:45:40,964 - training.py - INFO - Time taken : 41.48196601867676
+2025-12-12 22:46:22,249 - training.py - INFO - step 7000: train loss 3.2090, val loss 3.2785
+2025-12-12 22:46:22,440 - training.py - INFO - [Checkpoint saved] iteration 7000 -> data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_7000.pt
+2025-12-12 22:46:22,440 - training.py - INFO - Time taken : 41.476120471954346
+2025-12-12 22:47:03,737 - training.py - INFO - step 8000: train loss 3.1539, val loss 3.2260
+2025-12-12 22:47:03,934 - training.py - INFO - [Checkpoint saved] iteration 8000 -> data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_8000.pt
+2025-12-12 22:47:03,934 - training.py - INFO - Time taken : 41.494449853897095
+2025-12-12 22:47:45,175 - training.py - INFO - step 9000: train loss 3.1043, val loss 3.1869
+2025-12-12 22:47:45,355 - training.py - INFO - [Checkpoint saved] iteration 9000 -> data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_9000.pt
+2025-12-12 22:47:45,356 - training.py - INFO - Time taken : 41.420992612838745
+2025-12-12 22:48:26,650 - training.py - INFO - step 10000: train loss 3.0573, val loss 3.1679
+2025-12-12 22:48:26,844 - training.py - INFO - [Checkpoint saved] iteration 10000 -> data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_10000.pt
+2025-12-12 22:48:26,844 - training.py - INFO - Time taken : 41.48836374282837
+2025-12-12 22:49:08,137 - training.py - INFO - step 11000: train loss 3.0368, val loss 3.1438
+2025-12-12 22:49:08,322 - training.py - INFO - [Checkpoint saved] iteration 11000 -> data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_11000.pt
+2025-12-12 22:49:08,322 - training.py - INFO - Time taken : 41.477736949920654
+2025-12-12 22:49:49,604 - training.py - INFO - step 12000: train loss 3.0129, val loss 3.1286
+2025-12-12 22:49:50,068 - training.py - INFO - [Checkpoint saved] iteration 12000 -> data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_12000.pt
+2025-12-12 22:49:50,068 - training.py - INFO - Time taken : 41.74550127983093
+2025-12-12 22:50:34,341 - training.py - INFO - step 13000: train loss 2.9758, val loss 3.1113
+2025-12-12 22:50:34,787 - training.py - INFO - [Checkpoint saved] iteration 13000 -> data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_13000.pt
+2025-12-12 22:50:34,788 - training.py - INFO - Time taken : 44.71926403045654
+2025-12-12 22:51:17,293 - training.py - INFO - step 14000: train loss 2.9355, val loss 3.0890
+2025-12-12 22:51:17,683 - training.py - INFO - [Checkpoint saved] iteration 14000 -> data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_14000.pt
+2025-12-12 22:51:17,683 - training.py - INFO - Time taken : 42.895713329315186
+2025-12-12 22:51:59,462 - training.py - INFO - step 15000: train loss 2.9315, val loss 3.0730
+2025-12-12 22:52:00,239 - training.py - INFO - [Checkpoint saved] iteration 15000 -> data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_15000.pt
+2025-12-12 22:52:00,239 - training.py - INFO - Time taken : 42.55562162399292
+2025-12-12 22:52:43,709 - training.py - INFO - step 16000: train loss 2.9171, val loss 3.0730
+2025-12-12 22:52:44,815 - training.py - INFO - [Checkpoint saved] iteration 16000 -> data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_16000.pt
+2025-12-12 22:52:44,815 - training.py - INFO - Time taken : 44.57578229904175
+2025-12-12 22:53:27,008 - training.py - INFO - step 17000: train loss 2.8816, val loss 3.0562
+2025-12-12 22:53:29,103 - training.py - INFO - [Checkpoint saved] iteration 17000 -> data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_17000.pt
+2025-12-12 22:53:29,103 - training.py - INFO - Time taken : 44.288352966308594
+2025-12-12 22:54:12,493 - training.py - INFO - step 18000: train loss 2.8772, val loss 3.0244
+2025-12-12 23:00:19,264 - joketokenizer.py - WARNING - Jokes text file already exists at: data/runs/jana_learned_nopad_goodjokes_25k/jokes_text.txt
+2025-12-12 23:00:19,264 - joketokenizer.py - WARNING - Jokes text file already exists at: data/runs/jana_learned_nopad_goodjokes_25k/jokes_text.txt
+2025-12-12 23:00:19,267 - joketokenizer.py - WARNING - Tokenizer already exists at: data/runs/jana_learned_nopad_goodjokes_25k/tokenizer.json
+2025-12-12 23:00:19,277 - dataset_loader.py - INFO - Loading tokenized data from cache...
+2025-12-12 23:00:19,470 - dataset_loader.py - INFO - [DATASET] Cache detected as concatenated (train shape=(9975755,))
+2025-12-12 23:00:21,143 - main.py - INFO - Model parameters: 8495008
+2025-12-12 23:00:21,504 - config.py - WARNING - Config file already exists at: data/runs/jana_learned_nopad_goodjokes_25k/config.json
+2025-12-12 23:01:32,720 - joketokenizer.py - WARNING - Jokes text file already exists at: data/runs/jana_learned_nopad_goodjokes_25k/jokes_text.txt
+2025-12-12 23:01:32,720 - joketokenizer.py - WARNING - Tokenizer already exists at: data/runs/jana_learned_nopad_goodjokes_25k/tokenizer.json
+2025-12-12 23:01:32,731 - dataset_loader.py - INFO - Loading tokenized data from cache...
+2025-12-12 23:01:32,913 - dataset_loader.py - INFO - [DATASET] Cache detected as concatenated (train shape=(9975755,))
+2025-12-12 23:01:33,262 - main.py - INFO - Model parameters: 8495008
+2025-12-12 23:01:33,620 - config.py - WARNING - Config file already exists at: data/runs/jana_learned_nopad_goodjokes_25k/config.json
+2025-12-12 23:01:34,345 - training.py - INFO - Loaded checkpoint from iteration 17000, last loss = 2.9418
+2025-12-12 23:01:36,798 - training.py - INFO - step 17000: train loss 2.8882, val loss 3.0568
+2025-12-12 23:01:36,988 - training.py - INFO - [Checkpoint saved] iteration 17000 -> data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_17000.pt
+2025-12-12 23:01:36,988 - training.py - INFO - Time taken : 3.367177724838257
+2025-12-12 23:02:22,283 - training.py - INFO - step 18000: train loss 2.8695, val loss 3.0423
+2025-12-12 23:02:22,551 - training.py - INFO - [Checkpoint saved] iteration 18000 -> data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_18000.pt
+2025-12-12 23:02:22,552 - training.py - INFO - Time taken : 45.56364941596985
+2025-12-12 23:03:04,918 - training.py - INFO - step 19000: train loss 2.8444, val loss 3.0190
+2025-12-12 23:03:05,142 - training.py - INFO - [Checkpoint saved] iteration 19000 -> data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_19000.pt
+2025-12-12 23:03:05,143 - training.py - INFO - Time taken : 42.590856075286865
+2025-12-12 23:03:47,927 - training.py - INFO - step 20000: train loss 2.8297, val loss 3.0207
+2025-12-12 23:03:48,142 - training.py - INFO - [Checkpoint saved] iteration 20000 -> data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_20000.pt
+2025-12-12 23:03:48,143 - training.py - INFO - Time taken : 42.99975252151489
+2025-12-12 23:04:31,031 - training.py - INFO - step 21000: train loss 2.8209, val loss 3.0133
+2025-12-12 23:04:31,227 - training.py - INFO - [Checkpoint saved] iteration 21000 -> data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_21000.pt
+2025-12-12 23:04:31,227 - training.py - INFO - Time taken : 43.084431648254395
+2025-12-12 23:05:14,148 - training.py - INFO - step 22000: train loss 2.8082, val loss 3.0038
+2025-12-12 23:05:14,390 - training.py - INFO - [Checkpoint saved] iteration 22000 -> data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_22000.pt
+2025-12-12 23:05:14,390 - training.py - INFO - Time taken : 43.16211771965027
+2025-12-12 23:05:57,326 - training.py - INFO - step 23000: train loss 2.7919, val loss 3.0011
+2025-12-12 23:05:57,545 - training.py - INFO - [Checkpoint saved] iteration 23000 -> data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_23000.pt
+2025-12-12 23:05:57,545 - training.py - INFO - Time taken : 43.15496563911438
+2025-12-12 23:06:40,507 - training.py - INFO - step 24000: train loss 2.7733, val loss 2.9872
+2025-12-12 23:06:40,691 - training.py - INFO - [Checkpoint saved] iteration 24000 -> data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_24000.pt
+2025-12-12 23:06:40,691 - training.py - INFO - Time taken : 43.146220207214355
+2025-12-12 23:08:29,743 - joketokenizer.py - WARNING - Jokes text file already exists at: data/runs/jana_learned_nopad_goodjokes_25k/jokes_text.txt
+2025-12-12 23:08:29,744 - joketokenizer.py - WARNING - Tokenizer already exists at: data/runs/jana_learned_nopad_goodjokes_25k/tokenizer.json
+2025-12-12 23:08:30,763 - decoder_only.py - INFO - Loading model checkpoint : data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_24000.pt
+2025-12-12 23:08:31,234 - metrics.py - INFO - [EVAL] Writing outputs to: data/runs/jana_learned_nopad_goodjokes_25k/eval_outputs
+2025-12-12 23:08:31,235 - metrics.py - INFO - [EVAL] Evaluating on prompts...
+2025-12-12 23:08:31,235 - metrics.py - INFO - [EVAL] Eval prompts already exist: data/processed/eval_prompts_single_topic.csv
+2025-12-12 23:08:31,240 - metrics.py - INFO - [EVAL] Processing prompt 1/150...
+2025-12-12 23:08:35,491 - metrics.py - INFO - [EVAL] Processing prompt 11/150...
+2025-12-12 23:08:37,260 - metrics.py - INFO - [EVAL] Processing prompt 21/150...
+2025-12-12 23:08:39,589 - metrics.py - INFO - [EVAL] Processing prompt 31/150...
+2025-12-12 23:08:41,380 - metrics.py - INFO - [EVAL] Processing prompt 41/150...
+2025-12-12 23:08:43,511 - metrics.py - INFO - [EVAL] Processing prompt 51/150...
+2025-12-12 23:08:46,115 - metrics.py - INFO - [EVAL] Processing prompt 61/150...
+2025-12-12 23:08:48,076 - metrics.py - INFO - [EVAL] Processing prompt 71/150...
+2025-12-12 23:08:50,853 - metrics.py - INFO - [EVAL] Processing prompt 81/150...
+2025-12-12 23:08:52,953 - metrics.py - INFO - [EVAL] Processing prompt 91/150...
+2025-12-12 23:08:54,985 - metrics.py - INFO - [EVAL] Processing prompt 101/150...
+2025-12-12 23:08:57,243 - metrics.py - INFO - [EVAL] Processing prompt 111/150...
+2025-12-12 23:08:59,255 - metrics.py - INFO - [EVAL] Processing prompt 121/150...
+2025-12-12 23:09:01,364 - metrics.py - INFO - [EVAL] Processing prompt 131/150...
+2025-12-12 23:09:03,603 - metrics.py - INFO - [EVAL] Processing prompt 141/150...
+2025-12-12 23:09:05,646 - metrics.py - INFO - [WRITE] Wrote results → data/runs/jana_learned_nopad_goodjokes_25k/eval_outputs/results_decoder_run_jana_learned_nopad_goodjokes_25k.csv
+2025-12-12 23:09:05,651 - metrics.py - INFO - [WRITE] Wrote summary → data/runs/jana_learned_nopad_goodjokes_25k/eval_outputs/summary_decoder_run_jana_learned_nopad_goodjokes_25k.json
+2025-12-12 23:09:05,651 - metrics.py - INFO - [EVAL] DONE
+2025-12-12 23:09:45,373 - joketokenizer.py - WARNING - Jokes text file already exists at: data/runs/jana_learned_nopad_goodjokes_25k/jokes_text.txt
+2025-12-12 23:09:45,373 - joketokenizer.py - WARNING - Tokenizer already exists at: data/runs/jana_learned_nopad_goodjokes_25k/tokenizer.json
+2025-12-12 23:09:45,380 - dataset_loader.py - INFO - Loading tokenized data from cache...
+2025-12-12 23:09:45,561 - dataset_loader.py - INFO - [DATASET] Cache detected as concatenated (train shape=(9975755,))
+2025-12-12 23:09:45,900 - decoder_only.py - INFO - Loading model checkpoint : data/runs/jana_learned_nopad_goodjokes_25k/model_checkpoints/checkpoint_24000.pt
+2025-12-12 23:09:46,819 - metrics.py - INFO - Next-token LM metrics on test split: {'token_nll': 2.98556902885437, 'perplexity': 19.797764531051318, 'token_accuracy': 0.4547802734375}
+2025-12-12 23:09:46,822 - metrics.py - INFO - Saved test LM metrics to data/runs/jana_learned_nopad_goodjokes_25k/eval_outputs/test_lm_metrics.json

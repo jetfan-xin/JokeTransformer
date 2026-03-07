@@ -1,0 +1,16 @@
+{
+  "preprocess_stats": {
+    "input_rows": 1305211,
+    "dropped_empty_after_normalize": 17,
+    "dropped_too_short": 150,
+    "dropped_too_long": 39643,
+    "dropped_too_many_lines": 0,
+    "dropped_dedup_normalized": 539749,
+    "dropped_empty_after_clean": 1,
+    "dropped_symbolic": 38,
+    "dropped_dedup_cleaned": 1106,
+    "final_rows": 724507
+  },
+  "final_avg_char_count": 147.2923077347769,
+  "final_avg_word_count": 31.649644516892177
+}

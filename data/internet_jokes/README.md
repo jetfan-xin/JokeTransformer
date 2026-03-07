@@ -1,865 +1,646 @@
-# Dataset Jokes: Consolidated Joke Dataset with Analysis
+# Internet Jokes Dataset
+
+> A comprehensive multi-source English joke corpus with cleaning, analysis, and visualization
+
+## 📋 Table of Contents
+
+- [Overview](#overview)
+- [Quick Start](#quick-start)
+- [Directory Structure](#directory-structure)
+- [Dataset Information](#dataset-information)
+- [Scripts & Tools](#scripts--tools)
+- [Analysis & Visualizations](#analysis--visualizations)
+- [Data Schema](#data-schema)
+- [Usage Examples](#usage-examples)
+- [Statistics & Insights](#statistics--insights)
+- [Integration Guide](#integration-guide)
+
+---
 
 ## Overview
 
-**Dataset Jokes** is a centralized data aggregation hub for cleaned and processed joke corpora used across all LLM joke generation experiments. This directory serves as the **source data foundation** for experiments and provides comprehensive visualization and statistical analysis of the consolidated joke dataset.
+**Internet Jokes** is a large-scale, multi-source English joke corpus containing **724,507 unique jokes** after comprehensive cleaning and deduplication. This dataset serves as the baseline foundation for joke generation experiments and humor research.
 
-Unlike the experiment directories (experiment1.0, experiment3.0, experiment4.0), which focus on **generation and evaluation**, this directory stores the **aggregated, cleaned datasets** that feed into those experiments.
+### Key Features
 
-### Purpose
-- ✅ Central storage for final cleaned joke datasets
-- ✅ Statistical analysis and visualization of joke collection
-- ✅ Metadata and tagging information for all jokes
-- ✅ Foundation data for downstream experiments and training
-- ✅ Quick access to comprehensive joke collection statistics
+- ✅ **724,507 unique jokes** from 5 public datasets
+- ✅ **Comprehensive cleaning** (Unicode normalization, deduplication, filtering)
+- ✅ **Multi-source diversity** (one-liners, Reddit jokes, dad jokes, etc.)
+- ✅ **Rich metadata** (source attribution, cleaned text, topic tags)
+- ✅ **Statistical analysis** with 20+ visualizations
+- ✅ **Ready-to-use scripts** for preprocessing and analysis
 
-### Key Statistics
+### Dataset Summary
 
 | Metric | Value |
 |--------|-------|
-| **Total Jokes** | ~726,000 jokes |
-| **Unique Topics** | ~15,000+ unique topic tags |
-| **Data Files** | 3 CSV sources |
-| **Analysis Outputs** | 20+ visualizations |
-| **Coverage** | Multi-part-of-speech annotations |
+| **Final Corpus Size** | 724,507 unique jokes |
+| **Raw Collection** | 1,305,211 items (5 sources) |
+| **Retention Rate** | 55.51% |
+| **Deduplication Loss** | 540,855 rows (41.43%) |
+| **Avg Joke Length** | 135 characters (29 words) |
+| **Sources** | ShortJokes, rJokesData, AmirkidJokes, HumorDetection200k, Dadjokes |
+
+### Research Context
+
+This dataset represents **Phase 1** of an iterative study design:
+
+- **Phase 1 (Current):** Large internet-sourced joke corpus (~725K jokes) for establishing baselines
+- **Phase 2 (Future):** Cleaner synthetic LLM-generated dataset to study data quality effects
+
+---
+
+## Quick Start
+
+### Install Dependencies
+
+```bash
+pip install pandas jupyter plotly spacy numpy tqdm
+python -m spacy download en_core_web_sm
+```
+
+### Load & Explore Data
+
+```python
+import pandas as pd
+
+# Load the main dataset
+df = pd.read_csv('data_source/final_combined_jokes.csv')
+print(f"Loaded {len(df):,} jokes")
+
+# View sample
+print(df.head())
+print(df.columns)
+```
+
+### Run Scripts
+
+```bash
+# Navigate to directory
+cd /ltstorage/home/4xin/uhh-ias-ml/data/internet_jokes
+
+# Launch analysis notebook
+cd plot_data
+jupyter notebook plot_data.ipynb
+```
 
 ---
 
 ## Directory Structure
 
 ```
-dataset_jokes/
-├── README.md                            # This file - complete documentation
+internet_jokes/
+├── README.md                                    # This documentation
 │
-├── data_source/                         # Input data: Raw cleaned datasets
-│   ├── final_clean_jokes.csv           # Core cleaned jokes (primary source)
-│   ├── final_clean_jokes_with_all_nouns.csv  # Enhanced with all noun tags
-│   └── final_combined_jokes.csv        # Complete aggregated dataset
+├── data_source/                                 # Dataset files
+│   ├── deepcontractor_200k_dataset.csv         # DeepContractor base dataset
+│   ├── deepcontractor_200k_humor_true.csv      # Humor-only subset
+│   └── final_combined_jokes.csv                # ⭐ Main dataset (724K jokes)
 │
-├── plot_data/                           # Visualization & Analysis
-│   ├── plot_data.ipynb                 # Jupyter notebook (all analysis)
-│   ├── PLOT_DATA.md                    # Notebook documentation
-│   └── outputs/                        # Generated plots and statistics (20+ files)
-│       ├── *.csv                       # Statistical summaries (CSV)
-│       ├── *.html                      # Interactive plots (Plotly)
-│       ├── *.png                       # Static visualizations (PNG)
-│       └── [See "Visualizations & Outputs" section below]
+├── preprocessing_stats/                        # Processing logs & metrics
+│   ├── human_merge_source_stats.csv            # Source merging statistics
+│   ├── human_preprocess_source_drop_stats.csv  # Data filtering statistics
+│   └── human_preprocess_stats.json             # Detailed processing metrics
+│
+├── plot_data/                                   # Analysis & visualization
+│   ├── plot_data.ipynb                         # Main analysis notebook
+│   ├── PLOT_DATA.md                            # Notebook documentation
+│   └── outputs/                                # Generated visualizations (~20 files)
+│       ├── *.csv                               # Statistical summaries
+│       ├── *.html                              # Interactive Plotly charts
+│       └── *.png                               # Static PNG exports
+│
+└── preprocessing.py                            # Data cleaning pipeline
+```
+
+**Key Files:**
+- **Main Dataset:** `data_source/final_combined_jokes.csv` (recommended starting point)
+- **Analysis Notebook:** `plot_data/plot_data.ipynb` (statistical analysis & visualizations)
+- **Scripts:** `preprocessing.py` (data processing tool)
+
+---
+
+## Dataset Information
+
+### 1. Data Sources
+
+This corpus combines 5 publicly available joke datasets:
+
+| Source | Original Size | Final Count | Retention | Description |
+|--------|---------------|-------------|-----------|-------------|
+| **ShortJokes** (Kaggle) | 231,657 | 230,137 | 99.34% | Short one-line jokes |
+| **rJokesData** (GitHub) | 345,965 | 276,863 | 80.03% | Reddit r/Jokes collection |
+| **AmirkidJokes** (HuggingFace) | 574,189 | 157,857 | 27.51% | General humor texts |
+| **HumorDetection200k** (Kaggle) | 100,000 | 9,135 | 9.14% | Humor detection dataset |
+| **Dadjokes** (Reddit/Kaggle) | 53,400 | 50,515 | 94.60% | Dad jokes (Q&A format) |
+| **TOTAL** | **1,305,211** | **724,507** | **55.51%** | **All sources combined** |
+
+**Note:** High-quality sources (ShortJokes, Dadjokes) have 94-99% retention, while others required heavy deduplication.
+
+### 2. Data Cleaning Pipeline
+
+A comprehensive 7-step cleaning process reduces the raw collection from 1.3M to 724K unique jokes:
+
+#### Cleaning Steps
+
+1. **Unicode Normalization** – Standardize character encoding (NFKC)
+2. **Encoding Artifact Repair** – Fix common encoding issues (e.g., `Ã©` → `é`)
+3. **Structural Noise Removal** – Remove HTML/Markdown, URLs, emails, emojis, control characters
+4. **Punctuation & Whitespace Normalization** – Standardize formatting
+5. **Length Filtering** – Remove jokes < 10 or > 1000 characters
+6. **Symbolic Content Filtering** – Remove entries with >40% digits/symbols
+7. **Exact Deduplication** – Remove duplicates using normalized text as key
+
+#### Cleaning Results
+
+| Filter Step | Dropped Rows | % of Input |
+|-------------|--------------|-----------|
+| Empty after cleaning | 18 | 0.00% |
+| Highly symbolic / near-nontext | 38 | 0.00% |
+| Too short (< 10 chars) | 150 | 0.01% |
+| Too long (> 1000 chars) | 39,643 | 3.04% |
+| **Deduplication** | **540,855** | **41.43%** |
+| **Final Cleaned Corpus** | **724,507** | **55.51%** ✅ |
+
+**Key Insight:** Deduplication is the largest reduction factor (41.43%), indicating heavy cross-source duplication.
+
+### 3. Final Dataset Characteristics
+
+**Size & Distribution:**
+- **Total:** 724,507 unique jokes
+- **Average length:** 135 characters (29 words)
+- **Length range:** 10-1000 characters (enforced)
+
+**Source Breakdown:**
+- rJokesData: 276,863 jokes (38.3%)
+- ShortJokes: 230,137 jokes (31.8%)
+- AmirkidJokes: 157,857 jokes (21.8%)
+- Dadjokes: 50,515 jokes (7.0%)
+- HumorDetection200k: 9,135 jokes (1.3%)
+
+**Quality Guarantees:**
+- ✓ Unicode normalized (NFKC)
+- ✓ No HTML/Markdown artifacts
+- ✓ No URLs, emails, emojis
+- ✓ No duplicates
+- ✓ No overly short/long entries
+- ✓ 100% coverage on critical fields (id, text, source)
+
+### 4. Available Data Files
+
+#### `data_source/final_combined_jokes.csv` ⭐ **[Main Dataset]**
+
+**Size:** 724,507 unique jokes
+
+**Columns:**
+- `id` / `joke_id` – Unique record identifier
+- `joke_cleaned` – Cleaned joke text (10-1000 chars)
+- `source` – Original source dataset name
+- *(varies)* – Source-specific metadata
+
+**Use Cases:**
+- Model training for joke generation
+- Humor classification experiments
+- Topic modeling and analysis
+- Baseline dataset for experiments
+
+#### `data_source/deepcontractor_200k_*.csv` (Optional)
+
+Original HumorDetection200k dataset files (may be used for humor detection tasks).
+
+---
+
+## Scripts & Tools
+
+### 1. preprocessing.py
+
+**Purpose:** Automated data cleaning and preprocessing pipeline
+
+**Features:**
+- Data loading and validation
+- Text cleaning and normalization
+- Duplicate detection and removal
+- Statistics and quality reporting
+
+**Usage:**
+
+```bash
+cd /ltstorage/home/4xin/uhh-ias-ml/data/internet_jokes
+python preprocessing.py
+```
+
+**Outputs:**
+- Processed CSV files → `data_source/`
+- Statistics → `preprocessing_stats/`
+
+---
+
+### 2. plot_data/plot_data.ipynb
+
+**Purpose:** Comprehensive statistical analysis and visualization notebook
+
+**Features:**
+- 📊 7 analysis sections with 20+ visualizations
+- 📈 Distribution plots (joke length, tag frequency, POS tags)
+- 🏷️ Topic analysis (top tags, tag combinations)
+- 🔢 Interactive Plotly charts + static PNG exports
+
+**Technology Stack:**
+- Pandas (data processing)
+- spaCy (NLP/POS tagging)
+- Plotly (interactive visualizations)
+- NumPy (statistics)
+
+**How to Run:**
+
+```bash
+# Install dependencies
+pip install pandas jupyter plotly spacy numpy
+python -m spacy download en_core_web_sm
+
+# Navigate and launch
+cd /ltstorage/home/4xin/uhh-ias-ml/data/internet_jokes/plot_data
+jupyter notebook plot_data.ipynb
+
+# In Jupyter: Kernel → Restart & Run All
+```
+
+**Runtime:** 5-15 minutes (first run: +2-5 min for spaCy download)
+
+**Outputs:** All visualizations saved to `plot_data/outputs/` (CSV + HTML + PNG)
+
+---
+
+## Analysis & Visualizations
+
+The `plot_data.ipynb` notebook generates 7 comprehensive analysis sections:
+
+### Analysis Sections
+
+| # | Analysis | Output Files |
+|---|----------|--------------|
+| 1 | **POS Tag Distribution** | `tag_type_count.*` |
+| 2 | **Joke Length Distribution** | `joke_length_chars.*` |
+| 3 | **Tags per Joke Distribution** | `tag_count_distribution.*` |
+| 4 | **Top N Most Frequent Tags** | `tag_frequencies_top{30,100,500,1000}.*` |
+| 5 | **Tag Frequency Distribution (Log-binned)** | `tag_frequency_distribution_log.*` |
+| 6 | **All-Nouns Tag Distribution** | `tag_count_distribution_all_nouns.*` |
+| 7 | **Tag Count vs. Joke Length** | `tag_count_vs_length_with_std_clean.*` |
+
+Each analysis produces **3 file types:**
+- `.csv` – Statistical summaries
+- `.html` – Interactive Plotly charts
+- `.png` – Static PNG exports
+
+### Key Visualizations
+
+#### 1. POS Tag Distribution
+
+Shows distribution of part-of-speech categories in joke topics:
+- NOUN: ~50%
+- PROPN: ~20%
+- VERB: ~15%
+- ADJ: ~10%
+- MISC: ~5%
+
+#### 2. Joke Length Distribution
+
+Histogram showing joke length in characters:
+- Mean: ~135 characters
+- Median: ~85 characters
+- Most jokes: 50-150 characters
+- Power-law distribution (long tail)
+
+#### 3. Tags per Joke
+
+Distribution of topic tags assigned per joke:
+- 1 tag: ~6%
+- 2 tags: ~15%
+- 3 tags: ~79% (standard "top-3 nouns" extraction)
+
+#### 4. Top Tags Frequency
+
+Most frequent topic tags across the corpus:
+- Logarithmic scale shows power-law distribution
+- Top tags: humor, comedy, animals, wordplay, etc.
+- Multiple n-values (30, 100, 500, 1000) for different analysis depths
+
+#### 5. Tag Frequency Distribution
+
+Long-tail analysis showing:
+- Thousands of rare tags (appear 1-10 times)
+- Few common tags (1000+ appearances)
+- Classic power-law/Zipf distribution
+
+#### 6. All-Nouns Tag Distribution
+
+Shows distribution when extracting ALL nouns (not just top-3):
+- 1-5 nouns: ~20%
+- 6-10 nouns: ~35%
+- 11-15 nouns: ~30%
+- 16+ nouns: ~15%
+
+#### 7. Tag Count vs. Length
+
+Correlation analysis revealing:
+- More tags → longer jokes (correlation ~0.6)
+- Standard deviation increases with tag count
+- Most jokes: 6-10 tags, 80-120 characters
+
+### Viewing Outputs
+
+```bash
+# Open interactive HTML plots in browser
+open plot_data/outputs/joke_length_chars.html
+
+# Or view static PNG exports
+open plot_data/outputs/joke_length_chars.png
+
+# All files are in plot_data/outputs/
+ls plot_data/outputs/
 ```
 
 ---
 
-## Data Sources Overview
+## Data Schema
 
-### Input CSV Files (data_source/)
+### Core Columns
 
-All CSV files in `data_source/` contain cleaned jokes ready for analysis and use. These are the **primary inputs** for visualization and are used by downstream experiments.
-
-#### 1. final_clean_jokes.csv
-
-**Purpose:** Core cleaned joke dataset with basic annotations
-
-**Size:** ~78,000-100,000 jokes (estimated)
-
-**Columns:**
-| Column | Type | Example | Description |
-|--------|------|---------|-------------|
-| `joke` | String | "Why did the..." | Original cleaned joke text |
-| `topic` | String | "Comedy, Animals" | Associated topic tags (POS-based) |
-
-**Use Cases:**
-- Primary source for experiment1.0 and experiment3.0
-- General-purpose joke corpus
-- Topic-based analysis
-
-**Data Quality:**
-- ✓ Text cleaned and normalized
-- ✓ Unicode issues resolved
-- ✓ HTML entities decoded
-- ✓ Markup removed
-
----
-
-#### 2. final_clean_jokes_with_all_nouns.csv
-
-**Purpose:** Enhanced dataset with comprehensive noun extraction
-
-**Size:** ~726,000 jokes (extended with all noun combinations)
-
-**Columns:**
-| Column | Type | Example | Description |
-|--------|------|---------|-------------|
-| `joke_cleaned` | String | "Why did the..." | Cleaned joke text |
-| `topic` | String | "Comedy, Animals" | Limited topic tags |
-| `topic_all_nouns` | String | "chicken, road, humor, ..." | ALL noun mentions extracted |
-
-**Enhanced Features:**
-- Comprehensive noun extraction via spaCy NLP
-- Every noun in the joke is tagged
-- Enables fine-grained topic analysis
-- Better semantic coverage
-
-**Use Cases:**
-- Advanced topic modeling
-- Noun-based analysis in plot_data.ipynb
-- Semantic similarity studies
-- Training data with rich annotations
-
-**Data Quality:**
-- ✓ All cleaning from final_clean_jokes applied
-- ✓ NOUN and PROPN POS tags extracted
-- ✓ Lowercase normalized
-- ✓ Duplicates removed
-
----
-
-#### 3. final_combined_jokes.csv
-
-**Purpose:** Complete aggregated dataset combining all sources
-
-**Size:** ~726,000 jokes (full dataset)
-
-**Columns:**
-| Column | Type | Example | Description |
-|--------|------|---------|-------------|
-| `rid` | Integer | 1, 2, 3, ... | Record ID (sequential) |
-| `stable_id` | String | "a1b2c3d4..." | SHA-1 hash for stability |
-| `joke_cleaned` | String | "Why did the..." | Cleaned joke text |
-| `topic` | String | "Comedy, Animals" | Original topic tags |
-| `topic_all_nouns` | String | "chicken, road, ..." | Comprehensive noun tags |
-
-**What This Contains:**
-- All final_clean_jokes records
-- All all-noun annotations
-- Complete metadata
-- Ready for production use
-
-**Use Cases:**
-- Primary data source for plot_data.ipynb (default)
-- Training dataset for fine-tuning
-- Complete backup/reference dataset
-- Multi-faceted analysis
-
-**Data Quality:**
-- ✓ Highest quality, most complete
-- ✓ Combines all annotations
-- ✓ No duplicates (deduplicated)
-- ✓ Full metadata preserved
-
----
-
-## Data Schema & Column Descriptions
-
-### Common Columns Across All CSVs
-
-#### joke / joke_cleaned
-- **Type:** String
-- **Length:** 10-1000 characters
-- **Contains:** Cleaned joke text with proper punctuation
-- **Processing:** Unicode normalized (NFKC), HTML decoded, markdown removed
-- **Example:** `"Why did the chicken cross the road? To get to the other side!"`
-
-#### topic
-- **Type:** String (comma-separated list)
-- **Format:** `"Tag1, Tag2, Tag3"`
-- **Count:** 1-3 tags per joke
-- **Content:** POS-filtered tags (NOUN, PROPN, VERB, ADJ preferred)
-- **Example:** `"Humor, Animals, Wordplay"`
-
-#### topic_all_nouns (only in final_clean_jokes_with_all_nouns.csv and final_combined_jokes.csv)
-- **Type:** String (comma-separated list)
-- **Format:** `"noun1, noun2, noun3, ..."`
-- **Count:** Variable (all nouns in joke)
-- **Content:** Every NOUN/PROPN found in joke text
-- **Example:** `"chicken, road, humor, destination, journey"`
-- **Note:** Can be very long if joke contains many nouns
-
-#### rid / stable_id (only in final_combined_jokes.csv)
-- **Type:** Integer / String
-- **rid:** Sequential record ID (1, 2, 3, ...)
-- **stable_id:** SHA-1 hash of normalized joke (for deduplication tracking)
-- **Use:** Cross-reference and duplicate detection
+| Column | Type | Description | Example |
+|--------|------|-------------|---------|
+| `id` / `joke_id` | Integer | Unique record identifier | `12345` |
+| `joke_cleaned` | String | Cleaned joke text (10-1000 chars) | "Why did the chicken cross..." |
+| `source` | String | Original source dataset | "ShortJokes" |
+| `topic_all_nouns` | String | Comma-separated noun topics (if generated) | "chicken, road" |
 
 ### Data Types & Encoding
 
 | Column | Type | Encoding | Nullable |
 |--------|------|----------|----------|
-| joke | String | UTF-8 | No |
-| topic | String | UTF-8 | No |
-| topic_all_nouns | String | UTF-8 | No |
-| rid | Int64 | N/A | No |
-| stable_id | String | UTF-8 | No |
+| `id` | Int64 | N/A | No |
+| `joke_cleaned` | String | UTF-8 | No |
+| `source` | String | UTF-8 | No |
+| `topic_all_nouns` | String | UTF-8 | Yes (if not generated) |
 
-### Data Quality Notes
+### Source Values
 
-**Text Cleaning Applied:**
-1. Unicode normalization (NFKC)
-2. HTML entity decoding (`&amp;` → `&`)
-3. Markdown syntax removal
-4. Control character removal
-5. Whitespace normalization
-6. URL and email removal
-
-**Topic Tag Generation:**
-1. Spacy NLP POS tagging
-2. NOUN and PROPN prioritization
-3. Lowercase normalization
-4. Deduplication at spacy token level
-5. Top 3 tags per joke selection
-
-**Coverage:**
-- ~100% of jokes have at least 1 topic tag
-- ~95% have 2-3 tags
-- ~100% have comprehensive noun extraction
+| Source ID | Dataset Name | Count |
+|-----------|--------------|-------|
+| `ShortJokes` | Kaggle Short Jokes | 230,137 |
+| `rJokesData` | Reddit r/Jokes | 276,863 |
+| `AmirkidJokes` | HuggingFace Amirkid | 157,857 |
+| `HumorDetection200k` | Kaggle Humor Detection | 9,135 |
+| `Dadjokes` | Reddit Dad Jokes | 50,515 |
 
 ---
 
-## Plot Data Notebook Guide
+## Usage Examples
 
-### Overview
-
-**File:** `plot_data/plot_data.ipynb`
-
-The Jupyter notebook `plot_data.ipynb` contains comprehensive statistical analysis and interactive visualization of the dataset_jokes collection. It generates 20+ outputs including distribution charts, statistical summaries, and frequency analyses.
-
-**What It Does:**
-- 📊 Generates distribution plots for 7 different analyses
-- 📈 Computes statistical summaries and aggregations
-- 🏷️ Analyzes tag frequency and diversity
-- 📏 Examines joke length characteristics
-- 🔢 Creates interactive Plotly visualizations
-- 💾 Exports all outputs to `plot_data/outputs/`
-
-**Technology:**
-- Pandas for data processing
-- spaCy for NLP/POS tagging
-- Plotly for interactive plots
-- NumPy for statistics
-
----
-
-### How to Run the Notebook
-
-#### Step 1: Install Dependencies
-
-```bash
-pip install pandas jupyter plotly spacy numpy
-
-# Download spaCy model (required for POS tagging)
-python -m spacy download en_core_web_sm
-```
-
-#### Step 2: Launch Jupyter
-
-```bash
-cd /ltstorage/home/4xin/uhh-ias-ml/data/dataset_jokes/plot_data
-jupyter notebook plot_data.ipynb
-```
-
-#### Step 3: Execute All Cells
-
-Within Jupyter:
-- **Kernel → Restart & Run All** (to run entire notebook)
-- OR manually run cells top-to-bottom (Shift+Enter)
-
-#### Expected Runtime
-
-- First load: 2-5 minutes (spaCy initialization)
-- Subsequent runs: 5-15 minutes total
-- Depends on system specs and Plotly rendering
-
-#### Outputs Location
-
-All visualizations saved to:
-```
-plot_data/outputs/
-├── *.csv        # Statistical summaries
-├── *.html       # Interactive Plotly charts
-└── *.png        # Static PNG exports
-```
-
-**Total output files:** ~20 HTML + CSV + PNG files
-
----
-
-### Notebook Structure
-
-The notebook is organized into **7 major analysis sections:**
-
-| Section | Title | Outputs |
-|---------|-------|---------|
-| 1 | Count all tag types (POS distribution) | tag_type_count.* |
-| 2 | Plot joke length distribution | joke_length_chars.* |
-| 3 | Plot distribution of tags per joke | tag_count_distribution.* |
-| 4 | Plot top n tags | tag_frequencies_top{30,100,500,1000}.* |
-| 5 | Plot tag frequency distribution (log-binned) | tag_frequency_distribution_log.* |
-| 6 | Analyze unique tags (all nouns version) | tag_count_distribution_all_nouns.* |
-| 7 | Visualize tag count vs. joke length | tag_count_vs_length_with_std_clean.* |
-
-**Key Dependencies Between Cells:**
-- Load cell must run first (imports + initial data load)
-- Each analysis can run independently after load
-- Later analyses use `topic_all_nouns` column (requires final_clean_jokes_with_all_nouns.csv)
-
----
-
-## Visualizations & Analysis Outputs
-
-All visualizations are automatically generated in `plot_data/outputs/` when the notebook runs. Each analysis section produces **3 file types**:
-- `.csv` - Statistical summaries (data behind plots)
-- `.html` - Interactive Plotly charts (open in browser)
-- `.png` - Static PNG exports (for reports/presentations)
-
----
-
-### 1. POS-Based Tag Distribution
-
-**Files:** `tag_type_count.csv`, `tag_type_count.html`, `tag_type_count.png`
-
-**Purpose:** Show distribution of part-of-speech categories across all tags
-
-**Analysis:**
-- Counts NOUN, PROPN, VERB, ADJ, MISC tags
-- Reveals what types of words dominate the topic corpus
-- Helps understand topic generation preferences
-
-**Typical Distribution:**
-```
-NOUN:   ~50%  (nouns dominate)
-PROPN:  ~20%  (proper nouns)
-VERB:   ~15%  (verbs)
-ADJ:    ~10%  (adjectives)
-MISC:   ~5%   (miscellaneous)
-```
-
-**Use Case:** Understand semantic emphasis in topic tags
-
----
-
-### 2. Joke Length Distribution
-
-**Files:** `joke_length_chars.csv`, `joke_length_chars.html`, `joke_length_chars.png`
-
-**Purpose:** Show distribution of joke lengths (characters)
-
-**Metrics:**
-- Minimum length: ~10 characters (after cleaning)
-- Maximum length: ~1000 characters (filter limit)
-- Mean length: ~85 characters
-- Median length: ~70 characters
-
-**Features:**
-- Histogram with bin width = 10 characters
-- Cumulative percentage overlay
-- 90th percentile marked with vertical line
-- Shows most jokes are short (under 150 chars)
-
-**Insight:** Joke length follows a power-law distribution—most jokes are short, few are long.
-
----
-
-### 3. Number of Tags per Joke
-
-**Files:** `tag_count_distribution.csv`, `tag_count_distribution.html`, `tag_count_distribution.png`
-
-**Purpose:** Show how many tags are assigned per joke (basic POS-based tags)
-
-**Distribution:**
-```
-1 tag:  ~6%    (miscellaneous or single noun)
-2 tags: ~15%   (two-word combinations)
-3 tags: ~79%   (three-tag standard)
-```
-
-**Key Finding:** Most jokes receive exactly 3 tags, reflecting the standard "top-3 nouns" extraction strategy.
-
----
-
-### 4. Top N Tags Frequency Analysis
-
-**Files:** `tag_frequencies_top{30,100,500,1000}.csv/.html/.png`
-
-**Purpose:** Show which topic tags appear most frequently across all jokes (multiple n-values)
-
-**Versions:**
-- `top30.html` - Most frequent 30 tags (quick overview)
-- `top100.html` - Top 100 tags (broad coverage)
-- `top500.html` - Top 500 tags (medium tail)
-- `top1000.html` - Top 1000 tags (long tail)
-
-**Scale:** Logarithmic y-axis (log scale) to show power-law distribution
-
-**Typical Top Tags:**
-```
-1. humor         (appears in ~5% of jokes)
-2. comedy        (appears in ~4%)
-3. animals       (appears in ~3%)
-4. wordplay      (appears in ~2.5%)
-...
-30. [varies]     (appears in ~0.2%)
-```
-
-**Use Case:** Identify dominant topics in dataset
-
----
-
-### 5. Tag Frequency Distribution (Log-Binned)
-
-**Files:** `tag_frequency_distribution_log.csv`, `tag_frequency_distribution_log.html`, `tag_frequency_distribution_log.png`
-
-**Purpose:** Visualize the long-tail distribution of tag frequencies
-
-**Methodology:**
-- Bins: Powers of 2 (1, 2, 4, 8, 16, 32, 64, ...)
-- Shows: How many tags appear N times
-- Reveals: Power-law structure
-
-**Example Output:**
-```
-Frequency Range | Number of Tags | Percentage
-1–1             | 2,500          | ~17%
-2–3             | 1,200          | ~8%
-4–7             | 800            | ~5%
-8–15            | 600            | ~4%
-16–31           | 400            | ~3%
-...
-```
-
-**Key Finding:** Long-tail phenomenon—thousands of rare tags (appear 1-10 times), few common tags (1000+ times)
-
----
-
-### 6. Unique Tags per Joke (All-Nouns Version)
-
-**Files:** `tag_count_distribution_all_nouns.csv/.html/.png`
-
-**Purpose:** Show distribution of unique noun tags per joke (using all-nouns extraction)
-
-**Difference from Section 3:**
-- Section 3: Limited to top-3 POS-filtered tags (mostly 3)
-- Section 6: All nouns in joke (1-50+ per joke)
-
-**Typical Distribution:**
-```
-1-5 nouns:     ~20%   (short simple jokes)
-6-10 nouns:    ~35%   (typical jokes)
-11-15 nouns:   ~30%   (longer jokes)
-16+ nouns:     ~15%   (very long/complex jokes)
-```
-
-**Use Case:** Understand semantic complexity; fine-grained topic analysis
-
----
-
-### 7. Tag Count vs. Joke Length (with Std Dev)
-
-**Files:** `tag_count_vs_length_with_std_clean.csv/.html/.png`
-
-**Purpose:** Correlation analysis—how joke length affects tag quantity
-
-**Visualization:**
-- Bar chart: Number of jokes (left y-axis)
-- Line with shaded band: Average joke length ± std deviation (right y-axis)
-- X-axis: Number of unique tags per joke
-
-**Key Insights:**
-- Jokes with more tags tend to be longer (correlation ~0.6)
-- Standard deviation increases with tag count (longer jokes have more variability)
-- Most jokes cluster around 6-10 tags and 80-120 characters
-
-**Use Case:** Understand relationship between complexity (tags) and size (length)
-
----
-
-## Key Statistics & Insights
-
-### Dataset Size & Coverage
-
-| Metric | Value |
-|--------|-------|
-| **Total Jokes** | ~726,000 |
-| **Unique Topics** | ~15,000+ |
-| **Avg Joke Length** | ~87 characters |
-| **Min/Max Length** | 10 / 1000 characters |
-| **Median Jokes/Tag** | ~50 jokes per tag |
-
-### Tag Distribution Insights
-
-**POS Breakdown:**
-- NOUN tags: ~50% (primary category)
-- PROPN tags: ~20% (names, places)
-- VERB tags: ~15% (actions)
-- ADJ tags: ~10% (descriptors)
-- MISC tags: ~5% (other)
-
-**Top 10 Most Frequent Tags:**
-1. humor (~5% coverage)
-2. comedy (~4% coverage)
-3. animals (~3% coverage)
-4. wordplay (~2.5% coverage)
-5. [varies by dataset version]
-
-**Long-Tail Phenomenon:**
-- Top 30 tags appear in ~25% of jokes
-- Top 100 tags appear in ~40% of jokes
-- Top 1000 tags appear in ~65% of jokes
-- Remaining 14,000+ tags appear in ~35% of jokes (long tail)
-
-### Data Quality Summary
-
-**Cleaning Pipeline Applied:**
-✓ Unicode normalization (NFKC)  
-✓ HTML entity decoding  
-✓ Markdown syntax removal  
-✓ URL and email removal  
-✓ Control character removal  
-✓ Whitespace normalization  
-✓ Deduplication (SHA-1 hashing)  
-
-**Coverage Metrics:**
-- 100% jokes have at least 1 topic tag
-- 95%+ have 2-3 POS-based tags
-- 100% have comprehensive noun extraction
-- 0% null values in cleaned text fields
-
-**Retention Rates:**
-- Source jokes: ~1M raw jokes
-- After cleaning: ~726K unique jokes (73% retention)
-- Primary reason for loss: Exact/normalized duplicates
-
----
-
-## Integration with Experiments
-
-This dataset directory serves as the **data foundation** for downstream experiments:
-
-### experiment1.0: LLM-Based Joke Generation
-
-**Uses:**
-- `data_source/final_clean_jokes_with_all_nouns.csv` - Source data for noun combination extraction
-- Extracts top 5000 noun combinations from this dataset
-- Uses cleaned jokes as reference for quality benchmarking
-
-**Data Flow:**
-```
-dataset_jokes/data_source/
-  ↓
-experiment1.0/analyzers/extract_noun_combinations.py
-  ↓
-Generates 5000 noun combination seeds
-  ↓
-experiment1.0/generators/*.py (7 models)
-  ↓
-Generates 100 jokes per combo
-```
-
----
-
-### experiment3.0: Toxicity-Filtered Large-Scale Pipeline
-
-**Uses:**
-- `data_source/final_combined_jokes.csv` - Foundation dataset
-- Cleans and toxicity-filters this dataset
-- Produces enhanced version with quality scores
-
-**Data Flow:**
-```
-dataset_jokes/data_source/
-  ↓
-experiment3.0/analyzers/safety_filter.py
-  ↓
-Removes toxic/harmful content
-  ↓
-experiment3.0/analyzers/ppl_scoring.py
-  ↓
-Adds perplexity quality scores
-  ↓
-Enhanced 500K+ joke dataset
-```
-
----
-
-### experiment4.0: Async DeepSeek Generation & Text Cleaning
-
-**Uses:**
-- Partially independent (generates new jokes)
-- Can use this dataset for comparison/benchmarking
-
-**Data Flow:**
-```
-experiment4.0/generators/run_jokes_async.py
-  ↓
-Generates 100K new jokes
-  ↓
-experiment4.0/analyzers/clean_jokes.py
-  ↓
-Produces 14K cleaned, high-quality jokes
-  ↓
-Can compare with dataset_jokes quality
-```
-
----
-
-## Getting Started / Quick Start
-
-### Prerequisites
-
-#### System Requirements
-- Python 3.8+
-- ~2GB free disk space (for outputs)
-- Modern web browser (for viewing .html outputs)
-
-#### Required Libraries
-
-```bash
-pip install pandas jupyter plotly spacy numpy
-
-# Download spaCy NLP model (required for POS tagging)
-python -m spacy download en_core_web_sm
-```
-
-#### Optional Libraries (for advanced analysis)
-```bash
-pip install matplotlib seaborn scikit-learn
-```
-
----
-
-### Loading Data in Python
-
-**Quick Start: Read the main dataset**
+### Loading Data
 
 ```python
 import pandas as pd
 
-# Load complete dataset (recommended)
+# Load main dataset
 df = pd.read_csv('data_source/final_combined_jokes.csv')
-print(f"Loaded {len(df)} jokes")
-print(df.head())
+print(f"Total jokes: {len(df):,}")
 
-# Access columns
-print(f"Sample joke: {df['joke_cleaned'].iloc[0]}")
-print(f"Tags: {df['topic'].iloc[0]}")
-print(f"All nouns: {df['topic_all_nouns'].iloc[0]}")
+# Basic statistics
+print(df.info())
+print(df.describe())
+
+# View samples
+print(df.head(10))
+
+# Analyze lengths
+df['length'] = df['joke_cleaned'].str.len()
+print(f"Mean length: {df['length'].mean():.1f} characters")
 ```
 
-**Load specific CSV files**
+### Filtering by Source
 
 ```python
-# Core dataset (no all-nouns)
-df_core = pd.read_csv('data_source/final_clean_jokes.csv')
+# Get jokes from specific source
+reddit_jokes = df[df['source'] == 'rJokesData']
+print(f"Reddit jokes: {len(reddit_jokes):,}")
 
-# Enhanced with all nouns
-df_nouns = pd.read_csv('data_source/final_clean_jokes_with_all_nouns.csv')
+# Get short jokes only
+short_jokes = df[df['joke_cleaned'].str.len() < 100]
+print(f"Short jokes (< 100 chars): {len(short_jokes):,}")
+```
 
-# Complete (recommended)
-df_complete = pd.read_csv('data_source/final_combined_jokes.csv')
+### Analyzing Topics
+
+```python
+# Load dataset with noun topics (if generated)
+df_topics = pd.read_csv('data_source/final_clean_jokes_with_all_nouns.csv')
+
+# Count jokes with specific topic
+chicken_jokes = df_topics[df_topics['topic_all_nouns'].str.contains('chicken', na=False)]
+print(f"Chicken jokes: {len(chicken_jokes):,}")
+
+# Most common topics
+all_topics = ','.join(df_topics['topic_all_nouns'].dropna()).split(',')
+topic_counts = pd.Series(all_topics).value_counts()
+print(topic_counts.head(20))
+```
+
+### Training Split
+
+```python
+from sklearn.model_selection import train_test_split
+
+# Split into train/val/test
+train, temp = train_test_split(df, test_size=0.2, random_state=42)
+val, test = train_test_split(temp, test_size=0.5, random_state=42)
+
+print(f"Train: {len(train):,}, Val: {len(val):,}, Test: {len(test):,}")
+
+# Save splits
+train.to_csv('train.csv', index=False)
+val.to_csv('val.csv', index=False)
+test.to_csv('test.csv', index=False)
 ```
 
 ---
 
-### Running the Analysis Notebook
+## Statistics & Insights
+
+### Dataset Composition
+
+| Metric | Value |
+|--------|-------|
+| Raw Merged Data | 1,305,211 items |
+| Final Cleaned Corpus | 724,507 unique jokes |
+| Overall Retention Rate | 55.51% |
+| Deduplication Loss | 540,855 jokes (41.43%) |
+| Length Filtering Loss | 39,643 jokes (3.04%) |
+
+### Source Quality Analysis
+
+**Best Quality (Minimal Cleaning Needed):**
+- ShortJokes: 99.34% retention
+- Dadjokes: 94.60% retention
+
+**Moderate Quality:**
+- rJokesData: 80.03% retention
+
+**Heavy Deduplication Required:**
+- AmirkidJokes: 27.51% retention (heavy cross-source duplication)
+- HumorDetection200k: 9.14% retention (designed for classification, not generation)
+
+### Text Characteristics
+
+**Length Distribution:**
+- Min: 10 characters (enforced)
+- Max: 1000 characters (enforced)
+- Mean: 135 characters (29 words)
+- Median: ~85 characters
+- Mode: 50-100 character range
+
+**Stylistic Coverage:**
+- Short one-liners (ShortJokes)
+- Reddit-style jokes (rJokesData)
+- General humor texts (AmirkidJokes)
+- Dad jokes with Q&A format (Dadjokes)
+- Humor detection texts (HumorDetection200k)
+
+---
+
+## Integration Guide
+
+### Use Cases
+
+**1. Humor Generation**
+- Pre-training language models on joke data
+- Topic-conditioned joke generation
+- Style transfer across joke types
+
+**2. Humor Understanding**
+- Humor detection/classification
+- Topic extraction and analysis
+- Semantic humor analysis
+
+**3. Data Quality Research**
+- Studying effects of data cleaning on model performance
+- Comparing internet-sourced vs. LLM-generated data
+- Source quality impact on generation quality
+
+**4. Benchmark & Baselines**
+- Establishing perplexity baselines
+- Evaluating joke generation models
+- Comparing with Phase 2 LLM-generated dataset
+
+### Downstream Integration
+
+**As Training Data:**
+
+```python
+from transformers import AutoTokenizer
+import pandas as pd
+
+# Load dataset
+df = pd.read_csv('data_source/final_combined_jokes.csv')
+texts = df['joke_cleaned'].tolist()
+
+# Tokenize for training
+tokenizer = AutoTokenizer.from_pretrained('gpt2')
+tokenized = tokenizer(texts, truncation=True, padding=True)
+```
+
+**For Evaluation:**
+
+```python
+# Load test set
+test_df = pd.read_csv('test.csv')
+
+# Generate jokes and compare
+# ... (your generation code)
+
+# Evaluate with metrics
+from eval.metrics import calculate_diversity, calculate_coherence
+diversity = calculate_diversity(generated_jokes)
+coherence = calculate_coherence(generated_jokes)
+```
+
+### Related Files in Repository
+
+**Training Scripts:**
+- `build_model/train.py` – Main training script
+- `build_model/model/decoder_only.py` – Model architecture
+
+**Evaluation Scripts:**
+- `eval/run_eval.py` – Evaluation runner
+- `eval/metrics.py` – Evaluation metrics
+- `eval/data/final_clean_jokes.csv` – Evaluation reference data
+
+**Experiment Runs:**
+- `data/runs/` – Saved model checkpoints and logs
+
+---
+
+## File Reference
+
+### Key Scripts Summary
+
+| Script | Purpose | Command |
+|--------|---------|---------|
+| `preprocessing.py` | Data cleaning pipeline | `python preprocessing.py` |
+| `plot_data/plot_data.ipynb` | Statistical analysis | `jupyter notebook plot_data.ipynb` |
+
+### Output Files Summary
+
+| Location | File Type | Contents |
+|----------|-----------|----------|
+| `data_source/` | `.csv` | Dataset files |
+| `preprocessing_stats/` | `.csv`, `.json` | Processing statistics |
+| `plot_data/outputs/` | `.csv`, `.html`, `.png` | Visualizations (~30 files) |
+
+### Important Paths
 
 ```bash
-# Navigate to notebook directory
-cd /ltstorage/home/4xin/uhh-ias-ml/data/dataset_jokes/plot_data
+# Main dataset
+data_source/final_combined_jokes.csv
 
-# Start Jupyter
-jupyter notebook plot_data.ipynb
-
-# In Jupyter:
-# 1. Click: Kernel → Restart & Run All
-# 2. Wait 5-15 minutes for completion
-# 3. Check outputs/ directory for results
-```
-
-**Expected Output:**
-```
+# Visualizations
 plot_data/outputs/
-├── tag_type_count.csv / .html / .png
-├── joke_length_chars.csv / .html / .png
-├── tag_count_distribution.csv / .html / .png
-├── tag_frequencies_top30.csv / .html / .png
-├── tag_frequencies_top100.csv / .html / .png
-├── tag_frequencies_top500.csv / .html / .png
-├── tag_frequencies_top1000.csv / .html / .png
-├── tag_frequency_distribution_log.csv / .html / .png
-├── tag_count_distribution_all_nouns.csv / .html / .png
-└── tag_count_vs_length_with_std_clean.csv / .html / .png
 ```
-
----
-
-### Viewing Interactive Plots
-
-All `.html` files can be opened in any web browser:
-
-```bash
-# Open directly
-open plot_data/outputs/tag_type_count.html
-
-# Or from command line
-python -m webbrowser plot_data/outputs/tag_type_count.html
-```
-
-**Features:**
-- Hover for detailed info
-- Click legend to toggle series
-- Pan and zoom interactive plots
-- Download as PNG button available
-
----
-
-## File Reference & Outputs Map
-
-Quick lookup table showing which notebook analysis produces which outputs:
-
-| Notebook Section | Input CSV | Outputs | Purpose |
-|------------------|-----------|---------|---------|
-| **1. Tag Types** | final_combined_jokes.csv | tag_type_count.* | POS distribution |
-| **2. Joke Length** | final_combined_jokes.csv | joke_length_chars.* | Length statistics |
-| **3. Tags/Joke** | final_combined_jokes.csv | tag_count_distribution.* | Tags per joke |
-| **4. Top N Tags** | final_combined_jokes.csv | tag_frequencies_top*.* | Frequency analysis |
-| **5. Tag Freq Dist** | final_combined_jokes.csv | tag_frequency_distribution_log.* | Long-tail analysis |
-| **6. Unique Tags** | final_clean_jokes_with_all_nouns.csv | tag_count_distribution_all_nouns.* | All-nouns analysis |
-| **7. Tags vs Length** | final_clean_jokes_with_all_nouns.csv | tag_count_vs_length_with_std_clean.* | Correlation analysis |
-
-**Total Output Files:** ~20 (CSV + HTML + PNG combined)
-
----
-
-## Troubleshooting
-
-### Error: "spaCy model not found"
-
-```
-OSError: [E050] Can't find model 'en_core_web_sm'. It doesn't appear to be installed or you haven't set the correct model_name.
-```
-
-**Solution:**
-```bash
-python -m spacy download en_core_web_sm
-```
-
----
-
-### Error: "CSV file not found"
-
-```
-FileNotFoundError: data_source/final_combined_jokes.csv
-```
-
-**Solution:** Ensure you're in the correct directory:
-```bash
-cd /ltstorage/home/4xin/uhh-ias-ml/data/dataset_jokes
-```
-
----
-
-### Notebook runs very slowly
-
-**Causes & Solutions:**
-- First run downloads spaCy model (~50MB) - subsequent runs faster
-- Large dataset processing - normal for 700K jokes
-- Plotly rendering can be slow on older browsers - try exporting PNG instead
-
-**Speed-up tips:**
-```python
-# Sample first 10K jokes for quick testing
-df = df.head(10000)
-```
-
----
-
-### Output files not appearing
-
-**Checklist:**
-1. Did notebook complete without errors? (Check for red error boxes)
-2. Check `plot_data/outputs/` directory
-3. Verify write permissions: `ls -la plot_data/outputs/`
-4. Try running individual cells (not whole notebook)
-
----
-
-## Key Columns Reference
-
-**Quick lookup for common tasks:**
-
-| Task | Use Column | Example |
-|------|------------|---------|
-| Read joke text | `joke` or `joke_cleaned` | "Why did the chicken..." |
-| Get assigned topics | `topic` | "Comedy, Animals" |
-| Extract all nouns | `topic_all_nouns` | "chicken, road, direction, ..." |
-| Track duplication | `stable_id` | "abc123def456..." |
-| Sequence order | `rid` | 1, 2, 3, ... |
-
----
-
-## Future Improvements
-
-### Potential Enhancements
-
-1. **Sentiment Analysis** - Add sentiment scores per joke
-2. **Semantic Clustering** - Group similar jokes by embeddings
-3. **Humor Scoring** - Automated humor quality metrics
-4. **Multi-language Support** - Extend beyond English
-5. **Interactive Dashboard** - Real-time exploration UI
-
-### Dataset Expansion
-
-- Integrate new joke sources
-- Add more POS-based annotations
-- Cross-reference with benchmark datasets
-- Version control and archival
-
----
-
-## References & Related Work
-
-### Related Directories
-
-- [experiment1.0](../joke_generation/llm_jokes/experiment1.0/README.md) - LLM Generation Pipeline
-- [experiment3.0](../joke_generation/llm_jokes/experiment3.0/README.md) - Toxicity Filtering Pipeline
-- [experiment4.0](../joke_generation/llm_jokes/experiment4.0/README.md) - Async DeepSeek Pipeline
-
-### Parent Documentation
-
-- Main project README: `/ltstorage/home/4xin/uhh-ias-ml/README.md`
-- Data directory overview: `/ltstorage/home/4xin/uhh-ias-ml/data/README.md`
-
----
-
-## Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0 | 2026-01-23 | Initial README with analysis documentation, notebook guide, and integration notes |
 
 ---
 
 ## Summary
 
-**Dataset Jokes** is your central hub for:
-- 🎯 Accessing cleaned joke datasets (~726K jokes)
-- 📊 Analyzing distribution and statistics via notebook
-- 🏷️ Understanding topic tagging and metadata
-- 🔗 Feeding data into downstream experiments
+### Quick Facts
 
-**Quick Start:**
-1. Load data: `pd.read_csv('data_source/final_combined_jokes.csv')`
-2. Run analysis: `jupyter notebook plot_data/plot_data.ipynb`
-3. View outputs: Open any `.html` file in browser
+- 📊 **724,507 unique jokes** from 5 public datasets
+- 🧹 **41.43% deduplication** removed 540K duplicate jokes
+- 📏 **Average 135 characters** (29 words) per joke
+- 🎯 **5 diverse sources** (one-liners, Reddit, dad jokes, etc.)
+- 📈 **20+ visualizations** for comprehensive analysis
+- ⚙️ **2 ready-to-use scripts** (preprocessing, analysis)
 
-**Best For:**
-- Data exploration and statistics
-- Quality benchmarking
-- Topic analysis and visualization
-- Training data preparation
+### Getting Started Checklist
+
+1. ✓ Install dependencies: `pip install pandas jupyter plotly spacy numpy tqdm`
+2. ✓ Download spaCy model: `python -m spacy download en_core_web_sm`
+3. ✓ Load data: `pd.read_csv('data_source/final_combined_jokes.csv')`
+4. ✓ (Optional) Run analysis: `jupyter notebook plot_data/plot_data.ipynb`
+
+### Documentation Status
+
+- ✅ **Complete dataset documentation**
+- ✅ **Script usage guides**
+- ✅ **Analysis methodology**
+- ✅ **Integration examples**
+- ✅ **Ready for research and experimentation**
 
 ---
 
-**Last Updated:** January 23, 2026  
-**Status:** ✓ Ready to Use  
-**Total Jokes:** ~726,000  
-**Data Files:** 3 CSV sources  
-**Analysis Outputs:** 20+ visualizations  
-**Documentation:** Complete with notebook integration guide
+**Last Updated:** March 7, 2026  
+**Status:** ✅ Production Ready  
+**Version:** Phase 1 (Internet Dataset)  
+**Contact:** See repository for maintainer information
+
+---
+
+*For more information on the LLM-generated dataset (Phase 2), see `data/joke_generation/` directory.*

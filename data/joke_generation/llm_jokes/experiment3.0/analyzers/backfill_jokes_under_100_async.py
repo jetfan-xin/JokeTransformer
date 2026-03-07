@@ -18,13 +18,12 @@ from tenacity import (
 )
 import logging
 
+# Get the script directory and construct relative paths
+SCRIPT_DIR = Path(__file__).parent
+BASE_DIR = SCRIPT_DIR.parent
 
-INPUT_CSV = Path(
-    "/ltstorage/home/4xin/uhh-ias-ml/data/llm_jokes/experiment3.0/outputs/llm_jokes_top_5000_topics_3_detox_safe.csv"
-)
-OUTPUT_CSV = Path(
-    "/ltstorage/home/4xin/uhh-ias-ml/data/llm_jokes/experiment3.0/outputs/backfilled_jokes.csv"
-)
+INPUT_CSV = BASE_DIR / "outputs" / "llm_jokes_top_5000_topics_3_detox_safe.csv"
+OUTPUT_CSV = BASE_DIR / "outputs" / "backfilled_jokes.csv"
 
 API_KEY = os.getenv("DEEPSEEK_API_KEY")
 MODEL_NAME = "deepseek-chat"

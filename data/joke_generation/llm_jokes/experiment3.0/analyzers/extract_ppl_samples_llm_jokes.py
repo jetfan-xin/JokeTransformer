@@ -6,13 +6,12 @@ from typing import List
 import numpy as np
 import pandas as pd
 
+# Get the script directory and construct relative paths
+SCRIPT_DIR = Path(__file__).parent
+BASE_DIR = SCRIPT_DIR.parent
 
-DEFAULT_INPUT = Path(
-    "/ltstorage/home/4xin/uhh-ias-ml/data/llm_jokes/experiment3.0/stats/llm_jokes_top_5000_topics_3_detox_safe_ppl.csv"
-)
-DEFAULT_OUTPUT = Path(
-    "/ltstorage/home/4xin/uhh-ias-ml/data/llm_jokes/experiment3.0/stats/llm_jokes_top_5000_topics_3_detox_safe_ppl_samples.json"
-)
+DEFAULT_INPUT = BASE_DIR / "stats" / "llm_jokes_top_5000_topics_3_detox_safe_ppl.csv"
+DEFAULT_OUTPUT = BASE_DIR / "stats" / "llm_jokes_top_5000_topics_3_detox_safe_ppl_samples.json"
 
 
 def load_file(path: Path, text_cols: List[str]) -> pd.DataFrame:

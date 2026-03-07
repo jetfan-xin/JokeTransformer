@@ -2,10 +2,12 @@ import csv
 from collections import Counter
 from pathlib import Path
 
-INPUT_CSV = Path(
-    "/ltstorage/home/4xin/uhh-ias-ml/data/llm_jokes/experiment3.0/data_source/clean_jokes_clean_topics_3.csv"
-)
-OUTPUT_DIR = Path("/ltstorage/home/4xin/uhh-ias-ml/data/llm_jokes/experiment3.0/stats")
+# Get the script directory and construct relative paths
+SCRIPT_DIR = Path(__file__).parent
+BASE_DIR = SCRIPT_DIR.parent
+
+INPUT_CSV = BASE_DIR / "data_source" / "clean_jokes_clean_topics_3.csv"
+OUTPUT_DIR = BASE_DIR / "stats"
 OUTPUT_CSV = OUTPUT_DIR / "top_5000_topic_combos.csv"
 TOP_N = 5000
 

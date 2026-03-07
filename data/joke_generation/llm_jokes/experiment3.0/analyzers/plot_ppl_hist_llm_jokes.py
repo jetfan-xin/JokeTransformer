@@ -4,16 +4,13 @@ from pathlib import Path
 import pandas as pd
 import plotly.express as px
 
+# Get the script directory and construct relative paths
+SCRIPT_DIR = Path(__file__).parent
+BASE_DIR = SCRIPT_DIR.parent
 
-DEFAULT_INPUT = Path(
-    "/ltstorage/home/4xin/uhh-ias-ml/data/llm_jokes/experiment3.0/stats/llm_jokes_top_5000_topics_3_detox_safe_ppl.csv"
-)
-DEFAULT_OUT_HTML = Path(
-    "/ltstorage/home/4xin/uhh-ias-ml/data/llm_jokes/experiment3.0/plots/ppl_hist.html"
-)
-DEFAULT_OUT_PNG = Path(
-    "/ltstorage/home/4xin/uhh-ias-ml/data/llm_jokes/experiment3.0/plots/ppl_hist.png"
-)
+DEFAULT_INPUT = BASE_DIR / "stats" / "llm_jokes_top_5000_topics_3_detox_safe_ppl.csv"
+DEFAULT_OUT_HTML = BASE_DIR / "plots" / "ppl_hist.html"
+DEFAULT_OUT_PNG = BASE_DIR / "plots" / "ppl_hist.png"
 
 
 def main():

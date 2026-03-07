@@ -82,12 +82,14 @@ def default_output_paths(input_path: Path) -> tuple[Path, Path]:
 
 def main():
     ap = argparse.ArgumentParser()
+    # Get the script directory and construct relative paths
+    script_dir = Path(__file__).parent
+    base_dir = script_dir.parent
+    
     ap.add_argument(
         "--data-csv",
         type=Path,
-        default=Path(
-            "/ltstorage/home/4xin/uhh-ias-ml/data/llm_jokes/experiment3.0/outputs/llm_jokes_top_5000_topics_3.csv"
-        ),
+        default=base_dir / "outputs" / "llm_jokes_top_5000_topics_3.csv",
         help="Input CSV to score and filter",
     )
     ap.add_argument("--text-col", default="joke_cleaned", help="Column with text to screen")

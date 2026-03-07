@@ -4,13 +4,12 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+# Get the script directory and construct relative paths
+SCRIPT_DIR = Path(__file__).parent
+BASE_DIR = SCRIPT_DIR.parent
 
-DEFAULT_INPUT = Path(
-    "/ltstorage/home/4xin/uhh-ias-ml/data/llm_jokes/experiment3.0/outputs/llm_jokes_top_5000_topics_3_detox_safe_no_repeats.csv"
-)
-DEFAULT_OUTPUT = Path(
-    "/ltstorage/home/4xin/uhh-ias-ml/data/llm_jokes/experiment3.0/outputs/llm_jokes_top_5000_topics_3_detox_safe_no_repeats_sampled100.csv"
-)
+DEFAULT_INPUT = BASE_DIR / "outputs" / "llm_jokes_top_5000_topics_3_detox_safe_no_repeats.csv"
+DEFAULT_OUTPUT = BASE_DIR / "outputs" / "llm_jokes_top_5000_topics_3_detox_safe_no_repeats_sampled100.csv"
 
 
 def main():

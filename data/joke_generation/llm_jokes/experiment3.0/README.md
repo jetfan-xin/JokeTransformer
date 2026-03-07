@@ -49,8 +49,8 @@
 ### Relationship to Other Experiments
 
 - **Input Source**: Uses `data_source/clean_jokes_clean_topics_3.csv` as the raw input for topic extraction
-- **Current (Experiment 3.0)**: Processes and cleans input jokes; adds toxicity filtering and perplexity scoring
-- **Downstream (Experiment 4.0)**: Further dataset refinement and final preparation for model training
+- **Current (Experiment 3.0)**: Large-scale topic-conditioned generation with 2-stage filtering (production approach)
+- **Parallel (Experiment 4.0)**: Non-topic generation exploration (abandoned due to 86% duplication rate)
 
 ---
 
@@ -856,9 +856,10 @@ natural.to_csv("outputs/natural_jokes_only.csv", index=False)
 - Perplexity-based Quality Scoring: Salemi et al. (2022) - Using LM Perplexity
 - Safety Guardrails: Inan et al. (2023) - LlamaGuard Safety Models
 
-### Input Data & Downstream
+### Input Data & Related Experiments
 - **Input Source**: `data_source/clean_jokes_clean_topics_3.csv` (preprocessed jokes with topic annotations)
-- **Experiment 4.0**: Further dataset refinement and model training
+- **This Experiment (3.0)**: Topic-conditioned generation (production approach - 5% duplication)
+- **Experiment 4.0**: Non-topic generation exploration (abandoned - 86% duplication)
 
 ### Contact & Questions
 For issues or questions about this experiment:

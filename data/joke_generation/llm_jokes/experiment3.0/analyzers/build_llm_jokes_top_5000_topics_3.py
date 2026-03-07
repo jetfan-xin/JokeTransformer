@@ -7,14 +7,13 @@ from pathlib import Path
 
 import ftfy
 
+# Get the script directory and construct relative paths
+SCRIPT_DIR = Path(__file__).parent
+BASE_DIR = SCRIPT_DIR.parent
 
-INPUT_CSV = Path(
-    "/ltstorage/home/4xin/uhh-ias-ml/data/llm_jokes/experiment3.0/outputs/deepseek_jokes.csv"
-)
-TOP_COMBOS_CSV = Path(
-    "/ltstorage/home/4xin/uhh-ias-ml/data/llm_jokes/experiment3.0/stats/top_5000_topic_combos.csv"
-)
-OUTPUT_DIR = Path("/ltstorage/home/4xin/uhh-ias-ml/data/llm_jokes/experiment3.0/outputs")
+INPUT_CSV = BASE_DIR / "outputs" / "deepseek_jokes.csv"
+TOP_COMBOS_CSV = BASE_DIR / "stats" / "top_5000_topic_combos.csv"
+OUTPUT_DIR = BASE_DIR / "outputs"
 OUTPUT_CSV = OUTPUT_DIR / "llm_jokes_top_5000_topics_3.csv"
 
 MAX_LEN = 1000
